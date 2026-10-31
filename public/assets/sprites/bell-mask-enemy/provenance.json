@@ -1,0 +1,16 @@
+{
+  "art_source": "host_image",
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "price": "unknown; not returned by built-in tool",
+  "identityReference": "User-supplied tall wooden-mask, twin-sickle enemy image in this conversation",
+  "animationReference": "master-v1/master_rgba.png",
+  "sourceHashes": {
+    "master-generated.png": "8169d4f7202174d92dcae065307176f7f962da05205ce8a9bf829879e4fbde69",
+    "idle-generated.png": "bcf504fae24c54d96268f62eda390e13eee6816a509c26aaa6646e7421e41283"
+  },
+  "routeDecision": "User previously selected image-generated frame-by-frame animation; retained for this enemy.",
+  "finish": "Native alpha, component-ownership slicing, one shared scale/root, premultiplied downsampling and alpha-floor cleanup only; soft cloth fringes and local cyan wisps retained.",
+  "integration": "Generated assets and standalone preview only."
+}

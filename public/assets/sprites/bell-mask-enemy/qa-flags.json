@@ -1,0 +1,65 @@
+[
+  {
+    "file": "art/characters/bell-mask-enemy/qa/raw-sheet/sheet-qc.json",
+    "checks": [
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 6,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 139906,
+          "detached_components": 43
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ]
+  },
+  {
+    "file": "art/characters/bell-mask-enemy/qa/runtime-atlas/sheet-qc.json",
+    "checks": [
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 0,
+          "detached_components": 1
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ]
+  }
+]

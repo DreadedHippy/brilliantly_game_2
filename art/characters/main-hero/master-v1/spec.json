@@ -1,0 +1,30 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "main-hero",
+  "subject": "the African-inspired male adventurer from the user's reference, full body",
+  "identity": "Young adult dark-brown-skinned athletic Black man with a large rounded natural black afro, short goatee, expressive confident face, gold diamond drop earrings, bare muscular chest, layered red turquoise ivory and dark beaded necklaces with gold pendants, crossed bead strands over his torso, ornate broad gold forearm bracers and gold gauntlets, deep maroon and charcoal patterned woven waist wraps with gold geometric bands, cream loose trousers gathered at the ankles, bare feet, and one sheathed dark sword with gold fittings at his hip. Preserve the reference's hair silhouette, skin tone, costume colors, gold equipment, and bead placement. Simplify tiny jewelry details into clear painted shapes that read at game scale; do not replace the outfit or add armor, a cape, or a crown.",
+  "pose": "Neutral balanced ready stance, arms relaxed slightly away from the torso, hands visible, both bare feet fully visible and planted, sword sheathed, comfortable starting pose for idle, walk and run cycles",
+  "recap": "dark-brown-skinned afro-haired adventurer with gold gauntlets, multicolored bead necklaces, a bare chest, maroon and charcoal patterned waist wraps, cream trousers, bare feet, and a sheathed gold-trimmed sword",
+  "facing": "right",
+  "facing_parts": null,
+  "view": "slightly elevated three-quarter view appropriate for a 2D adventure game, face and chest turned gently to the right so the identity and costume remain readable",
+  "class": "hero",
+  "finish": "hd",
+  "key": "#FF00FF",
+  "genre": "for a smooth hand-painted 2D African-inspired adventure game",
+  "pronoun": "he",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [
+    "extra weapons",
+    "cape",
+    "crown",
+    "ground shadow",
+    "scenery",
+    "photorealistic skin",
+    "pixel art"
+  ],
+  "opaque_parts": "afro, body, jewelry, clothing, gauntlets and sheathed sword",
+  "extra": "The user-attached reference image is the character identity reference. Retain that exact character's recognizable features and costume, translated into polished smooth 2D painted game illustration with clean contours and controlled soft shading. Do not produce a photograph or a 3D render. Single character only, fixed orthographic-style framing. Reference was supplied directly in the chat; the image-generation call attaches it."
+}

@@ -1,0 +1,77 @@
+{
+  "source": "idle-generated.png",
+  "output": "idle-prepared.png",
+  "sourceSize": [1536, 1024],
+  "outputSize": [2304, 1536],
+  "cellPadding": 128,
+  "scale": 1,
+  "operation": "Native-alpha hygiene both, then equal transparent padding per cell. No rescaling, limb manipulation, or per-frame crops.",
+  "hygiene": [
+    {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 19030,
+      "detached_px": 4,
+      "detached_components": 3,
+      "max_removed_alpha": 5
+    },
+    {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 23851,
+      "detached_px": 10,
+      "detached_components": 6,
+      "max_removed_alpha": 6
+    },
+    {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 21893,
+      "detached_px": 2,
+      "detached_components": 2,
+      "max_removed_alpha": 5
+    },
+    {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 16087,
+      "detached_px": 1,
+      "detached_components": 1,
+      "max_removed_alpha": 5
+    },
+    {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 19301,
+      "detached_px": 1,
+      "detached_components": 1,
+      "max_removed_alpha": 5
+    },
+    {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 15973,
+      "detached_px": 1,
+      "detached_components": 1,
+      "max_removed_alpha": 5
+    }
+  ]
+}

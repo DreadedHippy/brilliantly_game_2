@@ -1,0 +1,71 @@
+{
+  "id": "stage-1-1",
+  "levelId": "river-crossing",
+  "name": "The first trail",
+  "world": { "width": 3600, "height": 1440 },
+  "navigation": {
+    "mode": "free-roam",
+    "bounds": { "x": 40, "y": 108, "width": 3520, "height": 1316 }
+  },
+  "camera": {
+    "zoom": 1.15,
+    "followRate": 9,
+    "deadzone": { "x": 54, "y": 32 },
+    "lookAhead": 42
+  },
+  "road": {
+    "width": 200,
+    "controlPoints": [
+      [230, 565],
+      [480, 520],
+      [720, 520],
+      [970, 605],
+      [1270, 835],
+      [1580, 1010],
+      [1870, 1010],
+      [2170, 875],
+      [2470, 585],
+      [2760, 375],
+      [3070, 300],
+      [3320, 300]
+    ],
+    "samplesPerSegment": 10
+  },
+  "player": {
+    "x": 310,
+    "y": 575,
+    "radius": 14,
+    "height": 96,
+    "walkSpeed": 220,
+    "runSpeed": 350
+  },
+  "npc": {
+    "id": "arojinle",
+    "name": "Arojinle",
+    "x": 510,
+    "y": 475,
+    "radius": 29,
+    "height": 72
+  },
+  "encounters": [
+    { "id": "encounter-1", "name": "Encounter 1", "x": 940, "y": 590 },
+    { "id": "encounter-2", "name": "Encounter 2", "x": 1370, "y": 905 },
+    { "id": "encounter-3", "name": "Encounter 3", "x": 2030, "y": 960 },
+    { "id": "encounter-4", "name": "Encounter 4", "x": 2780, "y": 365 }
+  ],
+  "exit": {
+    "x": 3260,
+    "y": 300,
+    "label": "Next trail",
+    "nextStage": "1-2",
+    "enabled": false
+  },
+  "render": { "base": "ground.webp", "props": "environment.json" },
+  "provenance": {
+    "layout": "User-provided Stage 1-1 winding path outline",
+    "artSource": "host_image",
+    "route": "host-image_gen",
+    "model": null,
+    "estimateUsd": null
+  }
+}

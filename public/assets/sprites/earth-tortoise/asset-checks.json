@@ -1,0 +1,151 @@
+{
+  "status": "pass",
+  "uniquePoses": 6,
+  "canvas": [
+    512,
+    384
+  ],
+  "checks": [
+    {
+      "frame": "idle-00.png",
+      "alphaBounds": [
+        90,
+        65,
+        422,
+        321
+      ],
+      "edgeAlphaMax": 0,
+      "pixelHash": "475d53e4f3b0f31a98f2e949d2c42f9aaa1f9f65cc0d53a3b30adcebab9b5f4b",
+      "semitransparentPixels": 5464,
+      "alphaHygiene": {
+        "mode": "floor",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 334,
+        "detached_px": 0,
+        "detached_components": 0,
+        "max_removed_alpha": 4
+      }
+    },
+    {
+      "frame": "idle-01.png",
+      "alphaBounds": [
+        90,
+        65,
+        424,
+        321
+      ],
+      "edgeAlphaMax": 0,
+      "pixelHash": "0f63fd28b2e6f00af07ae8b0e631bd7ad4c17b700f780f2dc40e8f52634d56e4",
+      "semitransparentPixels": 5365,
+      "alphaHygiene": {
+        "mode": "floor",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 332,
+        "detached_px": 0,
+        "detached_components": 0,
+        "max_removed_alpha": 4
+      }
+    },
+    {
+      "frame": "idle-02.png",
+      "alphaBounds": [
+        91,
+        65,
+        426,
+        321
+      ],
+      "edgeAlphaMax": 0,
+      "pixelHash": "783c622acf5f07be09ad0a5590fe77a23ea2b88660c9330e751959c3483ec76d",
+      "semitransparentPixels": 5494,
+      "alphaHygiene": {
+        "mode": "floor",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 311,
+        "detached_px": 0,
+        "detached_components": 0,
+        "max_removed_alpha": 4
+      }
+    },
+    {
+      "frame": "idle-03.png",
+      "alphaBounds": [
+        92,
+        59,
+        425,
+        320
+      ],
+      "edgeAlphaMax": 0,
+      "pixelHash": "fbf8af0c6d1dff39cf5a24728d196526069df9d7c1d997b122acf18882f11b32",
+      "semitransparentPixels": 5777,
+      "alphaHygiene": {
+        "mode": "floor",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 291,
+        "detached_px": 0,
+        "detached_components": 0,
+        "max_removed_alpha": 4
+      }
+    },
+    {
+      "frame": "idle-04.png",
+      "alphaBounds": [
+        90,
+        57,
+        425,
+        320
+      ],
+      "edgeAlphaMax": 0,
+      "pixelHash": "77a6c24fc6e3aa8be16e89924ff69078b4f7067cb2869b882bb5916fc6507938",
+      "semitransparentPixels": 6090,
+      "alphaHygiene": {
+        "mode": "floor",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 380,
+        "detached_px": 0,
+        "detached_components": 0,
+        "max_removed_alpha": 4
+      }
+    },
+    {
+      "frame": "idle-05.png",
+      "alphaBounds": [
+        90,
+        53,
+        425,
+        320
+      ],
+      "edgeAlphaMax": 0,
+      "pixelHash": "297d6c6d17760bacfe02b7821d266d382f3ee7d83bbc5dcace408d400f3458b8",
+      "semitransparentPixels": 6544,
+      "alphaHygiene": {
+        "mode": "floor",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 407,
+        "detached_px": 0,
+        "detached_components": 0,
+        "max_removed_alpha": 4
+      }
+    }
+  ],
+  "notProven": [
+    "Anatomy, facial identity, intentional energy motion and artistic loop quality require visual review."
+  ]
+}

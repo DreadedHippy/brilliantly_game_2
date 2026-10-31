@@ -1,0 +1,642 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "source_manifest": {
+    "path": "../../../../public/assets/sprites/ember-lion/clips.json",
+    "file_sha256": "4cb07b366d1f9863f5fc87ec44f0d1a463f3de4f9a8ba426fb226348980133fa",
+    "copy": "source-manifest.json"
+  },
+  "frame_size": [
+    512,
+    384
+  ],
+  "anchor_px": [
+    256,
+    320
+  ],
+  "anchor_semantics": "shared canvas/root origin, often a ground reference; not per-frame visible bottom",
+  "sampling": "linear",
+  "pixel_art": false,
+  "art_source": "host_image",
+  "body_height_px": 256,
+  "frames": [
+    {
+      "index": 0,
+      "name": "idle-00",
+      "source": {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-00.png",
+        "file_sha256": "a08a01c2620abb63f70f6b31dc62bb35e62a8edcd3e35cd78c4a2c550b595931",
+        "bytes": 157665,
+        "size": [
+          512,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "2ad8fb1b212b7101ec0d3ced0fb706c871073b2346f9dc38f7f65003442f4f77",
+      "transparent_pixel_count": 142793,
+      "visible_pixel_count": 53815,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-00.png"
+    },
+    {
+      "index": 1,
+      "name": "idle-01",
+      "source": {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-01.png",
+        "file_sha256": "7a1e32446b585dfdc794d86146f95376cecc9143850da47eda2a5add0d39582e",
+        "bytes": 157056,
+        "size": [
+          512,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "00897a8904349f0ec0886a0b325dfa14b8f3cb4b528805dceef0abc06de22f1b",
+      "transparent_pixel_count": 143151,
+      "visible_pixel_count": 53457,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-01.png"
+    },
+    {
+      "index": 2,
+      "name": "idle-02",
+      "source": {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-02.png",
+        "file_sha256": "236550bf4a94e30e2b693ab1d856407af451de283a23e70e43c7de1011a2d9f2",
+        "bytes": 159205,
+        "size": [
+          512,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3f88989c9efa77edb4317c23f0fe63db9ea17e617487b49dc3502c66eb14786b",
+      "transparent_pixel_count": 142338,
+      "visible_pixel_count": 54270,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-02.png"
+    },
+    {
+      "index": 3,
+      "name": "idle-03",
+      "source": {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-03.png",
+        "file_sha256": "00848b7c762adf19c92d5080ab7de4635ef577fb8dd2748a8410049f04fa55fb",
+        "bytes": 160701,
+        "size": [
+          512,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "12535c195edc4d4a497b2bf799cda31d6f13eca1fbdf4b3f6a1c7ad88bdbff30",
+      "transparent_pixel_count": 141513,
+      "visible_pixel_count": 55095,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-03.png"
+    },
+    {
+      "index": 4,
+      "name": "idle-04",
+      "source": {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-04.png",
+        "file_sha256": "2f68058f1aff3bc11b496093dc25203f822a1aa54e4e241bec0f7b3143723a55",
+        "bytes": 163429,
+        "size": [
+          512,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "9e9ad58c7c094a3fb456c8870e10d27949cdb5cc5661687c223e08d4fceb4d2b",
+      "transparent_pixel_count": 140090,
+      "visible_pixel_count": 56518,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-04.png"
+    },
+    {
+      "index": 5,
+      "name": "idle-05",
+      "source": {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-05.png",
+        "file_sha256": "5ac70fcdeccbe9fe9c00c6e7146d2c0f2415063698782464c0ea4669b9b77545",
+        "bytes": 167296,
+        "size": [
+          512,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "df0e11d77395acad827682889caa43d1916d2913ead8bbbfeaba4d94539dd12c",
+      "transparent_pixel_count": 138215,
+      "visible_pixel_count": 58393,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-05.png"
+    }
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "duration_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": true,
+      "total_duration_ms": 2000,
+      "nominal_fps": 5.0,
+      "average_fps": 5.0,
+      "loop_policy": "pingpong",
+      "authored_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "authored_duration_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "timing_source": "ticks",
+      "ticks": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "tick_hz": 60,
+      "fps_rational": "5/1",
+      "events_ms": [],
+      "role": "npc",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 120.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 10,
+        "seam": 6.713895,
+        "adjacent_median": 8.466524,
+        "adjacent_p95": 26.23374,
+        "adjacent_max": 26.23374,
+        "seam_over_median": 0.792993,
+        "seam_over_p95": 0.255926,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 12.395727,
+        "wrap_ratio": 0.54163
+      },
+      "preview": {
+        "file": "clips/clip-00.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 200,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 200,
+            "duration_ms": 200,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 400,
+            "duration_ms": 200,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 600,
+            "duration_ms": 200,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 800,
+            "duration_ms": 200,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 1000,
+            "duration_ms": 200,
+            "clip_positions": [
+              5
+            ]
+          },
+          {
+            "index": 6,
+            "start_ms": 1200,
+            "duration_ms": 200,
+            "clip_positions": [
+              6
+            ]
+          },
+          {
+            "index": 7,
+            "start_ms": 1400,
+            "duration_ms": 200,
+            "clip_positions": [
+              7
+            ]
+          },
+          {
+            "index": 8,
+            "start_ms": 1600,
+            "duration_ms": 200,
+            "clip_positions": [
+              8
+            ]
+          },
+          {
+            "index": 9,
+            "start_ms": 1800,
+            "duration_ms": 200,
+            "clip_positions": [
+              9
+            ]
+          }
+        ],
+        "decoded_frame_count": 10,
+        "total_duration_ms": 2000,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "e30f2a78cb5991f5efbfabf4ec729bbd282363522dee62959f5ff67a6eb53306"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 7.284399,
+          "alpha_mae": 5.00238,
+          "changed_visible_pixels": 55742
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 8.953225,
+          "alpha_mae": 5.130112,
+          "changed_visible_pixels": 55978
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 23.300066,
+          "alpha_mae": 35.03476,
+          "changed_visible_pixels": 67785
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 9.423163,
+          "alpha_mae": 5.596608,
+          "changed_visible_pixels": 58129
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 10.498773,
+          "alpha_mae": 7.408132,
+          "changed_visible_pixels": 60541
+        },
+        {
+          "from_position": 5,
+          "to_position": 6,
+          "premultiplied_rgb_mae": 10.498773,
+          "alpha_mae": 7.408132,
+          "changed_visible_pixels": 60541
+        },
+        {
+          "from_position": 6,
+          "to_position": 7,
+          "premultiplied_rgb_mae": 9.423163,
+          "alpha_mae": 5.596608,
+          "changed_visible_pixels": 58129
+        },
+        {
+          "from_position": 7,
+          "to_position": 8,
+          "premultiplied_rgb_mae": 23.300066,
+          "alpha_mae": 35.03476,
+          "changed_visible_pixels": 67785
+        },
+        {
+          "from_position": 8,
+          "to_position": 9,
+          "premultiplied_rgb_mae": 8.953225,
+          "alpha_mae": 5.130112,
+          "changed_visible_pixels": 55978
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 7.284399,
+        "alpha_mae": 5.00238,
+        "changed_visible_pixels": 55742
+      }
+    }
+  },
+  "states": {},
+  "diagnostics": {
+    "visible_pixel_duplicate_groups": [],
+    "visual_approval": false,
+    "note": "Pixel differences and duplicates do not establish animation quality or physical root stability.",
+    "near_duplicate_mae": 1.5,
+    "near_duplicate_pairs": [],
+    "tick_hz": 60,
+    "lint": []
+  },
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "native_scale": true,
+    "scale": 1,
+    "requested_scale": 1,
+    "annotated_with_shared_root": true,
+    "not_a_runtime_atlas": true,
+    "file_sha256": "ed9b1505e0ba2f98d2cef1b22f1704f22d595262e411576ac7c9ec957415b6c8"
+  },
+  "review": {
+    "scale": 1,
+    "requested_scale": 1,
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "filmstrips": {
+      "idle": {
+        "file": "review/filmstrip-00.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 10,
+        "truncated": false
+      }
+    },
+    "onion": {
+      "idle": {
+        "file": "review/onion-00.png",
+        "background": "checker",
+        "positions_shown": 10,
+        "truncated": false
+      }
+    },
+    "transitions": [],
+    "turn_test": {
+      "file": "review/turn-test.png",
+      "background": "dark",
+      "anchor_mark_rgb": [
+        255,
+        220,
+        80
+      ],
+      "cells": [
+        {
+          "clip": "idle",
+          "frame": 0,
+          "anchor_screen_x": 264,
+          "rows": [
+            [
+              32,
+              416
+            ],
+            [
+              432,
+              816
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 49.0
+        }
+      ],
+      "clips_shown": 1,
+      "truncated": false
+    }
+  },
+  "processing": {
+    "source_pngs_byte_identical": true,
+    "resized": false,
+    "cropped": false,
+    "per_frame_alignment": false,
+    "chroma_keyed": false
+  },
+  "alpha_validation": "Every input has fully transparent and visible pixels; edge quality still requires visual review.",
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "Frame PNGs are byte copies (sha256 checked); each WebP preview is decoded and its timing, alpha and visible RGB compared with the source frames; tick grid = cumulative integer-ms boundaries rounded to the nearest tick; holds = repeated indices or premultiplied union-visible MAE <= 1.5; seams = forge_core.seam_report with wrap_ratio = seam / mean adjacent step; telegraph = tell -> hit in 60 Hz ticks.",
+    "notProven": [
+      "animation quality, gait, anatomy or identity",
+      "physical root stability or foot contact (anchor_px is declared, not measured)",
+      "runtime playback on a device (previews are verified files, not a game loop)",
+      "that near-duplicate thresholds suit every art style (heuristic)"
+    ],
+    "checks": [
+      {
+        "id": "png_byte_copy",
+        "status": "pass",
+        "value": 6,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 1,
+        "threshold": null
+      },
+      {
+        "id": "tick_grid",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": null
+      },
+      {
+        "id": "telegraph",
+        "threshold": 28,
+        "status": "skipped",
+        "value": null
+      },
+      {
+        "id": "near_duplicate_holds",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 0.54163,
+        "threshold": null
+      },
+      {
+        "id": "manifest_lint",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../../../../public/assets/sprites/ember-lion/clips.json",
+        "sha256": "4cb07b366d1f9863f5fc87ec44f0d1a463f3de4f9a8ba426fb226348980133fa",
+        "bytes": 626
+      },
+      {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-00.png",
+        "sha256": "a08a01c2620abb63f70f6b31dc62bb35e62a8edcd3e35cd78c4a2c550b595931",
+        "bytes": 157665
+      },
+      {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-01.png",
+        "sha256": "7a1e32446b585dfdc794d86146f95376cecc9143850da47eda2a5add0d39582e",
+        "bytes": 157056
+      },
+      {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-02.png",
+        "sha256": "236550bf4a94e30e2b693ab1d856407af451de283a23e70e43c7de1011a2d9f2",
+        "bytes": 159205
+      },
+      {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-03.png",
+        "sha256": "00848b7c762adf19c92d5080ab7de4635ef577fb8dd2748a8410049f04fa55fb",
+        "bytes": 160701
+      },
+      {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-04.png",
+        "sha256": "2f68058f1aff3bc11b496093dc25203f822a1aa54e4e241bec0f7b3143723a55",
+        "bytes": 163429
+      },
+      {
+        "path": "../../../../public/assets/sprites/ember-lion/frames/idle-05.png",
+        "sha256": "5ac70fcdeccbe9fe9c00c6e7146d2c0f2415063698782464c0ea4669b9b77545",
+        "bytes": 167296
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/frame-00.png",
+        "sha256": "a08a01c2620abb63f70f6b31dc62bb35e62a8edcd3e35cd78c4a2c550b595931",
+        "bytes": 157665
+      },
+      {
+        "path": "frames/frame-01.png",
+        "sha256": "7a1e32446b585dfdc794d86146f95376cecc9143850da47eda2a5add0d39582e",
+        "bytes": 157056
+      },
+      {
+        "path": "frames/frame-02.png",
+        "sha256": "236550bf4a94e30e2b693ab1d856407af451de283a23e70e43c7de1011a2d9f2",
+        "bytes": 159205
+      },
+      {
+        "path": "frames/frame-03.png",
+        "sha256": "00848b7c762adf19c92d5080ab7de4635ef577fb8dd2748a8410049f04fa55fb",
+        "bytes": 160701
+      },
+      {
+        "path": "frames/frame-04.png",
+        "sha256": "2f68058f1aff3bc11b496093dc25203f822a1aa54e4e241bec0f7b3143723a55",
+        "bytes": 163429
+      },
+      {
+        "path": "frames/frame-05.png",
+        "sha256": "5ac70fcdeccbe9fe9c00c6e7146d2c0f2415063698782464c0ea4669b9b77545",
+        "bytes": 167296
+      },
+      {
+        "path": "clips/clip-00.webp",
+        "sha256": "e30f2a78cb5991f5efbfabf4ec729bbd282363522dee62959f5ff67a6eb53306",
+        "bytes": 1369144
+      },
+      {
+        "path": "contact-sheet.png",
+        "sha256": "ed9b1505e0ba2f98d2cef1b22f1704f22d595262e411576ac7c9ec957415b6c8",
+        "bytes": 829355
+      },
+      {
+        "path": "review/filmstrip-00.png",
+        "sha256": "187f4e7cc3d4686b41860becefd63411fd4c2843783716b4e35a9e86e3cf68aa",
+        "bytes": 3378077
+      },
+      {
+        "path": "review/onion-00.png",
+        "sha256": "ecde3785a6c131e9853719cdc3c9459528cd4f10da027497d2ffbbc420451948",
+        "bytes": 1340408
+      },
+      {
+        "path": "review/turn-test.png",
+        "sha256": "728fbaacd563b330472d5cd63accfea0a97701ace0998926491d4a10696bf00a",
+        "bytes": 276596
+      }
+    ],
+    "tool": {
+      "name": "build_animation_clips",
+      "version": "0.4.0"
+    }
+  }
+}

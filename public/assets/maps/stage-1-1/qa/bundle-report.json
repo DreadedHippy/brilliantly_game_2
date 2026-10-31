@@ -1,0 +1,204 @@
+{
+  "schema": "generate2dmap.map_bundle_report.v1",
+  "status": "pass",
+  "method": "JSON Schema map.schema.json#/$defs/map_bundle_v2 (vendored copy, built-in Draft 2020-12 evaluator), file existence and sha256 of every referenced file, and cross-field rules: unique ids, tile indices against tilesets, wang/blob topology, material colours, portal targets and arrivals, slots and approach points",
+  "notProven": [
+    "reachability, portal arrivals and collision geometry (run map_nav.py check)",
+    "that collision and footprints match the painted art",
+    "engine or editor import (Tiled GUI, Godot, LDtk not verified)"
+  ],
+  "checks": [
+    {
+      "id": "schema",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "files",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "sha256",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "tilesets",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "layers",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "props_and_objects",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "collision",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "material_map",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "portals",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "spawns_anchors_interactions",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "document",
+      "status": "pass",
+      "value": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "path": "../map-bundle.json",
+      "sha256": "915ee34ed581b41290503bf2649a9b92fadf6c5aa32961dab1d31f1b5baf84eb",
+      "bytes": 59332
+    },
+    {
+      "path": "../ground.webp",
+      "sha256": "653dfd1975b681fe1ce5dc68f263717c865de432f48a3447d53a49e98eef7b94",
+      "bytes": 2270470
+    },
+    {
+      "path": "../props/grass/prop.png",
+      "sha256": "3d092de273e14a4324f2c8ea7c07fe40ebaf2d25c4c0d8d1f5e5cb771e983f0c",
+      "bytes": 264056
+    },
+    {
+      "path": "../props/acacia/prop.png",
+      "sha256": "888fc64d1cad8986d03e926f976a37e9a23bf820bc045a318bf44ab76b736ba0",
+      "bytes": 305770
+    },
+    {
+      "path": "../props/rocks/prop.png",
+      "sha256": "c1642a778bbe137a32116d83593f5be9e30dffb8cf6ec668825be5a7ca15ca5d",
+      "bytes": 281478
+    },
+    {
+      "path": "../props/baobab/prop.png",
+      "sha256": "5e49a9b11a171bfe2ee1c1c0d1f30ee1e104086a5e4a7a811d392a8e7207f7e7",
+      "bytes": 513706
+    },
+    {
+      "path": "../props/jars/prop.png",
+      "sha256": "55bbdc01995e7a4aeca6f505cb476999c511686a92c9f307c92c6531832d33c5",
+      "bytes": 253011
+    },
+    {
+      "path": "../props/sign/prop.png",
+      "sha256": "5915359357b7505d4206c1681f8330a2484702819cee523528562df0807773d2",
+      "bytes": 124552
+    },
+    {
+      "path": "../../../sprites/tutorial-elder/master.png",
+      "sha256": "85bd7066386300d7d5b80dd9759f64be48e26cc5e4c601b5a42ebf0f7c58ab86",
+      "bytes": 417259
+    }
+  ],
+  "outputs": [],
+  "tool": {
+    "name": "map_bundle.py",
+    "version": "0.4.0"
+  },
+  "bundle": {
+    "id": "stage-1-1",
+    "version": 2,
+    "world": [
+      3600.0,
+      1440.0
+    ],
+    "counts": {
+      "tilesets": 0,
+      "layers": 2,
+      "props": 0,
+      "objects": 85,
+      "portals": 0,
+      "spawns": 2,
+      "anchors": 6,
+      "interactions": 0
+    }
+  },
+  "problems": []
+}

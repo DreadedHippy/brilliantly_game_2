@@ -1,0 +1,170 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-31T02:11:13.790Z",
+  "name": "ember-lion",
+  "subject": "ember-lion",
+  "identity_recap": "ember-lion (Create ONE approved master full-body game sprite on TRUE TRANSPARENT background. Smooth richly painted 2D African-inspired fantasy art, consistent with reference but simplified for game readability. No scenery, no ground, no detached rocks, no text, no checkerboard. Center full character with at least 16% empty transparent padding on EVERY edge; keep all extremities and effects fully inside. Three-quarter view facing RIGHT. The user attached three creature references; use ONLY the specifically identified creature below, do not combine creatures. The SECOND attached user reference: powerful four-legged lion, dark charcoal volcanic fur with glowing orange fissures, large orange flame mane, dignified feline face with amber eyes, white muzzle and chin, gold geometric forehead ornament and circular sun pendant, gold engraved bands, long curving tail ending in flame. Preserve lion anatomy and fiery mane)",
+  "facing": "right",
+  "view": "side view (profile to three-quarter)",
+  "finish": "hd",
+  "class": "mob",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 471,
+    "top_margin_px": 406,
+    "lead_px": 100,
+    "preset": "mob",
+    "subject_bbox": [
+      88,
+      406,
+      736,
+      877
+    ],
+    "anchor": [
+      589.5,
+      877.0
+    ],
+    "opaque_area_px": 164687,
+    "width_limited": false
+  },
+  "key": "#FF00FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "e3b6ac0a344b1394ba2ec275d81b3f466fc3b150410cf34d53a19c6cbd12b31a",
+      "bytes": 438282,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "249c54b8253b181253ad3c81b25f70889150d1e2a26c4ff5b9fd905c11374584",
+      "bytes": 524724,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "b081f24f235a3ca26b8bc2d2b7d23f00fd1dd2decc8469878f8bc33cdb307de4",
+      "bytes": 2677055,
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "7c8fbb7633db912cbb7acc2b831b7be42fa89e7b0376b16a6e85b2730b0bf12c",
+      "bytes": 2269
+    },
+    "prompt": null
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1536,
+      1024
+    ],
+    "source_subject_bbox": [
+      91,
+      16,
+      1438,
+      996
+    ],
+    "crop_box": [
+      85,
+      10,
+      1444,
+      1002
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.4806122448979592,
+    "offset": [
+      44.571938775510205,
+      398.31020408163266
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "box",
+    "premultiplied": true,
+    "alpha_floor_px": 16706,
+    "subject_parts": 1,
+    "ignored_parts": 2,
+    "ignored_px": 3,
+    "source_touches": [],
+    "key_rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "route": "host-image_gen",
+  "provenance": {
+    "command": "external",
+    "run": null,
+    "take": null,
+    "source_name": "master-generated.png",
+    "source_sha256": "b081f24f235a3ca26b8bc2d2b7d23f00fd1dd2decc8469878f8bc33cdb307de4",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        255.0,
+        0.0,
+        255.0
+      ],
+      "source": "native_alpha",
+      "valid": false,
+      "ring_share": 0.0,
+      "coverage": 0.0,
+      "distance_from_declared": 0.0
+    },
+    "quality": "native_alpha",
+    "qa": {
+      "key": [
+        255.0,
+        0.0,
+        255.0
+      ],
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "semitransparent_fraction": 1.0,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 826318,
+      "outer_ring_px": 17426,
+      "thresholds": {
+        "key_tolerance": 48.0,
+        "spill_threshold": 20.0,
+        "min_pocket_area": 16,
+        "opaque_alpha": 128,
+        "spill_hue_balance": 0.5
+      },
+      "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.0,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

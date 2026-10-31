@@ -1,0 +1,581 @@
+{
+  "schema": "generate2dmap.prop_pack.v2",
+  "tool": {
+    "name": "extract_prop_pack",
+    "version": "0.4.0"
+  },
+  "input": "../../../../../art/maps/stage-1-1/source/props.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "source_sha256": "0ccbed1e267d6dff4df053b6dac4f5cbb4697b4a9690d8f16be83c775d551ce0",
+  "source_mode": "RGBA",
+  "layout_mode": "auto_boxes",
+  "boxes_file": null,
+  "labels_file": null,
+  "background_mode": "native_alpha",
+  "art_source": "host_image",
+  "rows": null,
+  "cols": null,
+  "threshold": 100,
+  "edge_threshold": 150,
+  "despill_radius": 0,
+  "despill": {
+    "mode": "off",
+    "applied": "off",
+    "radius": 0,
+    "margin": 12,
+    "changed_px": 0
+  },
+  "hygiene": {
+    "mode": "both",
+    "floor": 4,
+    "solid_min": 32,
+    "attach_radius": 2,
+    "connectivity": 8,
+    "floor_px": 83826,
+    "detached_px": 20,
+    "detached_components": 20,
+    "max_removed_alpha": 5
+  },
+  "alpha_floor": 4,
+  "alpha_floor_pixels_removed": 83826,
+  "trim_border": 0,
+  "edge_clean_depth": 0,
+  "component_mode": "all",
+  "component_padding": 8,
+  "min_component_area": 4,
+  "edge_touch_margin": 0,
+  "geometry": {
+    "connectivity": 8,
+    "alpha_geometry_threshold": 16,
+    "anchor_mode": "feet",
+    "support_band_fraction": 0.25,
+    "anchor_rounding": "whole pixels, half-up",
+    "grid_rounding": null,
+    "keep_canvas": false,
+    "world_scale": null
+  },
+  "auto_boxes": {
+    "objects": 6,
+    "solid_alpha": 128,
+    "min_solid_area": 52,
+    "gap_px": 2,
+    "attach_px": 7,
+    "margin_px": 8,
+    "unowned_px": 126
+  },
+  "accepted": [
+    {
+      "index": 0,
+      "label": "baobab",
+      "display_name": "baobab",
+      "status": "accepted",
+      "image": "baobab/prop.png",
+      "sha256": "5e49a9b11a171bfe2ee1c1c0d1f30ee1e104086a5e4a7a811d392a8e7207f7e7",
+      "output_size": [
+        563,
+        597
+      ],
+      "grid": null,
+      "cell_box": [
+        0,
+        3,
+        563,
+        600
+      ],
+      "source_box": [
+        0,
+        3,
+        563,
+        600
+      ],
+      "source_rect": [
+        0,
+        3,
+        563,
+        600
+      ],
+      "trim_offset": [
+        0,
+        0
+      ],
+      "padding": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "anchor_px": [
+        285,
+        589
+      ],
+      "anchor_source": "measured",
+      "component_mode": "all",
+      "component_count": 1,
+      "min_component_area": 4,
+      "trim_applied": 0,
+      "crop_bbox": [
+        8,
+        8,
+        555,
+        589
+      ],
+      "padded_crop_bbox": [
+        0,
+        0,
+        563,
+        597
+      ],
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "kept_area": 202837,
+      "dropped_components": 0,
+      "dropped_area": 0,
+      "edge_touch": false
+    },
+    {
+      "index": 1,
+      "label": "acacia",
+      "display_name": "acacia",
+      "status": "accepted",
+      "image": "acacia/prop.png",
+      "sha256": "888fc64d1cad8986d03e926f976a37e9a23bf820bc045a318bf44ab76b736ba0",
+      "output_size": [
+        648,
+        447
+      ],
+      "grid": null,
+      "cell_box": [
+        514,
+        144,
+        1162,
+        591
+      ],
+      "source_box": [
+        514,
+        144,
+        1162,
+        591
+      ],
+      "source_rect": [
+        514,
+        144,
+        1162,
+        591
+      ],
+      "trim_offset": [
+        0,
+        0
+      ],
+      "padding": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "anchor_px": [
+        311,
+        438
+      ],
+      "anchor_source": "measured",
+      "component_mode": "all",
+      "component_count": 1,
+      "min_component_area": 4,
+      "trim_applied": 0,
+      "crop_bbox": [
+        8,
+        8,
+        640,
+        439
+      ],
+      "padded_crop_bbox": [
+        0,
+        0,
+        648,
+        447
+      ],
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "kept_area": 110557,
+      "dropped_components": 0,
+      "dropped_area": 0,
+      "edge_touch": false
+    },
+    {
+      "index": 2,
+      "label": "rocks",
+      "display_name": "rocks",
+      "status": "accepted",
+      "image": "rocks/prop.png",
+      "sha256": "c1642a778bbe137a32116d83593f5be9e30dffb8cf6ec668825be5a7ca15ca5d",
+      "output_size": [
+        458,
+        419
+      ],
+      "grid": null,
+      "cell_box": [
+        1053,
+        169,
+        1511,
+        588
+      ],
+      "source_box": [
+        1053,
+        169,
+        1511,
+        588
+      ],
+      "source_rect": [
+        1053,
+        169,
+        1511,
+        588
+      ],
+      "trim_offset": [
+        0,
+        0
+      ],
+      "padding": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "anchor_px": [
+        229,
+        411
+      ],
+      "anchor_source": "measured",
+      "component_mode": "all",
+      "component_count": 1,
+      "min_component_area": 4,
+      "trim_applied": 0,
+      "crop_bbox": [
+        8,
+        8,
+        450,
+        411
+      ],
+      "padded_crop_bbox": [
+        0,
+        0,
+        458,
+        419
+      ],
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "kept_area": 120222,
+      "dropped_components": 0,
+      "dropped_area": 0,
+      "edge_touch": false
+    },
+    {
+      "index": 3,
+      "label": "grass",
+      "display_name": "grass",
+      "status": "accepted",
+      "image": "grass/prop.png",
+      "sha256": "3d092de273e14a4324f2c8ea7c07fe40ebaf2d25c4c0d8d1f5e5cb771e983f0c",
+      "output_size": [
+        498,
+        357
+      ],
+      "grid": null,
+      "cell_box": [
+        25,
+        631,
+        523,
+        988
+      ],
+      "source_box": [
+        25,
+        631,
+        523,
+        988
+      ],
+      "source_rect": [
+        25,
+        631,
+        523,
+        988
+      ],
+      "trim_offset": [
+        0,
+        0
+      ],
+      "padding": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "anchor_px": [
+        251,
+        348
+      ],
+      "anchor_source": "measured",
+      "component_mode": "all",
+      "component_count": 1,
+      "min_component_area": 4,
+      "trim_applied": 0,
+      "crop_bbox": [
+        8,
+        8,
+        490,
+        349
+      ],
+      "padded_crop_bbox": [
+        0,
+        0,
+        498,
+        357
+      ],
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "kept_area": 93969,
+      "dropped_components": 0,
+      "dropped_area": 0,
+      "edge_touch": false
+    },
+    {
+      "index": 4,
+      "label": "jars",
+      "display_name": "jars",
+      "status": "accepted",
+      "image": "jars/prop.png",
+      "sha256": "55bbdc01995e7a4aeca6f505cb476999c511686a92c9f307c92c6531832d33c5",
+      "output_size": [
+        468,
+        387
+      ],
+      "grid": null,
+      "cell_box": [
+        546,
+        617,
+        1014,
+        1004
+      ],
+      "source_box": [
+        546,
+        617,
+        1014,
+        1004
+      ],
+      "source_rect": [
+        546,
+        617,
+        1014,
+        1004
+      ],
+      "trim_offset": [
+        0,
+        0
+      ],
+      "padding": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "anchor_px": [
+        216,
+        378
+      ],
+      "anchor_source": "measured",
+      "component_mode": "all",
+      "component_count": 1,
+      "min_component_area": 4,
+      "trim_applied": 0,
+      "crop_bbox": [
+        8,
+        8,
+        460,
+        379
+      ],
+      "padded_crop_bbox": [
+        0,
+        0,
+        468,
+        387
+      ],
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "kept_area": 101768,
+      "dropped_components": 0,
+      "dropped_area": 0,
+      "edge_touch": false
+    },
+    {
+      "index": 5,
+      "label": "sign",
+      "display_name": "sign",
+      "status": "accepted",
+      "image": "sign/prop.png",
+      "sha256": "5915359357b7505d4206c1681f8330a2484702819cee523528562df0807773d2",
+      "output_size": [
+        311,
+        406
+      ],
+      "grid": null,
+      "cell_box": [
+        1154,
+        599,
+        1465,
+        1005
+      ],
+      "source_box": [
+        1154,
+        599,
+        1465,
+        1005
+      ],
+      "source_rect": [
+        1154,
+        599,
+        1465,
+        1005
+      ],
+      "trim_offset": [
+        0,
+        0
+      ],
+      "padding": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "anchor_px": [
+        126,
+        397
+      ],
+      "anchor_source": "measured",
+      "component_mode": "all",
+      "component_count": 1,
+      "min_component_area": 4,
+      "trim_applied": 0,
+      "crop_bbox": [
+        8,
+        8,
+        303,
+        398
+      ],
+      "padded_crop_bbox": [
+        0,
+        0,
+        311,
+        406
+      ],
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "kept_area": 45713,
+      "dropped_components": 0,
+      "dropped_area": 0,
+      "edge_touch": false
+    }
+  ],
+  "rejected": [],
+  "edge_touch_props": [],
+  "warnings": [
+    "126 visible px belong to no auto box (small or faint parts); review auto-boxes.json or pass --boxes-file"
+  ],
+  "qa": {
+    "status": "warn",
+    "method": "native alpha, not keyed; alpha hygiene both; 8-connected components (all); checks measured on the published pixels",
+    "notProven": [
+      "that each label names the art in its cell or box",
+      "that a prop is complete: clipping is detected only where art meets the cell edge",
+      "keyed-edge quality beyond the edge fringe count",
+      "that anchors and suggested footprints match gameplay contact (both are measured from alpha)",
+      "runtime placement, collision or occlusion"
+    ],
+    "checks": [
+      {
+        "id": "accepted",
+        "status": "pass",
+        "value": 6,
+        "threshold": ">= 1"
+      },
+      {
+        "id": "edge_touch",
+        "status": "pass",
+        "value": [],
+        "threshold": 0
+      },
+      {
+        "id": "dropped_area",
+        "status": "pass",
+        "value": {},
+        "threshold": 0.01
+      },
+      {
+        "id": "strategy_aspect",
+        "status": "skipped",
+        "value": null,
+        "threshold": 1.6
+      },
+      {
+        "id": "edge_fringe",
+        "status": "skipped",
+        "value": null,
+        "threshold": 0.02
+      },
+      {
+        "id": "auto_box_unowned",
+        "status": "warn",
+        "value": 126,
+        "threshold": 0
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../../../../../art/maps/stage-1-1/source/props.png",
+        "sha256": "0ccbed1e267d6dff4df053b6dac4f5cbb4697b4a9690d8f16be83c775d551ce0",
+        "bytes": 2532664
+      }
+    ],
+    "outputs": [
+      {
+        "path": "baobab/prop.png",
+        "sha256": "5e49a9b11a171bfe2ee1c1c0d1f30ee1e104086a5e4a7a811d392a8e7207f7e7",
+        "bytes": 513706
+      },
+      {
+        "path": "acacia/prop.png",
+        "sha256": "888fc64d1cad8986d03e926f976a37e9a23bf820bc045a318bf44ab76b736ba0",
+        "bytes": 305770
+      },
+      {
+        "path": "rocks/prop.png",
+        "sha256": "c1642a778bbe137a32116d83593f5be9e30dffb8cf6ec668825be5a7ca15ca5d",
+        "bytes": 281478
+      },
+      {
+        "path": "grass/prop.png",
+        "sha256": "3d092de273e14a4324f2c8ea7c07fe40ebaf2d25c4c0d8d1f5e5cb771e983f0c",
+        "bytes": 264056
+      },
+      {
+        "path": "jars/prop.png",
+        "sha256": "55bbdc01995e7a4aeca6f505cb476999c511686a92c9f307c92c6531832d33c5",
+        "bytes": 253011
+      },
+      {
+        "path": "sign/prop.png",
+        "sha256": "5915359357b7505d4206c1681f8330a2484702819cee523528562df0807773d2",
+        "bytes": 124552
+      },
+      {
+        "path": "auto-boxes.json",
+        "sha256": "e05b32c9cecfe0a682ab43c4bdccb14033ccb831960d1cc0a8c4647042ff1ac5",
+        "bytes": 872
+      }
+    ],
+    "tool": {
+      "name": "extract_prop_pack",
+      "version": "0.4.0"
+    }
+  }
+}

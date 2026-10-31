@@ -1,0 +1,161 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-30T20:52:00.769Z",
+  "name": "main-hero",
+  "subject": "the African-inspired male adventurer from the user's reference, full body",
+  "identity_recap": "dark-brown-skinned afro-haired adventurer with gold gauntlets, multicolored bead necklaces, a bare chest, maroon and charcoal patterned waist wraps, cream trousers, bare feet, and a sheathed gold-trimmed sword",
+  "facing": "right",
+  "view": "slightly elevated three-quarter view appropriate for a 2D adventure game, face and chest turned gently to the right so the identity and costume remain readable",
+  "finish": "hd",
+  "class": "hero",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 788,
+    "top_margin_px": 138,
+    "lead_px": 0,
+    "preset": "hero",
+    "subject_bbox": [
+      339,
+      138,
+      685,
+      926
+    ],
+    "anchor": [
+      509.0,
+      926.0
+    ],
+    "opaque_area_px": 156870,
+    "width_limited": false
+  },
+  "key": "#FF00FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "03c62ba84ba25bbe74f526d8b5d6dcc239fa2e6fc844324a5dd657de95291b0c",
+      "bytes": 386576,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "99712d713e6769da27f16c47c713495a8a974f892877761009c4d4ab3324f8c3",
+      "bytes": 454247,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "21b19f413a2d74b4b1c25dc707de25e58bed1a9ebfbe25ac80ae36a6b654459f",
+      "bytes": 1749346,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "4c74b431fe98ad0c26cf45692f5904abfaa8bbfdbb4b55369099d1d716d88f99",
+      "bytes": 2519
+    },
+    "prompt": {
+      "path": "prompt.txt",
+      "sha256": "08160b19c484ca2d0b9d20c9f34c72262b0f99030eab239417ac92fb2e130710",
+      "bytes": 3376
+    }
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "source_subject_bbox": [
+      369,
+      24,
+      892,
+      1220
+    ],
+    "crop_box": [
+      363,
+      18,
+      898,
+      1226
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.6588628762541806,
+    "offset": [
+      96.58695652173913,
+      122.18729096989966
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "lanczos",
+    "premultiplied": true,
+    "alpha_floor_px": 3131,
+    "subject_parts": 1,
+    "ignored_parts": 0,
+    "ignored_px": 0,
+    "source_touches": [],
+    "key_rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "route": "host-image_gen",
+  "provenance": {
+    "command": "external",
+    "run": null,
+    "take": null,
+    "source_name": "main-hero-generated.png",
+    "source_sha256": "21b19f413a2d74b4b1c25dc707de25e58bed1a9ebfbe25ac80ae36a6b654459f",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        252.0,
+        3.0,
+        251.0
+      ],
+      "source": "border_median",
+      "valid": true,
+      "ring_share": 1.0,
+      "coverage": 0.7682560940556408,
+      "distance_from_declared": 5.83
+    },
+    "quality": "soft",
+    "interior_despill": true,
+    "qa": {
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "semitransparent_fraction": 0.026163822394141063,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 363479
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.0,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "tutorial-elder",
+  "art_source": "host_image",
+  "route": "host-image_gen",
+  "identity_reference": "User-attached seated elder tutorial NPC image",
+  "style": "Smooth hand-painted 2D art consistent with the main hero; HD finish",
+  "camera": "Fixed front three-quarter, slightly elevated; retain reference pose and hand arrangement",
+  "identity": "Elderly dark-skinned Black man with short silver curls and grey-white beard, kind lined face, cream woven robes with charcoal and ochre geometric bands, rust-red fringed shawl, layered amber/black/ivory beads and round pendant, bare feet, carved stool and planted carved wooden staff",
+  "suggested_game_body_height": 72,
+  "runtime_canvas": [384, 384],
+  "root": [192, 320],
+  "action": "idle",
+  "motion": "Gentle chest breathing with restrained beard, cloth, and relaxed palm follow-through; stool, staff and feet remain planted",
+  "animation_route": "Image-generated frame-by-frame sheets, using the user's previously selected route",
+  "planned_source_poses": 6,
+  "loop": "Ping-pong breathing cycle; fixed camera, framing and source-to-runtime scale",
+  "outputs": ["Transparent master", "PNG sprite sheet and frames", "Animated preview", "Runtime and Aseprite metadata", "Prompts and provenance", "QA reports"]
+}

@@ -1,0 +1,2200 @@
+{
+  "schema": "generate2dmap.map_bundle.v2",
+  "id": "stage-1-1",
+  "name": "Stage 1-1 \u00b7 The first trail",
+  "world": {
+    "width": 3600,
+    "height": 1440,
+    "unit": "px"
+  },
+  "layers": [
+    {
+      "name": "ground",
+      "kind": "image",
+      "image": "ground.webp"
+    },
+    {
+      "name": "scenery",
+      "kind": "objects"
+    }
+  ],
+  "objects": [
+    {
+      "id": "grass-000",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 222.06,
+      "y": 390.03,
+      "scale": 0.1114076246334311,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-001",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 211.84,
+      "y": 757.53,
+      "scale": 0.11903225806451614,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-002",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 221.94,
+      "y": 392.41,
+      "scale": 0.640324825986079,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-003",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 341.94,
+      "y": 745.95,
+      "scale": 0.17610421836228288,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-004",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 324.3,
+      "y": 411.64,
+      "scale": 0.14255131964809384,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-005",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 326.94,
+      "y": 714.89,
+      "scale": 0.11258064516129032,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "baobab-006",
+      "prop": "baobab",
+      "image": "props/baobab/prop.png",
+      "x": 506.64,
+      "y": 926.84,
+      "scale": 0.4702925989672978,
+      "anchor_px": [
+        285,
+        589
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-007",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 462.93,
+      "y": 379.64,
+      "scale": 0.10809384164222874,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-008",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 507.92,
+      "y": 691.97,
+      "scale": 0.10375366568914957,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-009",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 573.51,
+      "y": 339.48,
+      "scale": 0.13982404692082112,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-010",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 583.38,
+      "y": 658.88,
+      "scale": 0.08354838709677419,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-011",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 535.0,
+      "y": 317.45,
+      "scale": 0.59122969837587,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-012",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 655.0,
+      "y": 684.64,
+      "scale": 0.17647642679900746,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-013",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 700.41,
+      "y": 367.47,
+      "scale": 0.1250733137829912,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-014",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 717.32,
+      "y": 688.95,
+      "scale": 0.10143695014662757,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "baobab-015",
+      "prop": "baobab",
+      "image": "props/baobab/prop.png",
+      "x": 896.88,
+      "y": 940.92,
+      "scale": 0.4347160068846816,
+      "anchor_px": [
+        285,
+        589
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-016",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 823.3,
+      "y": 416.48,
+      "scale": 0.0893841642228739,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-017",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 854.7,
+      "y": 705.07,
+      "scale": 0.10008797653958945,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-018",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 826.01,
+      "y": 389.63,
+      "scale": 0.5229466357308584,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-019",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 946.01,
+      "y": 739.99,
+      "scale": 0.14585607940446652,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-020",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 987.13,
+      "y": 456.81,
+      "scale": 0.11879765395894427,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-021",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 961.34,
+      "y": 747.42,
+      "scale": 0.1317302052785924,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-022",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1140.25,
+      "y": 564.08,
+      "scale": 0.1249266862170088,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-023",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1116.66,
+      "y": 861.84,
+      "scale": 0.10451612903225807,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-024",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 1174.37,
+      "y": 646.78,
+      "scale": 0.5397447795823666,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-025",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 1294.37,
+      "y": 1000.44,
+      "scale": 0.14806451612903226,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-026",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1261.6,
+      "y": 662.03,
+      "scale": 0.15002932551319648,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-027",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1257.04,
+      "y": 1018.63,
+      "scale": 0.11108504398826981,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "baobab-028",
+      "prop": "baobab",
+      "image": "props/baobab/prop.png",
+      "x": 1350.0,
+      "y": 1235.0,
+      "scale": 0.43600688468158344,
+      "anchor_px": [
+        285,
+        589
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-029",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1430.43,
+      "y": 780.43,
+      "scale": 0.13744868035190616,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-030",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1402.72,
+      "y": 1075.3,
+      "scale": 0.08463343108504398,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-031",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1588.62,
+      "y": 867.73,
+      "scale": 0.0912316715542522,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-032",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1598.71,
+      "y": 1187.72,
+      "scale": 0.1159824046920821,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-033",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 1544.77,
+      "y": 850.07,
+      "scale": 0.6054060324825986,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-034",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 1664.77,
+      "y": 1178.32,
+      "scale": 0.14367245657568237,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-035",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1725.55,
+      "y": 884.82,
+      "scale": 0.14328445747800586,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-036",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1703.64,
+      "y": 1207.94,
+      "scale": 0.1116715542521994,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-037",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1890.14,
+      "y": 840.25,
+      "scale": 0.1373900293255132,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-038",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 1890.12,
+      "y": 1197.38,
+      "scale": 0.1158357771260997,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-039",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 1894.27,
+      "y": 805.22,
+      "scale": 0.4851740139211137,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-040",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2014.27,
+      "y": 1183.09,
+      "scale": 0.139727047146402,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-041",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2022.8,
+      "y": 833.74,
+      "scale": 0.1506158357771261,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-042",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2042.83,
+      "y": 1101.72,
+      "scale": 0.11724340175953078,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-043",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2185.83,
+      "y": 709.57,
+      "scale": 0.1434017595307918,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-044",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2165.41,
+      "y": 1066.75,
+      "scale": 0.10762463343108505,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "baobab-045",
+      "prop": "baobab",
+      "image": "props/baobab/prop.png",
+      "x": 2310.16,
+      "y": 1225.64,
+      "scale": 0.4549225473321859,
+      "anchor_px": [
+        285,
+        589
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-046",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2305.8,
+      "y": 578.27,
+      "scale": 0.10357771260997067,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-047",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2303.26,
+      "y": 929.08,
+      "scale": 0.12947214076246333,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-048",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 2255.62,
+      "y": 563.01,
+      "scale": 0.5238283062645012,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-049",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2375.62,
+      "y": 911.05,
+      "scale": 0.12188585607940446,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-050",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2492.4,
+      "y": 429.57,
+      "scale": 0.11727272727272728,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-051",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2463.66,
+      "y": 741.1,
+      "scale": 0.08923753665689149,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-052",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2595.47,
+      "y": 314.27,
+      "scale": 0.10281524926686218,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-053",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2591.76,
+      "y": 641.86,
+      "scale": 0.10914956011730205,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-054",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 2606.84,
+      "y": 247.28,
+      "scale": 0.6253364269141531,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-055",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2726.84,
+      "y": 602.83,
+      "scale": 0.13662531017369728,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "baobab-056",
+      "prop": "baobab",
+      "image": "props/baobab/prop.png",
+      "x": 2780.88,
+      "y": 807.08,
+      "scale": 0.3977796901893288,
+      "anchor_px": [
+        285,
+        589
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-057",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2762.75,
+      "y": 242.22,
+      "scale": 0.12082111436950148,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-058",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2762.83,
+      "y": 520.64,
+      "scale": 0.09841642228739003,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-059",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2934.49,
+      "y": 179.95,
+      "scale": 0.11914956011730206,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-060",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 2941.28,
+      "y": 469.92,
+      "scale": 0.0827859237536657,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-061",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 2976.34,
+      "y": 124.19,
+      "scale": 0.5912064965197216,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-062",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 3096.34,
+      "y": 501.84,
+      "scale": 0.1343424317617866,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-063",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 3043.33,
+      "y": 132.62,
+      "scale": 0.11319648093841643,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-064",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 3066.76,
+      "y": 462.45,
+      "scale": 0.1264809384164223,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "baobab-065",
+      "prop": "baobab",
+      "image": "props/baobab/prop.png",
+      "x": 3266.32,
+      "y": 694.6,
+      "scale": 0.43561101549053355,
+      "anchor_px": [
+        285,
+        589
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-066",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 3223.41,
+      "y": 159.42,
+      "scale": 0.13979472140762464,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-067",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 3237.23,
+      "y": 433.31,
+      "scale": 0.09730205278592376,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-068",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 3335.97,
+      "y": 172.5,
+      "scale": 0.11577712609970674,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-069",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 3300.73,
+      "y": 439.06,
+      "scale": 0.08448680351906158,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "baobab-070",
+      "prop": "baobab",
+      "image": "props/baobab/prop.png",
+      "x": 370,
+      "y": 365,
+      "scale": 0.4905335628227194,
+      "anchor_px": [
+        285,
+        589
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "acacia-071",
+      "prop": "acacia",
+      "image": "props/acacia/prop.png",
+      "x": 740,
+      "y": 365,
+      "scale": 0.5452436194895591,
+      "anchor_px": [
+        311,
+        438
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "jars-072",
+      "prop": "jars",
+      "image": "props/jars/prop.png",
+      "x": 620,
+      "y": 405,
+      "scale": 0.11320754716981132,
+      "anchor_px": [
+        216,
+        378
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "grass-073",
+      "prop": "grass",
+      "image": "props/grass/prop.png",
+      "x": 440,
+      "y": 442,
+      "scale": 0.0967741935483871,
+      "anchor_px": [
+        251,
+        348
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "sign-074",
+      "prop": "sign",
+      "image": "props/sign/prop.png",
+      "x": 360,
+      "y": 660,
+      "scale": 0.14871794871794872,
+      "anchor_px": [
+        126,
+        397
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-075",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 1015,
+      "y": 455,
+      "scale": 0.14392059553349876,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "sign-076",
+      "prop": "sign",
+      "image": "props/sign/prop.png",
+      "x": 868,
+      "y": 425,
+      "scale": 0.1358974358974359,
+      "anchor_px": [
+        126,
+        397
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-077",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 1445,
+      "y": 770,
+      "scale": 0.14392059553349876,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "sign-078",
+      "prop": "sign",
+      "image": "props/sign/prop.png",
+      "x": 1298,
+      "y": 740,
+      "scale": 0.1358974358974359,
+      "anchor_px": [
+        126,
+        397
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-079",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2105,
+      "y": 825,
+      "scale": 0.14392059553349876,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "sign-080",
+      "prop": "sign",
+      "image": "props/sign/prop.png",
+      "x": 1958,
+      "y": 795,
+      "scale": 0.1358974358974359,
+      "anchor_px": [
+        126,
+        397
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "rocks-081",
+      "prop": "rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2855,
+      "y": 230,
+      "scale": 0.14392059553349876,
+      "anchor_px": [
+        229,
+        411
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "sign-082",
+      "prop": "sign",
+      "image": "props/sign/prop.png",
+      "x": 2708,
+      "y": 200,
+      "scale": 0.1358974358974359,
+      "anchor_px": [
+        126,
+        397
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "sign-083",
+      "prop": "sign",
+      "image": "props/sign/prop.png",
+      "x": 3335,
+      "y": 175,
+      "scale": 0.19487179487179487,
+      "anchor_px": [
+        126,
+        397
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "arojinle",
+      "prop": "mentor",
+      "image": "../../sprites/tutorial-elder/master.png",
+      "x": 510,
+      "y": 475,
+      "scale": 0.12,
+      "anchor_px": [
+        512,
+        888
+      ],
+      "solid": false,
+      "layer": "scenery",
+      "occupant_policy": "y_sort"
+    }
+  ],
+  "collision": {
+    "actorRadius": 14,
+    "ySquash": 1,
+    "walkRegions": [
+      {
+        "polygon": [
+          [
+            26,
+            94
+          ],
+          [
+            3574,
+            94
+          ],
+          [
+            3574,
+            1438
+          ],
+          [
+            26,
+            1438
+          ]
+        ]
+      }
+    ],
+    "solids": [
+      {
+        "id": "mentor-footprint",
+        "shape": "ellipse",
+        "cx": 510,
+        "cy": 475,
+        "rx": 29,
+        "ry": 29
+      },
+      {
+        "id": "acacia-002-footprint",
+        "shape": "ellipse",
+        "cx": 221.94,
+        "cy": 392.41,
+        "rx": 21.14,
+        "ry": 21.14
+      },
+      {
+        "id": "rocks-003-footprint",
+        "shape": "ellipse",
+        "cx": 341.94,
+        "cy": 745.95,
+        "rx": 26.92,
+        "ry": 26.92
+      },
+      {
+        "id": "baobab-006-footprint",
+        "shape": "ellipse",
+        "cx": 506.64,
+        "cy": 926.84,
+        "rx": 26.84,
+        "ry": 26.84
+      },
+      {
+        "id": "acacia-011-footprint",
+        "shape": "ellipse",
+        "cx": 535.0,
+        "cy": 317.45,
+        "rx": 19.52,
+        "ry": 19.52
+      },
+      {
+        "id": "rocks-012-footprint",
+        "shape": "ellipse",
+        "cx": 655.0,
+        "cy": 684.64,
+        "rx": 26.98,
+        "ry": 26.98
+      },
+      {
+        "id": "baobab-015-footprint",
+        "shape": "ellipse",
+        "cx": 896.88,
+        "cy": 940.92,
+        "rx": 24.81,
+        "ry": 24.81
+      },
+      {
+        "id": "acacia-018-footprint",
+        "shape": "ellipse",
+        "cx": 826.01,
+        "cy": 389.63,
+        "rx": 17.26,
+        "ry": 17.26
+      },
+      {
+        "id": "rocks-019-footprint",
+        "shape": "ellipse",
+        "cx": 946.01,
+        "cy": 739.99,
+        "rx": 22.3,
+        "ry": 22.3
+      },
+      {
+        "id": "acacia-024-footprint",
+        "shape": "ellipse",
+        "cx": 1174.37,
+        "cy": 646.78,
+        "rx": 17.82,
+        "ry": 17.82
+      },
+      {
+        "id": "rocks-025-footprint",
+        "shape": "ellipse",
+        "cx": 1294.37,
+        "cy": 1000.44,
+        "rx": 22.63,
+        "ry": 22.63
+      },
+      {
+        "id": "baobab-028-footprint",
+        "shape": "ellipse",
+        "cx": 1350.0,
+        "cy": 1235.0,
+        "rx": 24.89,
+        "ry": 24.89
+      },
+      {
+        "id": "acacia-033-footprint",
+        "shape": "ellipse",
+        "cx": 1544.77,
+        "cy": 850.07,
+        "rx": 19.99,
+        "ry": 19.99
+      },
+      {
+        "id": "rocks-034-footprint",
+        "shape": "ellipse",
+        "cx": 1664.77,
+        "cy": 1178.32,
+        "rx": 21.96,
+        "ry": 21.96
+      },
+      {
+        "id": "acacia-039-footprint",
+        "shape": "ellipse",
+        "cx": 1894.27,
+        "cy": 805.22,
+        "rx": 16.02,
+        "ry": 16.02
+      },
+      {
+        "id": "rocks-040-footprint",
+        "shape": "ellipse",
+        "cx": 2014.27,
+        "cy": 1183.09,
+        "rx": 21.36,
+        "ry": 21.36
+      },
+      {
+        "id": "baobab-045-footprint",
+        "shape": "ellipse",
+        "cx": 2310.16,
+        "cy": 1225.64,
+        "rx": 25.97,
+        "ry": 25.97
+      },
+      {
+        "id": "acacia-048-footprint",
+        "shape": "ellipse",
+        "cx": 2255.62,
+        "cy": 563.01,
+        "rx": 17.29,
+        "ry": 17.29
+      },
+      {
+        "id": "rocks-049-footprint",
+        "shape": "ellipse",
+        "cx": 2375.62,
+        "cy": 911.05,
+        "rx": 18.63,
+        "ry": 18.63
+      },
+      {
+        "id": "acacia-054-footprint",
+        "shape": "ellipse",
+        "cx": 2606.84,
+        "cy": 247.28,
+        "rx": 20.64,
+        "ry": 20.64
+      },
+      {
+        "id": "rocks-055-footprint",
+        "shape": "ellipse",
+        "cx": 2726.84,
+        "cy": 602.83,
+        "rx": 20.88,
+        "ry": 20.88
+      },
+      {
+        "id": "baobab-056-footprint",
+        "shape": "ellipse",
+        "cx": 2780.88,
+        "cy": 807.08,
+        "rx": 22.71,
+        "ry": 22.71
+      },
+      {
+        "id": "acacia-061-footprint",
+        "shape": "ellipse",
+        "cx": 2976.34,
+        "cy": 124.19,
+        "rx": 19.52,
+        "ry": 19.52
+      },
+      {
+        "id": "rocks-062-footprint",
+        "shape": "ellipse",
+        "cx": 3096.34,
+        "cy": 501.84,
+        "rx": 20.54,
+        "ry": 20.54
+      },
+      {
+        "id": "baobab-065-footprint",
+        "shape": "ellipse",
+        "cx": 3266.32,
+        "cy": 694.6,
+        "rx": 24.87,
+        "ry": 24.87
+      },
+      {
+        "id": "baobab-070-footprint",
+        "shape": "ellipse",
+        "cx": 370,
+        "cy": 365,
+        "rx": 28.0,
+        "ry": 28.0
+      },
+      {
+        "id": "acacia-071-footprint",
+        "shape": "ellipse",
+        "cx": 740,
+        "cy": 365,
+        "rx": 18.0,
+        "ry": 18.0
+      },
+      {
+        "id": "jars-072-footprint",
+        "shape": "ellipse",
+        "cx": 620,
+        "cy": 405,
+        "rx": 20.0,
+        "ry": 20.0
+      },
+      {
+        "id": "sign-074-footprint",
+        "shape": "ellipse",
+        "cx": 360,
+        "cy": 660,
+        "rx": 13.13,
+        "ry": 13.13
+      },
+      {
+        "id": "rocks-075-footprint",
+        "shape": "ellipse",
+        "cx": 1015,
+        "cy": 455,
+        "rx": 22.0,
+        "ry": 22.0
+      },
+      {
+        "id": "sign-076-footprint",
+        "shape": "ellipse",
+        "cx": 868,
+        "cy": 425,
+        "rx": 12.0,
+        "ry": 12.0
+      },
+      {
+        "id": "rocks-077-footprint",
+        "shape": "ellipse",
+        "cx": 1445,
+        "cy": 770,
+        "rx": 22.0,
+        "ry": 22.0
+      },
+      {
+        "id": "sign-078-footprint",
+        "shape": "ellipse",
+        "cx": 1298,
+        "cy": 740,
+        "rx": 12.0,
+        "ry": 12.0
+      },
+      {
+        "id": "rocks-079-footprint",
+        "shape": "ellipse",
+        "cx": 2105,
+        "cy": 825,
+        "rx": 22.0,
+        "ry": 22.0
+      },
+      {
+        "id": "sign-080-footprint",
+        "shape": "ellipse",
+        "cx": 1958,
+        "cy": 795,
+        "rx": 12.0,
+        "ry": 12.0
+      },
+      {
+        "id": "rocks-081-footprint",
+        "shape": "ellipse",
+        "cx": 2855,
+        "cy": 230,
+        "rx": 22.0,
+        "ry": 22.0
+      },
+      {
+        "id": "sign-082-footprint",
+        "shape": "ellipse",
+        "cx": 2708,
+        "cy": 200,
+        "rx": 12.0,
+        "ry": 12.0
+      },
+      {
+        "id": "sign-083-footprint",
+        "shape": "ellipse",
+        "cx": 3335,
+        "cy": 175,
+        "rx": 17.21,
+        "ry": 17.21
+      }
+    ]
+  },
+  "roads": [
+    {
+      "id": "main-trail",
+      "width": 200,
+      "polyline": [
+        [
+          230.0,
+          565.0
+        ],
+        [
+          244.92000000000002,
+          562.12
+        ],
+        [
+          264.15999999999997,
+          558.16
+        ],
+        [
+          286.94,
+          553.39
+        ],
+        [
+          312.48,
+          548.08
+        ],
+        [
+          340.0,
+          542.5
+        ],
+        [
+          368.72,
+          536.9200000000001
+        ],
+        [
+          397.86,
+          531.6099999999999
+        ],
+        [
+          426.64000000000004,
+          526.84
+        ],
+        [
+          454.28,
+          522.88
+        ],
+        [
+          480.0,
+          520.0
+        ],
+        [
+          504.36,
+          517.795
+        ],
+        [
+          528.48,
+          515.76
+        ],
+        [
+          552.42,
+          514.015
+        ],
+        [
+          576.24,
+          512.68
+        ],
+        [
+          600.0,
+          511.875
+        ],
+        [
+          623.76,
+          511.71999999999997
+        ],
+        [
+          647.5799999999999,
+          512.335
+        ],
+        [
+          671.52,
+          513.84
+        ],
+        [
+          695.64,
+          516.355
+        ],
+        [
+          720.0,
+          520.0
+        ],
+        [
+          744.37,
+          524.405
+        ],
+        [
+          768.56,
+          529.24
+        ],
+        [
+          792.6899999999999,
+          534.685
+        ],
+        [
+          816.88,
+          540.92
+        ],
+        [
+          841.25,
+          548.125
+        ],
+        [
+          865.9200000000001,
+          556.48
+        ],
+        [
+          891.01,
+          566.165
+        ],
+        [
+          916.64,
+          577.36
+        ],
+        [
+          942.9300000000001,
+          590.245
+        ],
+        [
+          970.0,
+          605.0
+        ],
+        [
+          997.9300000000001,
+          622.375
+        ],
+        [
+          1026.6399999999999,
+          642.6
+        ],
+        [
+          1056.01,
+          665.0749999999999
+        ],
+        [
+          1085.92,
+          689.2
+        ],
+        [
+          1116.25,
+          714.375
+        ],
+        [
+          1146.88,
+          740.0
+        ],
+        [
+          1177.69,
+          765.475
+        ],
+        [
+          1208.56,
+          790.1999999999999
+        ],
+        [
+          1239.3700000000001,
+          813.575
+        ],
+        [
+          1270.0,
+          835.0
+        ],
+        [
+          1300.685,
+          855.5150000000001
+        ],
+        [
+          1331.68,
+          876.3199999999999
+        ],
+        [
+          1362.895,
+          897.055
+        ],
+        [
+          1394.24,
+          917.36
+        ],
+        [
+          1425.625,
+          936.875
+        ],
+        [
+          1456.96,
+          955.24
+        ],
+        [
+          1488.155,
+          972.0949999999999
+        ],
+        [
+          1519.12,
+          987.0799999999999
+        ],
+        [
+          1549.765,
+          999.835
+        ],
+        [
+          1580.0,
+          1010.0
+        ],
+        [
+          1609.765,
+          1017.6949999999999
+        ],
+        [
+          1639.12,
+          1023.36
+        ],
+        [
+          1668.155,
+          1027.115
+        ],
+        [
+          1696.96,
+          1029.08
+        ],
+        [
+          1725.625,
+          1029.375
+        ],
+        [
+          1754.24,
+          1028.12
+        ],
+        [
+          1782.895,
+          1025.435
+        ],
+        [
+          1811.68,
+          1021.44
+        ],
+        [
+          1840.685,
+          1016.255
+        ],
+        [
+          1870.0,
+          1010.0
+        ],
+        [
+          1899.5949999999998,
+          1002.665
+        ],
+        [
+          1929.3600000000001,
+          994.12
+        ],
+        [
+          1959.265,
+          984.3050000000001
+        ],
+        [
+          1989.28,
+          973.16
+        ],
+        [
+          2019.375,
+          960.625
+        ],
+        [
+          2049.52,
+          946.64
+        ],
+        [
+          2079.685,
+          931.1450000000001
+        ],
+        [
+          2109.84,
+          914.08
+        ],
+        [
+          2139.955,
+          895.385
+        ],
+        [
+          2170.0,
+          875.0
+        ],
+        [
+          2200.045,
+          851.9174999999999
+        ],
+        [
+          2230.16,
+          825.6400000000001
+        ],
+        [
+          2260.3149999999996,
+          796.8725000000001
+        ],
+        [
+          2290.48,
+          766.3199999999999
+        ],
+        [
+          2320.625,
+          734.6875
+        ],
+        [
+          2350.7200000000003,
+          702.68
+        ],
+        [
+          2380.7349999999997,
+          671.0025
+        ],
+        [
+          2410.64,
+          640.36
+        ],
+        [
+          2440.405,
+          611.4575
+        ],
+        [
+          2470.0,
+          585.0
+        ],
+        [
+          2499.315,
+          560.1525
+        ],
+        [
+          2528.3199999999997,
+          535.72
+        ],
+        [
+          2557.105,
+          511.8675
+        ],
+        [
+          2585.76,
+          488.76
+        ],
+        [
+          2614.375,
+          466.5625
+        ],
+        [
+          2643.04,
+          445.44
+        ],
+        [
+          2671.845,
+          425.5575
+        ],
+        [
+          2700.8799999999997,
+          407.08
+        ],
+        [
+          2730.235,
+          390.1725
+        ],
+        [
+          2760.0,
+          375.0
+        ],
+        [
+          2790.46,
+          361.69500000000005
+        ],
+        [
+          2821.68,
+          350.15999999999997
+        ],
+        [
+          2853.42,
+          340.215
+        ],
+        [
+          2885.44,
+          331.68
+        ],
+        [
+          2917.5,
+          324.375
+        ],
+        [
+          2949.36,
+          318.12
+        ],
+        [
+          2980.78,
+          312.73499999999996
+        ],
+        [
+          3011.52,
+          308.03999999999996
+        ],
+        [
+          3041.34,
+          303.855
+        ],
+        [
+          3070.0,
+          300.0
+        ],
+        [
+          3098.5550000000003,
+          296.9625
+        ],
+        [
+          3127.8399999999997,
+          295.2
+        ],
+        [
+          3157.285,
+          294.4875
+        ],
+        [
+          3186.32,
+          294.6
+        ],
+        [
+          3214.375,
+          295.3125
+        ],
+        [
+          3240.88,
+          296.4
+        ],
+        [
+          3265.265,
+          297.6375
+        ],
+        [
+          3286.96,
+          298.8
+        ],
+        [
+          3305.395,
+          299.6625
+        ],
+        [
+          3320,
+          300
+        ]
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "id": "arrival",
+      "x": 310,
+      "y": 575,
+      "facing": "right"
+    }
+  ],
+  "anchors": {
+    "encounter-1": {
+      "point": [
+        940,
+        590
+      ],
+      "approach": [
+        940,
+        590
+      ]
+    },
+    "encounter-2": {
+      "point": [
+        1370,
+        905
+      ],
+      "approach": [
+        1370,
+        905
+      ]
+    },
+    "encounter-3": {
+      "point": [
+        2030,
+        960
+      ],
+      "approach": [
+        2030,
+        960
+      ]
+    },
+    "encounter-4": {
+      "point": [
+        2780,
+        365
+      ],
+      "approach": [
+        2780,
+        365
+      ]
+    },
+    "mentor-approach": {
+      "point": [
+        510,
+        535
+      ],
+      "approach": [
+        510,
+        535
+      ]
+    },
+    "exit": {
+      "point": [
+        3260,
+        300
+      ],
+      "approach": [
+        3260,
+        300
+      ]
+    },
+    "north-meadow": {
+      "point": [
+        1550,
+        400
+      ],
+      "approach": [
+        1550,
+        400
+      ]
+    },
+    "south-meadow": {
+      "point": [
+        2350,
+        1260
+      ],
+      "approach": [
+        2350,
+        1260
+      ]
+    }
+  },
+  "nav": {
+    "cell": 7
+  },
+  "camera": {
+    "bounds": [
+      0,
+      0,
+      3600,
+      1440
+    ],
+    "zoom": 1.15,
+    "userZoom": false
+  },
+  "art_source": "host_image",
+  "placeholder": false,
+  "provenance": {
+    "tool": "Brilliantly stage compositor",
+    "version": "1",
+    "params": {
+      "layout": "layout.json"
+    },
+    "inputs": [],
+    "route": "host-image_gen",
+    "model": null,
+    "estimateUsd": null,
+    "layout": "User-provided winding Stage 1-1 outline",
+    "composition": "Image-generated terrain materials uniformly sampled and tiled, masked by the canonical road polygon. Independent generated props are Y-sorted in Phaser. No image aspect ratios stretched."
+  }
+}

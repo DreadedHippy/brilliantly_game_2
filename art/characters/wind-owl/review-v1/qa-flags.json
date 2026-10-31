@@ -1,0 +1,167 @@
+[
+  {
+    "file": "art/characters/wind-owl/qa/raw-sheet/sheet-qc.json",
+    "checks": [
+      {
+        "id": "cross_cell_components",
+        "status": "fail",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "note": "solid parts crossing a cell line are cut or misassigned when the sheet is sliced"
+      },
+      {
+        "id": "cross_cell_visible",
+        "status": "fail",
+        "value": 3,
+        "threshold": 0,
+        "note": "the same test on the visible edge (alpha > 16)"
+      },
+      {
+        "id": "boundary_band",
+        "status": "warn",
+        "value": 1211,
+        "threshold": 0,
+        "note": "solid pixels within 10 px of a cell line; a different crop or rounding can cut them"
+      },
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 6,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 140983,
+          "detached_components": 34
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ]
+  },
+  {
+    "file": "art/characters/wind-owl/qa/runtime-atlas/sheet-qc.json",
+    "checks": [
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 6,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 0,
+          "detached_components": 11
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ]
+  },
+  {
+    "file": "art/characters/wind-owl/qa/runtime-frames/sheet-qc.json",
+    "checks": [
+      {
+        "id": "identity_head_ratio",
+        "status": "fail",
+        "value": {
+          "0": 1.01,
+          "1": 1.03,
+          "2": 0.97,
+          "3": 0.99,
+          "4": 1.03,
+          "5": 0.909
+        },
+        "threshold": [
+          0.95,
+          1.05
+        ],
+        "frames": [
+          5
+        ],
+        "note": "head scale against the median frame (frame 0 template)"
+      },
+      {
+        "id": "torso_drift",
+        "status": "warn",
+        "value": 7.71,
+        "threshold": 2.0,
+        "method": "trunk",
+        "median_x": 278.6,
+        "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+      }
+    ]
+  }
+]

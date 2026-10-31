@@ -1,0 +1,48 @@
+{
+  "schema": "brilliantly.sprite.v1",
+  "name": "tutorial-elder",
+  "artSource": "host_image",
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "image": "tutorial-elder.png",
+  "frameWidth": 384,
+  "frameHeight": 384,
+  "columns": 3,
+  "anchor": {
+    "x": 192,
+    "y": 320
+  },
+  "facing": "front-three-quarter",
+  "restBodyHeight": 256,
+  "suggestedGameBodyHeight": 72,
+  "reviewStatus": "visual-review-with-advisory-near-duplicate-warning",
+  "animations": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "uniquePoses": 6,
+      "frameRate": 5,
+      "ticksPerFrame": 12,
+      "tickHz": 60,
+      "durationMs": 2000,
+      "repeat": -1,
+      "preview": "idle.webp",
+      "sheet": "idle.png"
+    }
+  },
+  "limits": [
+    "One seated camera view and idle action only.",
+    "Read QA.md for measured warnings and visual-review limits."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "bell-mask-enemy",
+  "subject": "masked-enemy",
+  "identity": "Create ONE full-body transparent MASTER GAME SPRITE of the enemy in the attached reference. Smooth painted 2D HD African-inspired fantasy art matching our game characters, legible simplified details, not pixel art. Identity: humanoid masked wraith with an exceptionally tall elongated carved wooden mask, two long upward prongs joined near the top by a crossbar with a suspended brass bell, angular ivory/black/gold mask geometry and cyan glowing eyes, no visible human face; dark indigo and charcoal wrapped robes, gold geometric textile patterns, frayed trailing cloth strips drifting to the left, straw raffia shoulder/waist/knee tassels, many brass bells and reddish beads, dark bandaged hands and feet. Exactly TWO arms, TWO legs, and TWO small inward-curving sickle blades with gold handles, one in each hand held low to either side, both visible and separated from legs. Grounded relaxed combat-ready wide stance. Three-quarter front view facing slightly LEFT. Preserve the entire tall mask, both full blades, all toes and fabric tips; center the whole silhouette with generous 18% transparent padding on all edges. Cyan wisps remain very faint and local. No duplicate ghost figures, no scenery, no floor, no shadow, no smoke backdrop, no lettering, no labels, no grid, no checkerboard. TRUE TRANSPARENT alpha background.",
+  "pose": null,
+  "recap": "masked-enemy (Create ONE full-body transparent MASTER GAME SPRITE of the enemy in the attached reference. Smooth painted 2D HD African-inspired fantasy art matching our game characters, legible simplified details, not pixel art. Identity: humanoid masked wraith with an exceptionally tall elongated carved wooden mask, two long upward prongs joined near the top by a crossbar with a suspended brass bell, angular ivory/black/gold mask geometry and cyan glowing eyes, no visible human face; dark indigo and charcoal wrapped robes, gold geometric textile patterns, frayed trailing cloth strips drifting to the left, straw raffia shoulder/waist/knee tassels, many brass bells and reddish beads, dark bandaged hands and feet. Exactly TWO arms, TWO legs, and TWO small inward-curving sickle blades with gold handles, one in each hand held low to either side, both visible and separated from legs. Grounded relaxed combat-ready wide stance. Three-quarter front view facing slightly LEFT. Preserve the entire tall mask, both full blades, all toes and fabric tips; center the whole silhouette with generous 18% transparent padding on all edges. Cyan wisps remain very faint and local. No duplicate ghost figures, no scenery, no floor, no shadow, no smoke backdrop, no lettering, no labels, no grid, no checkerboard. TRUE TRANSPARENT alpha background)",
+  "facing": "left",
+  "facing_parts": null,
+  "view": null,
+  "class": "mob",
+  "finish": "hd",
+  "key": "#FF00FF",
+  "genre": null,
+  "pronoun": "they",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": null
+}

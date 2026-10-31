@@ -1,0 +1,13 @@
+Repair the RUN sheet in the FIRST image. SECOND image is the exact identity master. THIRD image is a POSE/DEPTH guide only: orange marks the NEAR camera-side limbs, blue the FAR away-side limbs. Replace those skeleton shapes with the SAME fully painted hero; do not copy guide colours, text, grid or style.
+Keep the 3:2 canvas, 4 equal columns and 2 rows, original smooth painted style, costume, afro, gold gauntlets, beads, maroon/charcoal wrap, cream trousers, bare feet and sheathed sword. Keep the exact same head and afro physical size in ALL 8 frames: bottom-row heads must not become smaller.
+THE CHANGES are correct near/far leg alternation and consistent head size. Preserve RUN posture: a forward lean and bent arms, with one airborne flight in frames3 and7.
+Match the orange NEAR and blue FAR leg poses in the guide, not just their outer silhouettes. The NEAR leg is closer, brighter cream, and always drawn in front at the overlap. FAR leg is the same cream cloth and skin but clearly shaded darker by depth and drawn behind. Maintain this shading assignment throughout; do not change which anatomical leg is near.
+Frame0: bright NEAR leg forward-right heel contact, shaded FAR leg folds back-left; FAR arm forward, NEAR arm back.
+Frame1: NEAR foot supports under the body, FAR leg passes through.
+Frame2: NEAR leg pushes off BACK-LEFT, FAR knee drives up FORWARD-RIGHT; NEAR arm is now forward.
+Frame3: airborne, shaded FAR leg reaches FORWARD-RIGHT, bright NEAR leg folds BACK-LEFT; NEAR arm forward.
+Frame4: shaded FAR leg leads FORWARD-RIGHT into heel contact, bright NEAR leg folds BACK-LEFT; NEAR arm forward. This must be the opposite visible lead from frame0.
+Frame5: FAR foot supports under body, NEAR leg passes through.
+Frame6: FAR leg pushes off BACK-LEFT, NEAR knee drives up FORWARD-RIGHT; FAR arm forward.
+Frame7: airborne, bright NEAR leg reaches FORWARD-RIGHT, FAR leg folds BACK-LEFT; FAR arm forward. This is the opposite visible lead from frame3.
+No turning, no whole-character mirroring or changing sword hip. Same pelvis x position and camera distance in each cell. Contact poses share a ground plane; flight poses sit visibly above it. No resizing individual frames. Leave enough pure magenta margin to keep all hands, toes, hair and the sword inside the corresponding cell. Flat pure magenta #FF00FF backdrop only. No dust, shadows, motion lines, labels, text, grids, guides, floor, photo-realism, pixel art or 3D render.

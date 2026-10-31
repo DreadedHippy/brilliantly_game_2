@@ -1,0 +1,25 @@
+{
+  "name": "ember-lion",
+  "workingLabel": "Ember lion (descriptive asset label, not a lore name)",
+  "art_source": "host_image",
+  "route": "host-image_gen",
+  "identityReference": "Matching user-attached reference in this conversation",
+  "style": "Smooth painted 2D HD, matching the existing companion",
+  "facing": "right-three-quarter",
+  "motion": "Gentle breathing, flame mane and tail flicker, restrained embers and tiny pendant sway. Four paws planted.",
+  "runtime": {
+    "canvas": [
+      512,
+      384
+    ],
+    "anchor": [
+      256,
+      320
+    ],
+    "restSilhouetteHeight": 256,
+    "suggestedGameHeight": 80
+  },
+  "sourcePoses": 6,
+  "playback": "10-step pingpong at 5fps, 2 seconds",
+  "scope": "Assets and standalone preview; no level placement or AI"
+}

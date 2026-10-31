@@ -1,0 +1,209 @@
+{
+  "status": "pass",
+  "checks": {
+    "idle": {
+      "uniqueFrames": 8,
+      "canvas": [
+        384,
+        384
+      ],
+      "alphaBounds": [
+        [
+          126,
+          61,
+          258,
+          320
+        ],
+        [
+          127,
+          61,
+          257,
+          320
+        ],
+        [
+          128,
+          62,
+          255,
+          320
+        ],
+        [
+          125,
+          61,
+          255,
+          320
+        ],
+        [
+          125,
+          60,
+          257,
+          319
+        ],
+        [
+          124,
+          60,
+          257,
+          319
+        ],
+        [
+          128,
+          61,
+          257,
+          320
+        ],
+        [
+          128,
+          60,
+          257,
+          320
+        ]
+      ],
+      "pixelHashes": [
+        "e52b0d64a4f50374894a9560335ef893bf4daa5a1e422103145f00299e0fd916",
+        "85ec309b14c15c907c41948ac796dea6815c9ebd26cca51c701f61462c5a14e9",
+        "b42087981856830575b85389df59b0ee7abf17b42dedea911090f9f5a3310f01",
+        "451c182ecd36c26c35608340d064195e1949e3957e609e4bcc9c0078eeecf2e9",
+        "5a17270723f0ea7a4f853ffedf86b76c234d0b684e7dadd4d761f677df975007",
+        "e5675a7ab366075235a764c0ecfb6b3d01d58d5230edece8ca88185aa54666ee",
+        "5921fd6100a8deb2b9b59cb0d725c51c5ba2e1da4b86b890bc572de3dc7c863c",
+        "e1441b777146a685db33f616dde498c67b01f0f9ade72c8f288f4fc9c9bf8c07"
+      ]
+    },
+    "walk": {
+      "uniqueFrames": 8,
+      "canvas": [
+        384,
+        384
+      ],
+      "alphaBounds": [
+        [
+          109,
+          64,
+          271,
+          316
+        ],
+        [
+          122,
+          64,
+          253,
+          320
+        ],
+        [
+          134,
+          64,
+          250,
+          320
+        ],
+        [
+          108,
+          64,
+          269,
+          316
+        ],
+        [
+          95,
+          67,
+          276,
+          318
+        ],
+        [
+          108,
+          67,
+          239,
+          320
+        ],
+        [
+          116,
+          67,
+          248,
+          318
+        ],
+        [
+          91,
+          67,
+          273,
+          320
+        ]
+      ],
+      "pixelHashes": [
+        "1dc3355d99c20e6ec0d14cd0297de7f7cf122fc4343d524fe6eb671265b62bb0",
+        "960db86312ea66b6d0378b866e36ac54661a470e2572b51ed5314a460d733013",
+        "c71623e2e2c1e119c8d19c54f12778da518e43b02c5c2561212f9bc575645d0d",
+        "daf95967cf0dabdb82580feeaf1e8b956435e1b10b487dc8723014165d21accd",
+        "26acbb10108ea0efbce2d1c151198db2fc56fff7f4510cd24a21bce25523c9f1",
+        "3d733792cf2344d48460d345923f3832328dd79b45a3ca1b17fb770749dd6f78",
+        "0d7db8b129632841cafad640fce380744dbdd81f2b5383b298a8eeea1ea86a86",
+        "cde035ba262d4b842efc373d50144478af63188345c7eab965005afd36e355bd"
+      ]
+    },
+    "run": {
+      "uniqueFrames": 8,
+      "canvas": [
+        384,
+        384
+      ],
+      "alphaBounds": [
+        [
+          88,
+          88,
+          282,
+          319
+        ],
+        [
+          111,
+          88,
+          273,
+          320
+        ],
+        [
+          83,
+          88,
+          261,
+          319
+        ],
+        [
+          77,
+          88,
+          279,
+          297
+        ],
+        [
+          86,
+          87,
+          278,
+          320
+        ],
+        [
+          102,
+          87,
+          243,
+          320
+        ],
+        [
+          78,
+          86,
+          256,
+          320
+        ],
+        [
+          90,
+          87,
+          286,
+          289
+        ]
+      ],
+      "pixelHashes": [
+        "d7981e36cfc85b23f26541c8d8ccd4690efdbf450613854c9277799a0abf7674",
+        "4c1e65279fb8aee672b173f7c8556265349b61279180112899aa26b82c4cecfc",
+        "49f84b2a4b1a504eb24d80e4de639f7726d179dd713ac2c955aa454a8d0c460c",
+        "03200dafccebe07e6c42236da01cc4a13e6323379f44007659925ee914b55a56",
+        "9277a7d51bca6047480f86376fa144349557bdeaa0923e5be35bafbeae8f378f",
+        "5453c0be0fb6d9c6f219d52b8abdf1072d85a670b18d33ecc5bcbe6bc59b849e",
+        "1db853f47feb14f93bc5814954806a3fa44197d06fecbc6c3d3330df1da24034",
+        "32eac0d61e0c3b04ef106c29ad67b68b9f8115b9409fc9ee3fefee2eece98a97"
+      ]
+    }
+  },
+  "notProven": [
+    "Biomechanics, exact identity and artistic loop quality are visually reviewed, not proven by these checks."
+  ]
+}

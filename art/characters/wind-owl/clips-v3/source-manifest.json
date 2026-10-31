@@ -1,0 +1,35 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    "frames/idle-00.png",
+    "frames/idle-01.png",
+    "frames/idle-02.png",
+    "frames/idle-03.png",
+    "frames/idle-04.png",
+    "frames/idle-05.png"
+  ],
+  "anchor_px": [
+    256,
+    320
+  ],
+  "art_source": "host_image",
+  "pixel_art": false,
+  "sampling": "linear",
+  "body_height_px": 256,
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ticks": 12,
+      "tick_hz": 60,
+      "loop_policy": "pingpong",
+      "role": "npc"
+    }
+  }
+}

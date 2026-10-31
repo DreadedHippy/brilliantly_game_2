@@ -1,0 +1,16 @@
+{
+  "art_source": "host_image",
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "price": "unknown; not returned by built-in tool",
+  "identityReference": "User-supplied mythical creature companion image in this conversation",
+  "animationReference": "master-v1/master_rgba.png",
+  "sourceHashes": {
+    "master-generated.png": "334db13a6399806a104adbdfd886a811fff129f17540346f670fabd2d19a9c9a",
+    "idle-generated.png": "3203a975af064c70630c74ae20a2fc7149113ddf567cd6fa1263a4053de439fc"
+  },
+  "routeDecision": "User previously selected image-generated frame-by-frame animation; retained for this creature.",
+  "finish": "Native alpha, component-ownership slicing, one shared scale/root, premultiplied downsampling and alpha-floor cleanup only; soft cloud/electrical edges retained.",
+  "integration": "Generated assets and standalone preview only."
+}

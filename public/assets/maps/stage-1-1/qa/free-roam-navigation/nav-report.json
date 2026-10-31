@@ -1,0 +1,319 @@
+{
+  "schema": "generate2dmap.nav_report.v1",
+  "status": "warn",
+  "method": "plan Appendix C validity (centre + 8 footprint samples against walk regions, solids, object footprints scaled once, tile collision and material classes) on a grid of cell max(1, round(r/2)) px; 4-neighbour moves open when segmentClear holds between node centres (samples every cell/2, plus the exact thin-gap centre path and one_way direction); BFS from every spawn and portal arrival to every interaction, exit, anchor slot and approach point",
+  "notProven": [
+    "that the collision data matches the painted art",
+    "positions closer than one grid cell to a blocker (the grid samples cell centres)",
+    "runtime movement code: map-runtime.mjs parity is tested during integration",
+    "links to maps not passed with --link"
+  ],
+  "checks": [
+    {
+      "id": "starts_valid",
+      "status": "pass",
+      "value": {
+        "starts": 1,
+        "blocked": []
+      },
+      "threshold": {
+        "blocked": 0
+      }
+    },
+    {
+      "id": "targets_reachable",
+      "status": "pass",
+      "value": {
+        "reachable": 8,
+        "total": 8,
+        "unreachable": []
+      },
+      "threshold": {
+        "unreachable": 0
+      }
+    },
+    {
+      "id": "portals_inside_world",
+      "status": "pass",
+      "value": {
+        "outside": []
+      },
+      "threshold": {
+        "outside": 0
+      }
+    },
+    {
+      "id": "arrivals_outside_triggers",
+      "status": "pass",
+      "value": {
+        "problems": 0
+      },
+      "threshold": {
+        "problems": 0
+      }
+    },
+    {
+      "id": "reciprocal_links",
+      "status": "pass",
+      "value": {
+        "links": [],
+        "notChecked": []
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "thin_gaps",
+      "status": "pass",
+      "value": 0,
+      "threshold": "reported: moves the thin-gap rule closed although every footprint sample was valid"
+    },
+    {
+      "id": "unreachable_walkable_area",
+      "status": "warn",
+      "value": {
+        "pockets": 1,
+        "cells": 1
+      },
+      "threshold": "reported"
+    },
+    {
+      "id": "blocked_rects_union",
+      "status": "pass",
+      "value": {
+        "rects": 250,
+        "blockedCells": 14378
+      },
+      "threshold": "union == blocked cells"
+    },
+    {
+      "id": "footprints_scaled_once",
+      "status": "pass",
+      "value": {
+        "objectSolids": 0
+      },
+      "threshold": "object footprint x scale, never inflated by the actor radius"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "../../map-bundle.json",
+      "sha256": "b0e39e8b8423aff9fdfa28bb24ce2a5bb77ace2ae6ab58364fb4d5a21739346a",
+      "bytes": 44410
+    },
+    {
+      "path": "../../ground.webp",
+      "sha256": "653dfd1975b681fe1ce5dc68f263717c865de432f48a3447d53a49e98eef7b94",
+      "bytes": 2270470
+    },
+    {
+      "path": "../../props/grass/prop.png",
+      "sha256": "3d092de273e14a4324f2c8ea7c07fe40ebaf2d25c4c0d8d1f5e5cb771e983f0c",
+      "bytes": 264056
+    },
+    {
+      "path": "../../props/acacia/prop.png",
+      "sha256": "888fc64d1cad8986d03e926f976a37e9a23bf820bc045a318bf44ab76b736ba0",
+      "bytes": 305770
+    },
+    {
+      "path": "../../props/rocks/prop.png",
+      "sha256": "c1642a778bbe137a32116d83593f5be9e30dffb8cf6ec668825be5a7ca15ca5d",
+      "bytes": 281478
+    },
+    {
+      "path": "../../props/baobab/prop.png",
+      "sha256": "5e49a9b11a171bfe2ee1c1c0d1f30ee1e104086a5e4a7a811d392a8e7207f7e7",
+      "bytes": 513706
+    },
+    {
+      "path": "../../props/jars/prop.png",
+      "sha256": "55bbdc01995e7a4aeca6f505cb476999c511686a92c9f307c92c6531832d33c5",
+      "bytes": 253011
+    },
+    {
+      "path": "../../props/sign/prop.png",
+      "sha256": "5915359357b7505d4206c1681f8330a2484702819cee523528562df0807773d2",
+      "bytes": 124552
+    },
+    {
+      "path": "../../../../sprites/tutorial-elder/master.png",
+      "sha256": "85bd7066386300d7d5b80dd9759f64be48e26cc5e4c601b5a42ebf0f7c58ab86",
+      "bytes": 417259
+    }
+  ],
+  "outputs": [
+    {
+      "path": "nav-grid.json",
+      "sha256": "cc99a0e2723cb74ee82fa73eaefee236098dbbed24a2c16ee1194bbd31c468c7",
+      "bytes": 230145
+    },
+    {
+      "path": "nav-debug.png",
+      "sha256": "4e39e84d541c3864622ce0f0d2e288c9182340a5daedbfd9538702b534b0dee8",
+      "bytes": 6827780
+    }
+  ],
+  "tool": {
+    "name": "map_nav.py",
+    "version": "0.4.0"
+  },
+  "map": "stage-1-1",
+  "cell": 7,
+  "starts": [
+    {
+      "kind": "spawn",
+      "id": "arrival",
+      "point": [
+        310.0,
+        575.0
+      ],
+      "reachable": true,
+      "steps": 0,
+      "node": [
+        311.5,
+        577.5
+      ],
+      "reason": null
+    }
+  ],
+  "targets": [
+    {
+      "kind": "approach",
+      "id": "encounter-1/approach[0]",
+      "point": [
+        940.0,
+        590.0
+      ],
+      "reachable": true,
+      "steps": 86,
+      "node": [
+        927.5,
+        577.5
+      ],
+      "reason": null
+    },
+    {
+      "kind": "approach",
+      "id": "encounter-2/approach[0]",
+      "point": [
+        1370.0,
+        905.0
+      ],
+      "reachable": true,
+      "steps": 190,
+      "node": [
+        1354.5,
+        892.5
+      ],
+      "reason": null
+    },
+    {
+      "kind": "approach",
+      "id": "encounter-3/approach[0]",
+      "point": [
+        2030.0,
+        960.0
+      ],
+      "reachable": true,
+      "steps": 293,
+      "node": [
+        2019.5,
+        948.5
+      ],
+      "reason": null
+    },
+    {
+      "kind": "approach",
+      "id": "encounter-4/approach[0]",
+      "point": [
+        2780.0,
+        365.0
+      ],
+      "reachable": true,
+      "steps": 375,
+      "node": [
+        2768.5,
+        381.5
+      ],
+      "reason": null
+    },
+    {
+      "kind": "approach",
+      "id": "mentor-approach/approach[0]",
+      "point": [
+        510.0,
+        535.0
+      ],
+      "reachable": true,
+      "steps": 26,
+      "node": [
+        493.5,
+        549.5
+      ],
+      "reason": null
+    },
+    {
+      "kind": "approach",
+      "id": "exit/approach[0]",
+      "point": [
+        3260.0,
+        300.0
+      ],
+      "reachable": true,
+      "steps": 453,
+      "node": [
+        3244.5,
+        311.5
+      ],
+      "reason": null
+    },
+    {
+      "kind": "approach",
+      "id": "north-meadow/approach[0]",
+      "point": [
+        1550.0,
+        400.0
+      ],
+      "reachable": true,
+      "steps": 194,
+      "node": [
+        1536.5,
+        416.5
+      ],
+      "reason": null
+    },
+    {
+      "kind": "approach",
+      "id": "south-meadow/approach[0]",
+      "point": [
+        2350.0,
+        1260.0
+      ],
+      "reachable": true,
+      "steps": 384,
+      "node": [
+        2355.5,
+        1249.5
+      ],
+      "reason": null
+    }
+  ],
+  "links": [],
+  "thinGaps": [],
+  "unreachablePockets": [
+    {
+      "cells": 1,
+      "at": [
+        843.5,
+        416.5
+      ]
+    }
+  ],
+  "bundleNav": {
+    "cell": 7,
+    "grid": "nav-grid.json"
+  },
+  "problems": []
+}

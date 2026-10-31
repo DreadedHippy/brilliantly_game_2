@@ -1,0 +1,9 @@
+{
+  "asset": "tutorial-finger.png",
+  "art_source": "host_image",
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "description": "A dark-brown illustrated pointing hand with a gold cuff, pointing down, rendered over native transparency. CSS preserves its aspect ratio and animates it as a tutorial cursor.",
+  "prompt": "Create a single small GAME UI POINTER SPRITE: a friendly human hand with warm dark-brown skin, index finger pointing STRAIGHT DOWN, the other three fingers curled naturally, thumb visible, simple narrow gold cuff at wrist. Smooth polished 2D illustrated game UI art matching an African-inspired fantasy adventure, bold clean dark outline, warm highlights, simple readable silhouette at 48 pixels. The wrist is at the TOP, fingertip at the BOTTOM. Full isolated hand centered with modest transparent padding. No arm beyond the short wrist cuff. No text, no labels, no symbols, no shadow backdrop, no scenery, no grid or checkerboard. TRUE TRANSPARENT background. Square asset. This is a cursor pointing at a tutorial button."
+}

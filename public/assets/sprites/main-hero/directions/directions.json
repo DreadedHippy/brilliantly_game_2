@@ -1,0 +1,83 @@
+{
+  "schema": "brilliantly.directional_sprites.v1",
+  "artSource": "host_image",
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "frameWidth": 384,
+  "frameHeight": 384,
+  "columns": 3,
+  "anchor": {
+    "x": 192,
+    "y": 320
+  },
+  "restBodyHeight": 256,
+  "directions": {
+    "down": {
+      "image": "down.png",
+      "neutralFrame": 8,
+      "walk": {
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "frameRate": 8.571428571428571,
+        "repeat": -1
+      },
+      "run": {
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "frameRate": 15,
+        "repeat": -1,
+        "source": "accelerated walking, not a separately authored run cycle"
+      }
+    },
+    "up": {
+      "image": "up.png",
+      "neutralFrame": 8,
+      "walk": {
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "frameRate": 8.571428571428571,
+        "repeat": -1
+      },
+      "run": {
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "frameRate": 15,
+        "repeat": -1,
+        "source": "accelerated walking, not a separately authored run cycle"
+      }
+    }
+  }
+}

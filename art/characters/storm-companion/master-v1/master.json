@@ -1,0 +1,174 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-31T01:50:53.202Z",
+  "name": "storm-companion",
+  "subject": "the horned storm-feline companion from the user's reference",
+  "identity_recap": "left-facing copper-and-white horned feline with blue eyes, gold geometric markings and jewelry, charcoal storm mane, dark gold-clawed paws and a curled cloud-fur tail with gold bands and blue electrical veins",
+  "facing": "left",
+  "view": "Slightly elevated three-quarter side view",
+  "finish": "hd",
+  "class": "mob",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 640,
+    "top_margin_px": 248,
+    "lead_px": 0,
+    "preset": "custom",
+    "subject_bbox": [
+      175,
+      248,
+      849,
+      888
+    ],
+    "anchor": [
+      478.5,
+      888.0
+    ],
+    "opaque_area_px": 233992,
+    "width_limited": false
+  },
+  "key": "#FF00FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "0504259612debf1cadd8d3e2b19a5fd2341e151882a180753389b53aff38bd2a",
+      "bytes": 611959,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "e7f678051531213b9808dcd221c2a776cb871be99cf556354dabb46d3fbb7478",
+      "bytes": 748700,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "334db13a6399806a104adbdfd886a811fff129f17540346f670fabd2d19a9c9a",
+      "bytes": 2232815,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "285ca8a0596adc211502c695c87255b4fd8117ae962e009f0088c93a7fc1dac8",
+      "bytes": 1236
+    },
+    "prompt": {
+      "path": "prompt.txt",
+      "sha256": "e752911bb0dc70e72e4db341fd4f46a8c2d6c99badbdfe31459cabe10afcdf56",
+      "bytes": 2100
+    }
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "source_subject_bbox": [
+      42,
+      61,
+      1234,
+      1193
+    ],
+    "crop_box": [
+      36,
+      55,
+      1240,
+      1199
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.5653710247349824,
+    "offset": [
+      151.29328621908127,
+      213.51236749116606
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "lanczos",
+    "premultiplied": true,
+    "alpha_floor_px": 20633,
+    "subject_parts": 1,
+    "ignored_parts": 8,
+    "ignored_px": 35,
+    "source_touches": [],
+    "key_rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "route": "host-image_gen",
+  "provenance": {
+    "command": "external",
+    "run": null,
+    "take": null,
+    "source_name": "master-generated.png",
+    "source_sha256": "334db13a6399806a104adbdfd886a811fff129f17540346f670fabd2d19a9c9a",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        255.0,
+        0.0,
+        255.0
+      ],
+      "source": "native_alpha",
+      "valid": false,
+      "ring_share": 0.0,
+      "coverage": 0.0,
+      "distance_from_declared": 0.0
+    },
+    "quality": "native_alpha",
+    "qa": {
+      "key": [
+        255.0,
+        0.0,
+        255.0
+      ],
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.017489855883587518,
+      "semitransparent_fraction": 0.9996065912554242,
+      "enclosed_key_pockets": 5,
+      "key_hued_px": 0,
+      "visible_px": 843906,
+      "outer_ring_px": 28588,
+      "thresholds": {
+        "key_tolerance": 48.0,
+        "spill_threshold": 20.0,
+        "min_pocket_area": 16,
+        "opaque_alpha": 128,
+        "spill_hue_balance": 0.5
+      },
+      "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.000393,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

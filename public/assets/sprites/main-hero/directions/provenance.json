@@ -1,0 +1,12 @@
+{
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "reference": "Existing approved main-hero master-v1/master_rgba.png",
+  "sourceHashes": {
+    "down": "f2ca934fcb6836befdaa13f417d907a1b9865f613f48eca1c0f33ac211686bab",
+    "up": "38f01940ab49627edb5fb4f9ceb1ef8336161e17adda4cca633351df57b88daa"
+  },
+  "finish": "Native alpha preserved with speck cleanup; component ownership slicing; one shared source scale for both views, 384px canvas and [192,320] root. No per-frame rescaling.",
+  "limit": "Vertical running accelerates these walking frames; neutral vertical idle uses the ninth standing pose."
+}

@@ -1,0 +1,16 @@
+{
+  "art_source": "host_image",
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "price": "unknown; not returned by the built-in tool",
+  "identityReference": "User-attached elder NPC image in this conversation",
+  "animationReference": "master-v1/master_rgba.png",
+  "sourceHashes": {
+    "master-generated.png": "de523c3fb6741e5e649d81956d58df8822b6e73ae8f9053dcc2cc08a1e618d19",
+    "idle-generated.png": "87e5e5e8b36e659626a4b05c964697f8c154b4a957212137783e35a7baf2ac98"
+  },
+  "routeDecision": "User previously selected frame-by-frame image-generated character sheets; retained for this NPC.",
+  "finish": "Native alpha preserved; ownership slicing, one shared scale, whole-frame root registration, and premultiplied downsampling.",
+  "integration": "Standalone asset preview; playable scenes have not been changed."
+}

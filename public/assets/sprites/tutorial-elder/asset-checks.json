@@ -1,0 +1,57 @@
+{
+  "status": "pass",
+  "uniquePoses": 6,
+  "alphaBounds": [
+    [
+      106,
+      64,
+      278,
+      320
+    ],
+    [
+      105,
+      64,
+      279,
+      320
+    ],
+    [
+      105,
+      64,
+      279,
+      320
+    ],
+    [
+      104,
+      63,
+      278,
+      320
+    ],
+    [
+      104,
+      61,
+      279,
+      320
+    ],
+    [
+      104,
+      61,
+      280,
+      320
+    ]
+  ],
+  "pixelHashes": [
+    "54fb0e8b091f08c75b2366e162af2692173c610341e4f14ad895b2055fab41a0",
+    "0740f0b75aae3ad0eec98f244766bcf02fa85f916f0d8de4db9aec45b2e0a59e",
+    "aeafdd67e7316739f04096f5c7b085f501f87992a61ece6146415c301f5306e2",
+    "af456a09782935bc986092118be124e6b30c0859fb1c1c94edc516823a6a7052",
+    "956d50d02adc1e85a280ebdbe020ea449fdd0b1dc2816d25e3a4ff71348b30b2",
+    "4c0f96da781772a68c737e54de2f8538d648c45a7facc01fea3acfbe9b9c6e22"
+  ],
+  "canvas": [
+    384,
+    384
+  ],
+  "notProven": [
+    "Numeric checks do not prove anatomy, facial identity, or artistic motion quality."
+  ]
+}

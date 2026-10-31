@@ -1,0 +1,170 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-31T13:31:16.524Z",
+  "name": "bell-mask-enemy",
+  "subject": "masked-enemy",
+  "identity_recap": "masked-enemy (Create ONE full-body transparent MASTER GAME SPRITE of the enemy in the attached reference. Smooth painted 2D HD African-inspired fantasy art matching our game characters, legible simplified details, not pixel art. Identity: humanoid masked wraith with an exceptionally tall elongated carved wooden mask, two long upward prongs joined near the top by a crossbar with a suspended brass bell, angular ivory/black/gold mask geometry and cyan glowing eyes, no visible human face; dark indigo and charcoal wrapped robes, gold geometric textile patterns, frayed trailing cloth strips drifting to the left, straw raffia shoulder/waist/knee tassels, many brass bells and reddish beads, dark bandaged hands and feet. Exactly TWO arms, TWO legs, and TWO small inward-curving sickle blades with gold handles, one in each hand held low to either side, both visible and separated from legs. Grounded relaxed combat-ready wide stance. Three-quarter front view facing slightly LEFT. Preserve the entire tall mask, both full blades, all toes and fabric tips; center the whole silhouette with generous 18% transparent padding on all edges. Cyan wisps remain very faint and local. No duplicate ghost figures, no scenery, no floor, no shadow, no smoke backdrop, no lettering, no labels, no grid, no checkerboard. TRUE TRANSPARENT alpha background)",
+  "facing": "left",
+  "view": "side view (profile to three-quarter)",
+  "finish": "hd",
+  "class": "mob",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 471,
+    "top_margin_px": 406,
+    "lead_px": 100,
+    "preset": "mob",
+    "subject_bbox": [
+      456,
+      406,
+      768,
+      877
+    ],
+    "anchor": [
+      558.0,
+      877.0
+    ],
+    "opaque_area_px": 70619,
+    "width_limited": false
+  },
+  "key": "#FF00FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "71ec924272fcd852dbeb8b71d5a12e4bc61c45d93c1233abf19c2748daba2605",
+      "bytes": 216262,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "2f4670b4cffa325abc78fde1b5bb2d53fe4beb8afa7992814c9f4d72b4f4da6f",
+      "bytes": 259056,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "8169d4f7202174d92dcae065307176f7f962da05205ce8a9bf829879e4fbde69",
+      "bytes": 2741997,
+      "size": [
+        1024,
+        1536
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "2d8f823ce083166bae073b1c9231a7f53c08a4e83805acaf373cd8636a9d10bc",
+      "bytes": 3111
+    },
+    "prompt": null
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1024,
+      1536
+    ],
+    "source_subject_bbox": [
+      15,
+      7,
+      1007,
+      1507
+    ],
+    "crop_box": [
+      9,
+      1,
+      1013,
+      1513
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.314,
+    "offset": [
+      451.546,
+      403.802
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "box",
+    "premultiplied": true,
+    "alpha_floor_px": 6085,
+    "subject_parts": 1,
+    "ignored_parts": 9,
+    "ignored_px": 9,
+    "source_touches": [],
+    "key_rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "route": "host-image_gen",
+  "provenance": {
+    "command": "external",
+    "run": null,
+    "take": null,
+    "source_name": "master-generated.png",
+    "source_sha256": "8169d4f7202174d92dcae065307176f7f962da05205ce8a9bf829879e4fbde69",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        255.0,
+        0.0,
+        255.0
+      ],
+      "source": "native_alpha",
+      "valid": false,
+      "ring_share": 0.0,
+      "coverage": 0.0,
+      "distance_from_declared": 0.0
+    },
+    "quality": "native_alpha",
+    "qa": {
+      "key": [
+        255.0,
+        0.0,
+        255.0
+      ],
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "semitransparent_fraction": 1.0,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 832088,
+      "outer_ring_px": 18896,
+      "thresholds": {
+        "key_tolerance": 48.0,
+        "spill_threshold": 20.0,
+        "min_pocket_area": 16,
+        "opaque_alpha": 128,
+        "spill_hue_balance": 0.5
+      },
+      "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 1e-05,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

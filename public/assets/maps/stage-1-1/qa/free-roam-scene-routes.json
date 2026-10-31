@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "speed": 168,
+  "budget": 2.8,
+  "tickHz": 60,
+  "cell": 7,
+  "spawns": [
+    {
+      "id": "arrival",
+      "valid": true,
+      "reachableCells": 91711
+    }
+  ],
+  "results": [
+    {
+      "target": "encounter-1.approach[0]",
+      "kind": "approach",
+      "from": "arrival",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 226,
+      "distance": 630.475,
+      "maxStep": 2.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        940,
+        590
+      ]
+    },
+    {
+      "target": "encounter-2.approach[0]",
+      "kind": "approach",
+      "from": "arrival",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 455,
+      "distance": 1272.563,
+      "maxStep": 2.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        1370,
+        905
+      ]
+    },
+    {
+      "target": "encounter-3.approach[0]",
+      "kind": "approach",
+      "from": "arrival",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 708,
+      "distance": 1979.965,
+      "maxStep": 2.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        2030,
+        960
+      ]
+    },
+    {
+      "target": "encounter-4.approach[0]",
+      "kind": "approach",
+      "from": "arrival",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 925,
+      "distance": 2588.748,
+      "maxStep": 2.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        2780,
+        365
+      ]
+    },
+    {
+      "target": "mentor-approach.approach[0]",
+      "kind": "approach",
+      "from": "arrival",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 73,
+      "distance": 203.961,
+      "maxStep": 2.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        510,
+        535
+      ]
+    },
+    {
+      "target": "exit.approach[0]",
+      "kind": "approach",
+      "from": "arrival",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 1083,
+      "distance": 3031.625,
+      "maxStep": 2.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        3260,
+        300
+      ]
+    },
+    {
+      "target": "north-meadow.approach[0]",
+      "kind": "approach",
+      "from": "arrival",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 458,
+      "distance": 1281.243,
+      "maxStep": 2.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        1550,
+        400
+      ]
+    },
+    {
+      "target": "south-meadow.approach[0]",
+      "kind": "approach",
+      "from": "arrival",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 919,
+      "distance": 2570.552,
+      "maxStep": 2.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        2350,
+        1260
+      ]
+    }
+  ],
+  "portals": []
+}

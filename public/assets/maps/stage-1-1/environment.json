@@ -1,0 +1,1206 @@
+{
+  "assets": [
+    {
+      "texture": "stage-baobab",
+      "image": "props/baobab/prop.png"
+    },
+    {
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png"
+    },
+    {
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png"
+    },
+    {
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png"
+    },
+    {
+      "texture": "stage-jars",
+      "image": "props/jars/prop.png"
+    },
+    {
+      "texture": "stage-sign",
+      "image": "props/sign/prop.png"
+    }
+  ],
+  "props": [
+    {
+      "id": "grass-000",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 222.06,
+      "y": 390.03,
+      "height": 37.99,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-001",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 211.84,
+      "y": 757.53,
+      "height": 40.59,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-002",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 221.94,
+      "y": 392.41,
+      "height": 275.98,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 21.14
+    },
+    {
+      "id": "rocks-003",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 341.94,
+      "y": 745.95,
+      "height": 70.97,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 26.92
+    },
+    {
+      "id": "grass-004",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 324.3,
+      "y": 411.64,
+      "height": 48.61,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-005",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 326.94,
+      "y": 714.89,
+      "height": 38.39,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "baobab-006",
+      "texture": "stage-baobab",
+      "image": "props/baobab/prop.png",
+      "x": 506.64,
+      "y": 926.84,
+      "height": 273.24,
+      "anchor": {
+        "x": 0.5062166962699822,
+        "y": 0.9865996649916248
+      },
+      "sourceHeight": 581,
+      "radius": 26.84
+    },
+    {
+      "id": "grass-007",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 462.93,
+      "y": 379.64,
+      "height": 36.86,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-008",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 507.92,
+      "y": 691.97,
+      "height": 35.38,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-009",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 573.51,
+      "y": 339.48,
+      "height": 47.68,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-010",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 583.38,
+      "y": 658.88,
+      "height": 28.49,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-011",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 535.0,
+      "y": 317.45,
+      "height": 254.82,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 19.52
+    },
+    {
+      "id": "rocks-012",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 655.0,
+      "y": 684.64,
+      "height": 71.12,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 26.98
+    },
+    {
+      "id": "grass-013",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 700.41,
+      "y": 367.47,
+      "height": 42.65,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-014",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 717.32,
+      "y": 688.95,
+      "height": 34.59,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "baobab-015",
+      "texture": "stage-baobab",
+      "image": "props/baobab/prop.png",
+      "x": 896.88,
+      "y": 940.92,
+      "height": 252.57,
+      "anchor": {
+        "x": 0.5062166962699822,
+        "y": 0.9865996649916248
+      },
+      "sourceHeight": 581,
+      "radius": 24.81
+    },
+    {
+      "id": "grass-016",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 823.3,
+      "y": 416.48,
+      "height": 30.48,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-017",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 854.7,
+      "y": 705.07,
+      "height": 34.13,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-018",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 826.01,
+      "y": 389.63,
+      "height": 225.39,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 17.26
+    },
+    {
+      "id": "rocks-019",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 946.01,
+      "y": 739.99,
+      "height": 58.78,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 22.3
+    },
+    {
+      "id": "grass-020",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 987.13,
+      "y": 456.81,
+      "height": 40.51,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-021",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 961.34,
+      "y": 747.42,
+      "height": 44.92,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-022",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1140.25,
+      "y": 564.08,
+      "height": 42.6,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-023",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1116.66,
+      "y": 861.84,
+      "height": 35.64,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-024",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 1174.37,
+      "y": 646.78,
+      "height": 232.63,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 17.82
+    },
+    {
+      "id": "rocks-025",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 1294.37,
+      "y": 1000.44,
+      "height": 59.67,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 22.63
+    },
+    {
+      "id": "grass-026",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1261.6,
+      "y": 662.03,
+      "height": 51.16,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-027",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1257.04,
+      "y": 1018.63,
+      "height": 37.88,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "baobab-028",
+      "texture": "stage-baobab",
+      "image": "props/baobab/prop.png",
+      "x": 1350.0,
+      "y": 1235.0,
+      "height": 253.32,
+      "anchor": {
+        "x": 0.5062166962699822,
+        "y": 0.9865996649916248
+      },
+      "sourceHeight": 581,
+      "radius": 24.89
+    },
+    {
+      "id": "grass-029",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1430.43,
+      "y": 780.43,
+      "height": 46.87,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-030",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1402.72,
+      "y": 1075.3,
+      "height": 28.86,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-031",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1588.62,
+      "y": 867.73,
+      "height": 31.11,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-032",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1598.71,
+      "y": 1187.72,
+      "height": 39.55,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-033",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 1544.77,
+      "y": 850.07,
+      "height": 260.93,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 19.99
+    },
+    {
+      "id": "rocks-034",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 1664.77,
+      "y": 1178.32,
+      "height": 57.9,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 21.96
+    },
+    {
+      "id": "grass-035",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1725.55,
+      "y": 884.82,
+      "height": 48.86,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-036",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1703.64,
+      "y": 1207.94,
+      "height": 38.08,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-037",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1890.14,
+      "y": 840.25,
+      "height": 46.85,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-038",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 1890.12,
+      "y": 1197.38,
+      "height": 39.5,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-039",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 1894.27,
+      "y": 805.22,
+      "height": 209.11,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 16.02
+    },
+    {
+      "id": "rocks-040",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2014.27,
+      "y": 1183.09,
+      "height": 56.31,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 21.36
+    },
+    {
+      "id": "grass-041",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2022.8,
+      "y": 833.74,
+      "height": 51.36,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-042",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2042.83,
+      "y": 1101.72,
+      "height": 39.98,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-043",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2185.83,
+      "y": 709.57,
+      "height": 48.9,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-044",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2165.41,
+      "y": 1066.75,
+      "height": 36.7,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "baobab-045",
+      "texture": "stage-baobab",
+      "image": "props/baobab/prop.png",
+      "x": 2310.16,
+      "y": 1225.64,
+      "height": 264.31,
+      "anchor": {
+        "x": 0.5062166962699822,
+        "y": 0.9865996649916248
+      },
+      "sourceHeight": 581,
+      "radius": 25.97
+    },
+    {
+      "id": "grass-046",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2305.8,
+      "y": 578.27,
+      "height": 35.32,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-047",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2303.26,
+      "y": 929.08,
+      "height": 44.15,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-048",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 2255.62,
+      "y": 563.01,
+      "height": 225.77,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 17.29
+    },
+    {
+      "id": "rocks-049",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2375.62,
+      "y": 911.05,
+      "height": 49.12,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 18.63
+    },
+    {
+      "id": "grass-050",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2492.4,
+      "y": 429.57,
+      "height": 39.99,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-051",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2463.66,
+      "y": 741.1,
+      "height": 30.43,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-052",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2595.47,
+      "y": 314.27,
+      "height": 35.06,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-053",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2591.76,
+      "y": 641.86,
+      "height": 37.22,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-054",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 2606.84,
+      "y": 247.28,
+      "height": 269.52,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 20.64
+    },
+    {
+      "id": "rocks-055",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2726.84,
+      "y": 602.83,
+      "height": 55.06,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 20.88
+    },
+    {
+      "id": "baobab-056",
+      "texture": "stage-baobab",
+      "image": "props/baobab/prop.png",
+      "x": 2780.88,
+      "y": 807.08,
+      "height": 231.11,
+      "anchor": {
+        "x": 0.5062166962699822,
+        "y": 0.9865996649916248
+      },
+      "sourceHeight": 581,
+      "radius": 22.71
+    },
+    {
+      "id": "grass-057",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2762.75,
+      "y": 242.22,
+      "height": 41.2,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-058",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2762.83,
+      "y": 520.64,
+      "height": 33.56,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-059",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2934.49,
+      "y": 179.95,
+      "height": 40.63,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-060",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 2941.28,
+      "y": 469.92,
+      "height": 28.23,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "acacia-061",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 2976.34,
+      "y": 124.19,
+      "height": 254.81,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 19.52
+    },
+    {
+      "id": "rocks-062",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 3096.34,
+      "y": 501.84,
+      "height": 54.14,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 20.54
+    },
+    {
+      "id": "grass-063",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 3043.33,
+      "y": 132.62,
+      "height": 38.6,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-064",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 3066.76,
+      "y": 462.45,
+      "height": 43.13,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "baobab-065",
+      "texture": "stage-baobab",
+      "image": "props/baobab/prop.png",
+      "x": 3266.32,
+      "y": 694.6,
+      "height": 253.09,
+      "anchor": {
+        "x": 0.5062166962699822,
+        "y": 0.9865996649916248
+      },
+      "sourceHeight": 581,
+      "radius": 24.87
+    },
+    {
+      "id": "grass-066",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 3223.41,
+      "y": 159.42,
+      "height": 47.67,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-067",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 3237.23,
+      "y": 433.31,
+      "height": 33.18,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-068",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 3335.97,
+      "y": 172.5,
+      "height": 39.48,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "grass-069",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 3300.73,
+      "y": 439.06,
+      "height": 28.81,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0.0
+    },
+    {
+      "id": "baobab-070",
+      "texture": "stage-baobab",
+      "image": "props/baobab/prop.png",
+      "x": 370,
+      "y": 365,
+      "height": 285,
+      "anchor": {
+        "x": 0.5062166962699822,
+        "y": 0.9865996649916248
+      },
+      "sourceHeight": 581,
+      "radius": 28.0
+    },
+    {
+      "id": "acacia-071",
+      "texture": "stage-acacia",
+      "image": "props/acacia/prop.png",
+      "x": 740,
+      "y": 365,
+      "height": 235,
+      "anchor": {
+        "x": 0.4799382716049383,
+        "y": 0.9798657718120806
+      },
+      "sourceHeight": 431,
+      "radius": 18.0
+    },
+    {
+      "id": "jars-072",
+      "texture": "stage-jars",
+      "image": "props/jars/prop.png",
+      "x": 620,
+      "y": 405,
+      "height": 42,
+      "anchor": {
+        "x": 0.46153846153846156,
+        "y": 0.9767441860465116
+      },
+      "sourceHeight": 371,
+      "radius": 20.0
+    },
+    {
+      "id": "grass-073",
+      "texture": "stage-grass",
+      "image": "props/grass/prop.png",
+      "x": 440,
+      "y": 442,
+      "height": 33,
+      "anchor": {
+        "x": 0.5040160642570282,
+        "y": 0.9747899159663865
+      },
+      "sourceHeight": 341,
+      "radius": 0
+    },
+    {
+      "id": "sign-074",
+      "texture": "stage-sign",
+      "image": "props/sign/prop.png",
+      "x": 360,
+      "y": 660,
+      "height": 58,
+      "anchor": {
+        "x": 0.40514469453376206,
+        "y": 0.9778325123152709
+      },
+      "sourceHeight": 390,
+      "radius": 13.13
+    },
+    {
+      "id": "rocks-075",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 1015,
+      "y": 455,
+      "height": 58,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 22.0
+    },
+    {
+      "id": "sign-076",
+      "texture": "stage-sign",
+      "image": "props/sign/prop.png",
+      "x": 868,
+      "y": 425,
+      "height": 53,
+      "anchor": {
+        "x": 0.40514469453376206,
+        "y": 0.9778325123152709
+      },
+      "sourceHeight": 390,
+      "radius": 12.0
+    },
+    {
+      "id": "rocks-077",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 1445,
+      "y": 770,
+      "height": 58,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 22.0
+    },
+    {
+      "id": "sign-078",
+      "texture": "stage-sign",
+      "image": "props/sign/prop.png",
+      "x": 1298,
+      "y": 740,
+      "height": 53,
+      "anchor": {
+        "x": 0.40514469453376206,
+        "y": 0.9778325123152709
+      },
+      "sourceHeight": 390,
+      "radius": 12.0
+    },
+    {
+      "id": "rocks-079",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2105,
+      "y": 825,
+      "height": 58,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 22.0
+    },
+    {
+      "id": "sign-080",
+      "texture": "stage-sign",
+      "image": "props/sign/prop.png",
+      "x": 1958,
+      "y": 795,
+      "height": 53,
+      "anchor": {
+        "x": 0.40514469453376206,
+        "y": 0.9778325123152709
+      },
+      "sourceHeight": 390,
+      "radius": 12.0
+    },
+    {
+      "id": "rocks-081",
+      "texture": "stage-rocks",
+      "image": "props/rocks/prop.png",
+      "x": 2855,
+      "y": 230,
+      "height": 58,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9809069212410502
+      },
+      "sourceHeight": 403,
+      "radius": 22.0
+    },
+    {
+      "id": "sign-082",
+      "texture": "stage-sign",
+      "image": "props/sign/prop.png",
+      "x": 2708,
+      "y": 200,
+      "height": 53,
+      "anchor": {
+        "x": 0.40514469453376206,
+        "y": 0.9778325123152709
+      },
+      "sourceHeight": 390,
+      "radius": 12.0
+    },
+    {
+      "id": "sign-083",
+      "texture": "stage-sign",
+      "image": "props/sign/prop.png",
+      "x": 3335,
+      "y": 175,
+      "height": 76,
+      "anchor": {
+        "x": 0.40514469453376206,
+        "y": 0.9778325123152709
+      },
+      "sourceHeight": 390,
+      "radius": 17.21
+    }
+  ]
+}

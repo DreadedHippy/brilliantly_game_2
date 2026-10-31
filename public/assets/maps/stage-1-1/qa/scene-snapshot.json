@@ -1,0 +1,275 @@
+{
+  "schema": "generate2dmap.scene_snapshot.v1",
+  "runtime": {
+    "name": "map-runtime",
+    "version": "1.1.2"
+  },
+  "world": {
+    "width": 3600,
+    "height": 1440,
+    "actorRadius": 14,
+    "ySquash": 1,
+    "cell": 7,
+    "tickHz": 60,
+    "solids": 1,
+    "portals": 0,
+    "oneWay": false
+  },
+  "actor": {
+    "x": 310,
+    "y": 575,
+    "valid": true,
+    "facing": [
+      1,
+      0
+    ],
+    "latched": [],
+    "travelled": 0,
+    "pathLength": 0
+  },
+  "ready": true,
+  "error": null,
+  "tick": 18,
+  "title": "Stage 1-1 · The first trail",
+  "source": {
+    "file": "map-bundle.json",
+    "sha256": "f0fad76b90d5a415e36fef2c6d657b0a16172933e85f6bbdd46277a1102320f3",
+    "schema": "generate2dmap.map_bundle.v2"
+  },
+  "start": "arrival",
+  "speed": 168,
+  "zoom": 1,
+  "debug": false,
+  "assets": {
+    "total": 8,
+    "loaded": 8,
+    "failed": []
+  },
+  "drawOrder": [
+    "acacia-061",
+    "grass-063",
+    "grass-066",
+    "grass-068",
+    "sign-083",
+    "grass-059",
+    "sign-082",
+    "rocks-081",
+    "grass-057",
+    "acacia-054",
+    "grass-052",
+    "acacia-011",
+    "grass-009",
+    "baobab-070",
+    "acacia-071",
+    "grass-013",
+    "grass-007",
+    "acacia-018",
+    "grass-000",
+    "acacia-002",
+    "jars-072",
+    "grass-004",
+    "grass-016",
+    "sign-076",
+    "grass-050",
+    "grass-067",
+    "grass-069",
+    "grass-073",
+    "rocks-075",
+    "grass-020",
+    "grass-064",
+    "grass-060",
+    "aroinle",
+    "rocks-062",
+    "grass-058",
+    "acacia-048",
+    "grass-022",
+    "grass-046",
+    "rocks-055",
+    "grass-053",
+    "acacia-024",
+    "grass-010",
+    "sign-074",
+    "grass-026",
+    "rocks-012",
+    "grass-014",
+    "grass-008",
+    "baobab-065",
+    "grass-017",
+    "grass-043",
+    "grass-005",
+    "rocks-019",
+    "sign-078",
+    "grass-051",
+    "rocks-003",
+    "grass-021",
+    "grass-001",
+    "rocks-077",
+    "grass-029",
+    "sign-080",
+    "acacia-039",
+    "baobab-056",
+    "rocks-079",
+    "grass-041",
+    "grass-037",
+    "acacia-033",
+    "grass-023",
+    "grass-031",
+    "grass-035",
+    "rocks-049",
+    "baobab-006",
+    "grass-047",
+    "baobab-015",
+    "rocks-025",
+    "grass-027",
+    "grass-044",
+    "grass-030",
+    "grass-042",
+    "rocks-034",
+    "rocks-040",
+    "grass-032",
+    "grass-038",
+    "grass-036",
+    "baobab-045",
+    "baobab-028"
+  ],
+  "exitsFired": [],
+  "interactionsReached": [],
+  "events": [
+    {
+      "tick": 0,
+      "type": "arrive",
+      "id": "arrival"
+    },
+    {
+      "tick": 8,
+      "type": "routes",
+      "ok": true,
+      "failing": 0
+    }
+  ],
+  "routes": {
+    "ok": true,
+    "speed": 168,
+    "budget": 2.8,
+    "tickHz": 60,
+    "cell": 7,
+    "spawns": [
+      {
+        "id": "arrival",
+        "valid": true,
+        "reachableCells": 12560
+      }
+    ],
+    "results": [
+      {
+        "target": "encounter-1.approach[0]",
+        "kind": "approach",
+        "from": "arrival",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 226,
+        "distance": 630.475,
+        "maxStep": 2.8,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          940,
+          590
+        ]
+      },
+      {
+        "target": "encounter-2.approach[0]",
+        "kind": "approach",
+        "from": "arrival",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 423,
+        "distance": 1184.197,
+        "maxStep": 2.8,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          1370,
+          905
+        ]
+      },
+      {
+        "target": "encounter-3.approach[0]",
+        "kind": "approach",
+        "from": "arrival",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 646,
+        "distance": 1808.018,
+        "maxStep": 2.8,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          2030,
+          960
+        ]
+      },
+      {
+        "target": "encounter-4.approach[0]",
+        "kind": "approach",
+        "from": "arrival",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 1004,
+        "distance": 2811.175,
+        "maxStep": 2.8,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          2780,
+          365
+        ]
+      },
+      {
+        "target": "mentor-approach.approach[0]",
+        "kind": "approach",
+        "from": "arrival",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 73,
+        "distance": 203.961,
+        "maxStep": 2.8,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          510,
+          535
+        ]
+      },
+      {
+        "target": "exit.approach[0]",
+        "kind": "approach",
+        "from": "arrival",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 1160,
+        "distance": 3246.205,
+        "maxStep": 2.8,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          3260,
+          300
+        ]
+      }
+    ],
+    "portals": []
+  }
+}

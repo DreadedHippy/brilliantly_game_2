@@ -1,0 +1,181 @@
+{
+  "status": "pass",
+  "checks": {
+    "idle": {
+      "uniqueFrames": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "alphaBounds": [
+        [
+          126,
+          61,
+          258,
+          320
+        ],
+        [
+          127,
+          61,
+          257,
+          320
+        ],
+        [
+          128,
+          62,
+          255,
+          320
+        ],
+        [
+          125,
+          61,
+          255,
+          320
+        ]
+      ],
+      "pixelHashes": [
+        "e52b0d64a4f50374894a9560335ef893bf4daa5a1e422103145f00299e0fd916",
+        "85ec309b14c15c907c41948ac796dea6815c9ebd26cca51c701f61462c5a14e9",
+        "b42087981856830575b85389df59b0ee7abf17b42dedea911090f9f5a3310f01",
+        "451c182ecd36c26c35608340d064195e1949e3957e609e4bcc9c0078eeecf2e9"
+      ]
+    },
+    "walk": {
+      "uniqueFrames": 8,
+      "canvas": [
+        384,
+        384
+      ],
+      "alphaBounds": [
+        [
+          111,
+          67,
+          280,
+          321
+        ],
+        [
+          126,
+          64,
+          247,
+          320
+        ],
+        [
+          129,
+          65,
+          255,
+          320
+        ],
+        [
+          97,
+          66,
+          281,
+          321
+        ],
+        [
+          103,
+          68,
+          283,
+          320
+        ],
+        [
+          115,
+          67,
+          245,
+          320
+        ],
+        [
+          126,
+          68,
+          266,
+          320
+        ],
+        [
+          98,
+          67,
+          285,
+          320
+        ]
+      ],
+      "pixelHashes": [
+        "72aa7e9cf1cbdf4ddad67769989915c0148475322d6439218d956f18fe83afcb",
+        "9173fcb02d4332e17d050ebeb050d97b028de21132efec33e6c73f4a59f25dc7",
+        "878a5a371220fcdbad4d6988f73ac93695279e3b8cda00ecce5ef9bae9268b5b",
+        "a642e43a91c8813637ce713da271a55969679d37c5ec6921396150b0885b81b8",
+        "44518b1b572d6d717f4a15e2c2c83cbad6bb8584950d76bf8eb484ee39920e2a",
+        "a817784d4ea6fb4d6f0fc775216c349656b9492ad9f6a43903949afef765f412",
+        "fef6a3691879246fb934d4ba99f31839fdf2ff4a9fd907a142aa5f41076cd0c0",
+        "a99bd2c3a2208604cbae3ed5d366500735122331dbb82dc0d817aac485b3ca22"
+      ]
+    },
+    "run": {
+      "uniqueFrames": 8,
+      "canvas": [
+        384,
+        384
+      ],
+      "alphaBounds": [
+        [
+          88,
+          88,
+          282,
+          319
+        ],
+        [
+          111,
+          88,
+          273,
+          320
+        ],
+        [
+          83,
+          88,
+          261,
+          319
+        ],
+        [
+          77,
+          88,
+          279,
+          297
+        ],
+        [
+          86,
+          87,
+          278,
+          320
+        ],
+        [
+          102,
+          87,
+          243,
+          320
+        ],
+        [
+          78,
+          86,
+          256,
+          320
+        ],
+        [
+          90,
+          87,
+          286,
+          289
+        ]
+      ],
+      "pixelHashes": [
+        "d7981e36cfc85b23f26541c8d8ccd4690efdbf450613854c9277799a0abf7674",
+        "4c1e65279fb8aee672b173f7c8556265349b61279180112899aa26b82c4cecfc",
+        "49f84b2a4b1a504eb24d80e4de639f7726d179dd713ac2c955aa454a8d0c460c",
+        "03200dafccebe07e6c42236da01cc4a13e6323379f44007659925ee914b55a56",
+        "9277a7d51bca6047480f86376fa144349557bdeaa0923e5be35bafbeae8f378f",
+        "5453c0be0fb6d9c6f219d52b8abdf1072d85a670b18d33ecc5bcbe6bc59b849e",
+        "1db853f47feb14f93bc5814954806a3fa44197d06fecbc6c3d3330df1da24034",
+        "32eac0d61e0c3b04ef106c29ad67b68b9f8115b9409fc9ee3fefee2eece98a97"
+      ]
+    }
+  },
+  "notProven": [
+    "Biomechanics, exact identity and artistic loop quality are visually reviewed, not proven by these checks."
+  ]
+}

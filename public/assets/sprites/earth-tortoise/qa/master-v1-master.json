@@ -1,0 +1,170 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-31T02:11:12.663Z",
+  "name": "earth-tortoise",
+  "subject": "earth-tortoise",
+  "identity_recap": "earth-tortoise (Create ONE approved master full-body game sprite on TRUE TRANSPARENT background. Smooth richly painted 2D African-inspired fantasy art, consistent with reference but simplified for game readability. No scenery, no ground, no detached rocks, no text, no checkerboard. Center full character with at least 16% empty transparent padding on EVERY edge; keep all extremities and effects fully inside. Three-quarter view facing RIGHT. The user attached three creature references; use ONLY the specifically identified creature below, do not combine creatures. The FIRST attached user reference: gigantic terrestrial tortoise, chunky brown basalt shell plates engraved with gold African geometric motifs, emerald crystal outcrops and moss between plates, living baobab tree growing on the shell, green eyes, gold brow crest and gold pendant necklace, four thick clawed stone legs. Preserve the baobab and green crystal silhouette)",
+  "facing": "right",
+  "view": "side view (profile to three-quarter)",
+  "finish": "hd",
+  "class": "mob",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 471,
+    "top_margin_px": 406,
+    "lead_px": 100,
+    "preset": "mob",
+    "subject_bbox": [
+      92,
+      406,
+      731,
+      877
+    ],
+    "anchor": [
+      439.5,
+      877.0
+    ],
+    "opaque_area_px": 178265,
+    "width_limited": false
+  },
+  "key": "#FF00FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "edb39cfa12608790392f8923aa4046f877e752aba72fdf124e0faf79d10a916d",
+      "bytes": 479331,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "598542e80b7ce190c52db55e4924e80a9c901847424e5274a856ce8808fa513e",
+      "bytes": 564748,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "274850b970fd9d34042e0f2d99dd641ec33c028c14859114633dfea274c2a714",
+      "bytes": 2885894,
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "6eda16acffc8b4f752de03a96dca1b575f961b759fdc1fc0f3c6d6c4429aed5b",
+      "bytes": 2301
+    },
+    "prompt": null
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1536,
+      1024
+    ],
+    "source_subject_bbox": [
+      129,
+      13,
+      1481,
+      1010
+    ],
+    "crop_box": [
+      123,
+      7,
+      1487,
+      1016
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.4724172517552658,
+    "offset": [
+      31.704112337011054,
+      399.8585757271816
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "box",
+    "premultiplied": true,
+    "alpha_floor_px": 7974,
+    "subject_parts": 1,
+    "ignored_parts": 1,
+    "ignored_px": 1,
+    "source_touches": [],
+    "key_rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "route": "host-image_gen",
+  "provenance": {
+    "command": "external",
+    "run": null,
+    "take": null,
+    "source_name": "master-generated.png",
+    "source_sha256": "274850b970fd9d34042e0f2d99dd641ec33c028c14859114633dfea274c2a714",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        255.0,
+        0.0,
+        255.0
+      ],
+      "source": "native_alpha",
+      "valid": false,
+      "ring_share": 0.0,
+      "coverage": 0.0,
+      "distance_from_declared": 0.0
+    },
+    "quality": "native_alpha",
+    "qa": {
+      "key": [
+        255.0,
+        0.0,
+        255.0
+      ],
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "semitransparent_fraction": 1.0,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 849910,
+      "outer_ring_px": 10356,
+      "thresholds": {
+        "key_tolerance": 48.0,
+        "spill_threshold": 20.0,
+        "min_pocket_area": 16,
+        "opaque_alpha": 128,
+        "spill_hue_balance": 0.5
+      },
+      "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.0,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

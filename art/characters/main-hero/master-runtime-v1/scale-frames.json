@@ -1,0 +1,200 @@
+{
+  "schema": "generate2dsprite.scale_frames.v1",
+  "scale": 0.3248730964467005,
+  "scale_from": "neutral",
+  "target_body_px": 256.0,
+  "resampler": "box",
+  "canvas": [
+    384,
+    384
+  ],
+  "anchor_px": [
+    192,
+    320
+  ],
+  "padding": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "base_canvas": [
+    384,
+    384
+  ],
+  "base_anchor_px": [
+    192,
+    320
+  ],
+  "needed_padding": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "margin": null,
+  "anchor_mode": "stance",
+  "source_anchor": [
+    509.0,
+    926.0
+  ],
+  "reference_frame": 0,
+  "root_lock": "torso-x",
+  "lock": [],
+  "row_baseline": false,
+  "shift_quantum": 1,
+  "alpha_threshold": 16,
+  "frames_per_row": 1,
+  "torso": {
+    "colors": [],
+    "band": [
+      0.4,
+      0.6
+    ],
+    "method": "trunk"
+  },
+  "frames": [
+    {
+      "source": {
+        "path": "../master-v1/master_rgba.png",
+        "sha256": "99712d713e6769da27f16c47c713495a8a974f892877761009c4d4ab3324f8c3",
+        "bytes": 454247
+      },
+      "cell": null,
+      "output": {
+        "path": "frames/master_rgba.png",
+        "sha256": "e522ed46bf886bf74dbdad2ff82b240c3652df5f88d94ff8064b84ebfa611900",
+        "bytes": 57703
+      },
+      "shift": [
+        0,
+        0
+      ],
+      "output_bbox": [
+        136,
+        63,
+        250,
+        320
+      ],
+      "turn_slide_px": 0.0,
+      "turn_slide_output_px": 0.0,
+      "measure": {
+        "bbox": [
+          339,
+          138,
+          685,
+          926
+        ],
+        "ground": 926,
+        "body_height": 788,
+        "stance_x": 509.0,
+        "torso_x": 524.18,
+        "centroid_x": 507.3,
+        "hip_x": 507.0
+      }
+    }
+  ],
+  "transitions": {
+    "pairs": [
+      [
+        0,
+        0
+      ]
+    ],
+    "before": [
+      0.0
+    ],
+    "after": [
+      0.0
+    ],
+    "metric": "forge_core.transition_mae (premultiplied RGBA) on one shared crop"
+  },
+  "seam": null,
+  "input": {
+    "frames": [
+      {
+        "sha256": "99712d713e6769da27f16c47c713495a8a974f892877761009c4d4ab3324f8c3",
+        "size": [
+          1024,
+          1024
+        ],
+        "source_mode": "RGBA",
+        "bit_depth": 8,
+        "conversion": "none",
+        "keyed": null
+      }
+    ]
+  },
+  "profile": null,
+  "qa": {
+    "status": "pass",
+    "method": "one pinned resample per frame (forge_core.resample_rgba) on a work canvas holding every frame, then one crop; the crop is checked to keep every visible pixel",
+    "notProven": [
+      "That the locked feature (torso, stance, hip) is the right root for this action.",
+      "Pose quality and smoothness: review scale-review.png and play the clip."
+    ],
+    "checks": [
+      {
+        "id": "no_clipping",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "every visible source pixel is on the canvas"
+      },
+      {
+        "id": "integer_nearest",
+        "status": "skipped",
+        "value": null,
+        "threshold": "N or 1/N"
+      },
+      {
+        "id": "registration",
+        "status": "pass",
+        "value": {
+          "horizontal": "torso-x",
+          "vertical": null,
+          "row_grounds": {
+            "0": 926
+          },
+          "feature_values": [
+            524.18
+          ]
+        },
+        "threshold": null,
+        "note": "per-frame whole-pixel shifts against the reference frame"
+      },
+      {
+        "id": "turn_slide",
+        "status": "pass",
+        "value": {
+          "design": 0.0,
+          "output": 0.0
+        },
+        "threshold": null,
+        "note": "2 x |stance x - anchor x| in output px, before (design) and after pixel sampling (output); 0 means a mirrored turn keeps the feet in place"
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../master-v1/master_rgba.png",
+        "sha256": "99712d713e6769da27f16c47c713495a8a974f892877761009c4d4ab3324f8c3",
+        "bytes": 454247
+      }
+    ],
+    "outputs": [
+      {
+        "path": "scale-review.png",
+        "sha256": "4f4a5da3a6c3991258f5b371e1ceadc860aa84daf99e3d2d0b382b2d93cb7418",
+        "bytes": 49719
+      }
+    ],
+    "tool": {
+      "name": "scale_frames.py",
+      "version": "0.4.0"
+    }
+  },
+  "tool": {
+    "name": "scale_frames.py",
+    "version": "0.4.0"
+  }
+}

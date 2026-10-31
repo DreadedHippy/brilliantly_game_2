@@ -1,0 +1,63 @@
+{
+  "schema": "forge-crop-boxes/v1",
+  "source": {
+    "path": "../../../../../art/maps/stage-1-1/source/props.png",
+    "sha256": "0ccbed1e267d6dff4df053b6dac4f5cbb4697b4a9690d8f16be83c775d551ce0"
+  },
+  "items": [
+    {
+      "id": "baobab",
+      "box": [
+        0,
+        3,
+        563,
+        600
+      ]
+    },
+    {
+      "id": "acacia",
+      "box": [
+        514,
+        144,
+        1162,
+        591
+      ]
+    },
+    {
+      "id": "rocks",
+      "box": [
+        1053,
+        169,
+        1511,
+        588
+      ]
+    },
+    {
+      "id": "grass",
+      "box": [
+        25,
+        631,
+        523,
+        988
+      ]
+    },
+    {
+      "id": "jars",
+      "box": [
+        546,
+        617,
+        1014,
+        1004
+      ]
+    },
+    {
+      "id": "sign",
+      "box": [
+        1154,
+        599,
+        1465,
+        1005
+      ]
+    }
+  ]
+}

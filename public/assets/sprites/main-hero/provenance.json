@@ -1,0 +1,18 @@
+{
+  "art_source": "host_image",
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "price": "unknown; the built-in tool did not return a cost",
+  "reference": "User-supplied character image in this conversation",
+  "animationRouteDecision": "User explicitly chose image-generated frame-by-frame sheets instead of the unavailable video route.",
+  "selectedSources": {
+    "main-hero-generated.png": "21b19f413a2d74b4b1c25dc707de25e58bed1a9ebfbe25ac80ae36a6b654459f",
+    "idle-take-1.png": "905ec7e7f0f992785a991c184b86c89af102b9f6b77bf8aaddf1c4581b7a5242",
+    "walk-take-3.png": "e37a5be77bd59fe5f6cec03d54fbcf7f4f47b719752e194a0e2a13996f5ef2ff",
+    "run-take-1.png": "8abaf24a6f86df2a88f32963e3c08972ce39ca6476a64b91b97de9b6fce26920"
+  },
+  "processing": "Soft chroma key; component-ownership slicing preserves crossing toes; one shared 0.5389473684210526 source-to-runtime scale; fixed 384x384 canvas and [192,320] root; grounded walk foot lock, run flight retained.",
+  "idle": "Four drawn breathing poses played 0,1,2,3,2,1, avoiding the less consistent second source-sheet row.",
+  "integration": "Asset generation and standalone preview only; existing game character wiring is unchanged."
+}

@@ -1,0 +1,14 @@
+Repair this WALK sheet for correct gait. FIRST image is the walk sheet to edit. SECOND image is the character identity master. THIRD image is a geometry-only stick-figure guide: ORANGE is the camera-side NEAR limbs, BLUE is the away-side FAR limbs. Do not copy guide colors, lettering, lines or style; replace the skeleton with the original fully painted hero.
+KEEP the exact 3:2 canvas, FOUR columns and TWO rows, same character costume, skin, afro, jewelry, gold gauntlets, sword, smooth 2D style and three-quarter RIGHT-facing camera.
+CHANGE ONLY the limb poses and their depth ordering to match the THIRD image in each corresponding cell, and keep the head/afro the exact same physical size throughout. Every cell depicts the SAME head and hair size, even when the body bends.
+The orange NEAR leg is the brighter camera-side leg drawn in FRONT of the blue FAR leg at their overlap. This actual limb must change between forward and backward positions:
+frame0 near forward-right and far back-left, contact;
+frame1 near supports beneath hip, far lifts behind;
+frame2 near supports beneath/behind hip, FAR knee passes forward-right;
+frame3 near extends BACK-LEFT with its toe touching, FAR extends FORWARD-RIGHT approaching heel contact;
+frame4 near BACK-LEFT, FAR FORWARD-RIGHT with heel contact, opposite to frame0;
+frame5 FAR supports beneath hip, near lifts behind;
+frame6 FAR supports beneath/behind hip, NEAR knee passes forward-right;
+frame7 FAR extends BACK-LEFT with its toe touching, NEAR extends FORWARD-RIGHT approaching heel contact, returning into frame0.
+Arms follow the opposite leg: when NEAR leg reaches forward, NEAR gold hand swings back. When FAR leg leads, the NEAR gold hand swings FORWARD across the front of the waist. Match orange/blue ordering, NOT just the outer leg silhouette. Do not mirror the character's whole body, costume or sword.
+A WALK keeps at least one bare foot visibly touching the exact same ground-contact level in every cell; no floating feet, flight or jumping. Keep a fixed hip center, one common camera scale, same head size, same body proportions. Fit all toes, hands, afro and sword in each cell with ample empty margins. Pure flat magenta #FF00FF outside the opaque characters. NO guides, numbers, labels, shadows, floor, border lines, text, effects, photo-realism, 3D or pixel art.

@@ -1,0 +1,686 @@
+{
+  "schema": "generate2dsprite.full_frames.v2",
+  "frame_size": [
+    384,
+    512
+  ],
+  "source_frame_count": 8,
+  "sources": [
+    {
+      "path": "../../source/walk-take-3.png",
+      "file_sha256": "e37a5be77bd59fe5f6cec03d54fbcf7f4f47b719752e194a0e2a13996f5ef2ff",
+      "bytes": 2073383,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "source_mode": "RGB",
+      "bit_depth": 8,
+      "conversion": "RGB -> RGBA",
+      "key": {
+        "quality": "soft",
+        "requested_quality": "soft",
+        "key_rgb": [
+          247,
+          4,
+          248
+        ],
+        "key_estimate": {
+          "declared": "magenta",
+          "declared_rgb": [
+            255,
+            0,
+            255
+          ],
+          "ring_px": 40704,
+          "native_alpha": false,
+          "use_native_alpha": false,
+          "near_share": 1.0,
+          "key": [
+            247.0,
+            4.0,
+            248.0
+          ],
+          "source": "border_median",
+          "valid": true,
+          "reason": null,
+          "ring_share": 1.0,
+          "coverage": 0.7003657023111979,
+          "distance_from_declared": 11.36
+        },
+        "qa": {
+          "opaque_key_px": 0,
+          "outer_ring_spill_fraction": 0.0,
+          "semitransparent_fraction": 0.09854115879040418,
+          "enclosed_key_pockets": 0,
+          "key_hued_px": 123,
+          "visible_px": 468454,
+          "outer_ring_px": 15846,
+          "thresholds": {
+            "key_tolerance": 48.0,
+            "spill_threshold": 20.0,
+            "min_pocket_area": 16,
+            "opaque_alpha": 128,
+            "spill_hue_balance": 0.5
+          },
+          "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+        },
+        "interior_despill": false,
+        "key_material_share": 0.007072640940520729,
+        "params": {
+          "w_chroma": 1.0,
+          "t_bg": 18.0,
+          "t_fg": 40.0,
+          "keylike": 0.5,
+          "r_a": 3,
+          "r_c": 3,
+          "radius": 4,
+          "tau": 6.0,
+          "kappa": 0.6,
+          "temp": 0.4,
+          "a_lo": 0.04,
+          "a_hi": 0.96,
+          "unmix_from": 0.0,
+          "excess_slack": 3.0,
+          "ref_r": 10,
+          "speck_steps": 3,
+          "monotone": true,
+          "interior_despill": false,
+          "snap": "ramp",
+          "refine": "none",
+          "gf_r": 2,
+          "gf_eps": 0.004
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/frame-00.png",
+      "source_index": 0,
+      "crop_box": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "crop_id": "r0c0",
+      "sheet_origin": [
+        0,
+        0
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        384,
+        512
+      ],
+      "mode": "RGBA",
+      "file_sha256": "8afde88f04f89c13c935aa73d6a146ec09a83b23c0cb67efe29302bf6cb5c85f",
+      "rgba_pixel_sha256": "d8f58471bc68ad637b9d183e4e0deb8ce630b9ed9e04437d71df34fdc7a955b9"
+    },
+    {
+      "index": 1,
+      "file": "frames/frame-01.png",
+      "source_index": 0,
+      "crop_box": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "crop_id": "r0c1",
+      "sheet_origin": [
+        384,
+        0
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        384,
+        512
+      ],
+      "mode": "RGBA",
+      "file_sha256": "b431f36ccba7e1cd67804e241ebd335ff577a3a28f943c2cfcc13f39a8ef91e9",
+      "rgba_pixel_sha256": "ae54ce476903999af3bbed9eb95989ee7d0ad2a8bc7305594c7951eaea6acbb1"
+    },
+    {
+      "index": 2,
+      "file": "frames/frame-02.png",
+      "source_index": 0,
+      "crop_box": [
+        768,
+        0,
+        1152,
+        512
+      ],
+      "crop_id": "r0c2",
+      "sheet_origin": [
+        768,
+        0
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        384,
+        512
+      ],
+      "mode": "RGBA",
+      "file_sha256": "af15c56b8a3d25d081582f877e265fe3d9ef5d233c10175757ccf2a0554aefdf",
+      "rgba_pixel_sha256": "074e65d14ecf6c27e86256f900140de1522735e99d8cc717d6ecaf099ab69fad"
+    },
+    {
+      "index": 3,
+      "file": "frames/frame-03.png",
+      "source_index": 0,
+      "crop_box": [
+        1152,
+        0,
+        1536,
+        512
+      ],
+      "crop_id": "r0c3",
+      "sheet_origin": [
+        1152,
+        0
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        384,
+        512
+      ],
+      "mode": "RGBA",
+      "file_sha256": "9567ccf6d1865cfadbc2e39d27e595598462d962b36b1fa537d3e38c8b35d54e",
+      "rgba_pixel_sha256": "064165442e5af4d1f96e60d086cdf34cde6d7de11791376bda65edece51e67f2"
+    },
+    {
+      "index": 4,
+      "file": "frames/frame-04.png",
+      "source_index": 0,
+      "crop_box": [
+        0,
+        512,
+        384,
+        1024
+      ],
+      "crop_id": "r1c0",
+      "sheet_origin": [
+        0,
+        512
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        384,
+        512
+      ],
+      "mode": "RGBA",
+      "file_sha256": "81eea0ae36aed7009862d3ade4cb72c6d4eb532c8384d795b246ab1d331eccbd",
+      "rgba_pixel_sha256": "3236643cb0cfa667e1e3d162bbc054c634f8bd87038a19ef3f8f759ecd780db1"
+    },
+    {
+      "index": 5,
+      "file": "frames/frame-05.png",
+      "source_index": 0,
+      "crop_box": [
+        384,
+        512,
+        768,
+        1024
+      ],
+      "crop_id": "r1c1",
+      "sheet_origin": [
+        384,
+        512
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        384,
+        512
+      ],
+      "mode": "RGBA",
+      "file_sha256": "3ce83eb1d71eee4c8ddea4dbd96bbfc9e643e455a476764f36d243d9037c9b6b",
+      "rgba_pixel_sha256": "2795277ad90834c376be43361678f7eb1262f4d99a3941743a5b20bff79e8893"
+    },
+    {
+      "index": 6,
+      "file": "frames/frame-06.png",
+      "source_index": 0,
+      "crop_box": [
+        768,
+        512,
+        1152,
+        1024
+      ],
+      "crop_id": "r1c2",
+      "sheet_origin": [
+        768,
+        512
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        384,
+        512
+      ],
+      "mode": "RGBA",
+      "file_sha256": "c41a55cb1a4021dbd0b6244687abdbeb21154fee6aa388596d18772caa5498a8",
+      "rgba_pixel_sha256": "bdd7a9d6e3d7cc6d65730996834b60165bdc556afe46af24b15a00ac50dd4279"
+    },
+    {
+      "index": 7,
+      "file": "frames/frame-07.png",
+      "source_index": 0,
+      "crop_box": [
+        1152,
+        512,
+        1536,
+        1024
+      ],
+      "crop_id": "r1c3",
+      "sheet_origin": [
+        1152,
+        512
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        384,
+        512
+      ],
+      "mode": "RGBA",
+      "file_sha256": "45ec45507ad14962439203d8c632bd95558e05af8da5dfba44fc5c1b690be271",
+      "rgba_pixel_sha256": "c1e0b5cf4dc106ea978696162267d873225397f1cefb756bc26a463b925a2f20"
+    }
+  ],
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "duration_ms": 117,
+  "total_duration_ms": 936,
+  "loop": 0,
+  "atlas": {
+    "file": "atlas.png",
+    "size": [
+      1152,
+      1536
+    ],
+    "rows": 3,
+    "cols": 3,
+    "file_sha256": "37ddae210d47a7ccd885b58ba844b057e75f4468afca08e1e7a43ae0118ca90d",
+    "rgba_pixels_exact": true
+  },
+  "webp": {
+    "decoded_frame_count": 8,
+    "decoded_frames": [
+      {
+        "index": 0,
+        "timestamp_ms": 0,
+        "duration_ms": 117,
+        "sequence_positions": [
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "timestamp_ms": 117,
+        "duration_ms": 117,
+        "sequence_positions": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "timestamp_ms": 234,
+        "duration_ms": 117,
+        "sequence_positions": [
+          2
+        ]
+      },
+      {
+        "index": 3,
+        "timestamp_ms": 351,
+        "duration_ms": 117,
+        "sequence_positions": [
+          3
+        ]
+      },
+      {
+        "index": 4,
+        "timestamp_ms": 468,
+        "duration_ms": 117,
+        "sequence_positions": [
+          4
+        ]
+      },
+      {
+        "index": 5,
+        "timestamp_ms": 585,
+        "duration_ms": 117,
+        "sequence_positions": [
+          5
+        ]
+      },
+      {
+        "index": 6,
+        "timestamp_ms": 702,
+        "duration_ms": 117,
+        "sequence_positions": [
+          6
+        ]
+      },
+      {
+        "index": 7,
+        "timestamp_ms": 819,
+        "duration_ms": 117,
+        "sequence_positions": [
+          7
+        ]
+      }
+    ],
+    "total_duration_ms": 936,
+    "loop": 0,
+    "alpha_and_visible_rgb_exact": true,
+    "timeline_verified": true,
+    "hidden_rgb_guaranteed": false,
+    "file": "animation.webp",
+    "file_sha256": "3ce2c23026aa2c4091b078898582f1a5c6843f7f2403c9f59319433d6b630e62",
+    "bytes": 973060,
+    "lossless": true,
+    "quality": 75,
+    "method": 3,
+    "timed_static_container": false,
+    "all_keyframes": false
+  },
+  "transitions": [
+    {
+      "from_sequence_position": 0,
+      "to_sequence_position": 1,
+      "from_frame": 0,
+      "to_frame": 1,
+      "wrap": false,
+      "premultiplied_rgb_mae": 25.683598,
+      "alpha_mae": 38.09318,
+      "changed_visible_pixels": 74038
+    },
+    {
+      "from_sequence_position": 1,
+      "to_sequence_position": 2,
+      "from_frame": 1,
+      "to_frame": 2,
+      "wrap": false,
+      "premultiplied_rgb_mae": 25.570368,
+      "alpha_mae": 37.344549,
+      "changed_visible_pixels": 68589
+    },
+    {
+      "from_sequence_position": 2,
+      "to_sequence_position": 3,
+      "from_frame": 2,
+      "to_frame": 3,
+      "wrap": false,
+      "premultiplied_rgb_mae": 24.648603,
+      "alpha_mae": 37.211299,
+      "changed_visible_pixels": 72273
+    },
+    {
+      "from_sequence_position": 3,
+      "to_sequence_position": 4,
+      "from_frame": 3,
+      "to_frame": 4,
+      "wrap": false,
+      "premultiplied_rgb_mae": 33.170429,
+      "alpha_mae": 52.782705,
+      "changed_visible_pixels": 82219
+    },
+    {
+      "from_sequence_position": 4,
+      "to_sequence_position": 5,
+      "from_frame": 4,
+      "to_frame": 5,
+      "wrap": false,
+      "premultiplied_rgb_mae": 24.556356,
+      "alpha_mae": 34.409734,
+      "changed_visible_pixels": 71435
+    },
+    {
+      "from_sequence_position": 5,
+      "to_sequence_position": 6,
+      "from_frame": 5,
+      "to_frame": 6,
+      "wrap": false,
+      "premultiplied_rgb_mae": 24.545263,
+      "alpha_mae": 37.195755,
+      "changed_visible_pixels": 69934
+    },
+    {
+      "from_sequence_position": 6,
+      "to_sequence_position": 7,
+      "from_frame": 6,
+      "to_frame": 7,
+      "wrap": false,
+      "premultiplied_rgb_mae": 23.707817,
+      "alpha_mae": 29.441574,
+      "changed_visible_pixels": 70621
+    },
+    {
+      "from_sequence_position": 7,
+      "to_sequence_position": 0,
+      "from_frame": 7,
+      "to_frame": 0,
+      "wrap": true,
+      "premultiplied_rgb_mae": 31.094414,
+      "alpha_mae": 51.684423,
+      "changed_visible_pixels": 82855
+    }
+  ],
+  "loop_seam": {
+    "frames": 8,
+    "seam": 36.241917,
+    "adjacent_median": 27.789276,
+    "adjacent_p95": 35.287247,
+    "adjacent_max": 38.073499,
+    "seam_over_median": 1.304169,
+    "seam_over_p95": 1.027054,
+    "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+    "adjacent_mean": 29.004503,
+    "wrap_ratio": 1.249527
+  },
+  "loop_overlap": null,
+  "static_regions": {},
+  "key": {
+    "mode": "chroma",
+    "key_color": "magenta",
+    "requested_quality": "soft",
+    "pixel_art": false,
+    "per_source": "sources[].key"
+  },
+  "slicing": {
+    "source": "grid",
+    "rows": 2,
+    "cols": 4,
+    "rounding": "exact",
+    "mode": "ownership",
+    "threshold": 16,
+    "min_area": 4,
+    "attach_radius": 6,
+    "connectivity": 8,
+    "canvas": [
+      384,
+      512
+    ],
+    "padding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "registration": "frame pixel (u, v) = sheet pixel (u - padding[0] + cell x0, v - padding[1] + cell y0)",
+    "attached_px": 0,
+    "cell_fallback_px": 0,
+    "dropped_px": 0,
+    "haze": "keep",
+    "hidden_rgb": "zeroed (only visible pixels are copied)",
+    "method": "forge_core.ownership_slice (D14): 8-connected components of alpha > threshold with at least min_area px go whole to the cell holding most of their pixels; fainter visible pixels join the owner they reach within attach_radius steps; haze keep/drop decides the rest; one shared padding keeps registration"
+  },
+  "spill_check": {
+    "threshold": 16,
+    "min_area": 4,
+    "connectivity": 8,
+    "components": 8,
+    "crossing": [],
+    "specks_crossing": 0,
+    "unboxed_components": 0,
+    "unboxed_px": 0,
+    "verdict": "clean",
+    "status": "clean",
+    "background_share": 0.702165,
+    "note": "--slice ownership keeps each crossing component whole in its owner cell."
+  },
+  "provenance": {
+    "user_manifest": null,
+    "user_assertions_verified": false
+  },
+  "validation": {
+    "png_rgba_exact": true,
+    "atlas_rgba_exact": true,
+    "webp_timeline_verified": true,
+    "visual_approval": false,
+    "note": "Numerical diagnostics only; no claim of seamless motion or visual continuity."
+  },
+  "processing": {
+    "resized": false,
+    "aligned": false,
+    "chroma_keyed": true,
+    "masked": true,
+    "blended": false
+  },
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "Lossless packaging: frame PNGs and the atlas are decoded and compared pixel for pixel; the WebP timeline and its visible RGBA are decoded and verified. Spill: 8-connected components of alpha above the threshold that leave their owner cell. Seams: forge_core.seam_report of the played sequence (premultiplied RGBA MAE); wrap_ratio = seam / mean adjacent step. Drift: NCC of premultiplied luma.",
+    "notProven": [
+      "visual quality, identity or anatomy of any frame",
+      "smooth motion or a seamless loop (seam ratios are numeric diagnostics only)",
+      "that the crop boxes, grid or sequence match the intended phases",
+      "that RGB hidden under alpha 0 survives the WebP preview"
+    ],
+    "checks": [
+      {
+        "id": "png_rgba_exact",
+        "status": "pass",
+        "value": true,
+        "threshold": null
+      },
+      {
+        "id": "atlas_rgba_exact",
+        "status": "pass",
+        "value": true,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 936,
+        "threshold": null
+      },
+      {
+        "id": "cross_cell_spill",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "chroma_key_residue",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "chroma_key_backdrop",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 1.249527,
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../../source/walk-take-3.png",
+        "sha256": "e37a5be77bd59fe5f6cec03d54fbcf7f4f47b719752e194a0e2a13996f5ef2ff",
+        "bytes": 2073383
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/frame-00.png",
+        "sha256": "8afde88f04f89c13c935aa73d6a146ec09a83b23c0cb67efe29302bf6cb5c85f",
+        "bytes": 180254
+      },
+      {
+        "path": "frames/frame-01.png",
+        "sha256": "b431f36ccba7e1cd67804e241ebd335ff577a3a28f943c2cfcc13f39a8ef91e9",
+        "bytes": 157125
+      },
+      {
+        "path": "frames/frame-02.png",
+        "sha256": "af15c56b8a3d25d081582f877e265fe3d9ef5d233c10175757ccf2a0554aefdf",
+        "bytes": 151802
+      },
+      {
+        "path": "frames/frame-03.png",
+        "sha256": "9567ccf6d1865cfadbc2e39d27e595598462d962b36b1fa537d3e38c8b35d54e",
+        "bytes": 175635
+      },
+      {
+        "path": "frames/frame-04.png",
+        "sha256": "81eea0ae36aed7009862d3ade4cb72c6d4eb532c8384d795b246ab1d331eccbd",
+        "bytes": 172469
+      },
+      {
+        "path": "frames/frame-05.png",
+        "sha256": "3ce83eb1d71eee4c8ddea4dbd96bbfc9e643e455a476764f36d243d9037c9b6b",
+        "bytes": 158618
+      },
+      {
+        "path": "frames/frame-06.png",
+        "sha256": "c41a55cb1a4021dbd0b6244687abdbeb21154fee6aa388596d18772caa5498a8",
+        "bytes": 158882
+      },
+      {
+        "path": "frames/frame-07.png",
+        "sha256": "45ec45507ad14962439203d8c632bd95558e05af8da5dfba44fc5c1b690be271",
+        "bytes": 176155
+      },
+      {
+        "path": "atlas.png",
+        "sha256": "37ddae210d47a7ccd885b58ba844b057e75f4468afca08e1e7a43ae0118ca90d",
+        "bytes": 1329854
+      },
+      {
+        "path": "animation.webp",
+        "sha256": "3ce2c23026aa2c4091b078898582f1a5c6843f7f2403c9f59319433d6b630e62",
+        "bytes": 973060
+      }
+    ],
+    "tool": {
+      "name": "assemble_frames",
+      "version": "0.4.0"
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": "pass",
+  "checks": {
+    "down": {
+      "uniquePoses": 9,
+      "pixelHashes": [
+        "e01865b37d30c263c988af0cb8bec96e78e90126edd2d6cf213fa63e2222cbce",
+        "0089d3e324290c7286c36066d1ac8916f6427a99acc392e46489cb03a9f9ae3a",
+        "fffb64e52bda5fdb7a53f59ca05254f563f7d69f5c5c077423c61ad6568c5210",
+        "bf950ef649c222df8924917ba75b0642f8e926480d173e08965678fcc0b0ed0e",
+        "632fffdfeaca18fd3e516e16cc7f2066f9e0e3d82cd6b04d5de098862238fa29",
+        "7d8c5016e441b851ce6bd55e1f0ae319b3ae7dbba2593174f114131b7e8c67ab",
+        "ec4bcc67adb4050e2af76131db612ec707bb8868741d046e64f87c1b16649669",
+        "cb89eff47e7f29edeb4ce211097a71940168fef5f5e34eeb6a7e0ea0c2f1c88a",
+        "c43e7773cfc05ceb82ac72a82df4c3e328b486adf1e176b3d7dc8ec49c891af3"
+      ],
+      "alphaHygiene": [
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 2603,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 2914,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 3672,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 3064,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 3104,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 4655,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 3215,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 2600,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 5348,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        }
+      ]
+    },
+    "up": {
+      "uniquePoses": 9,
+      "pixelHashes": [
+        "f6b30bae7e34ed1144bc2f244a8e3dd3e87e73099b3e52ac8484a8d15298e223",
+        "3909d3234f733b37d4347153c2250176ca1e6810ea8b73e756d505580eca1246",
+        "884d0203ae694409a0d5f798fbb5acce6c933310b8914f92855818bd9a6706c8",
+        "cd2a8ddf8b044b5496e630d8ef9e19901c75701f6c49a35ec5affc3b3c235566",
+        "50a8e1dc31b259efa8225f3868c889801eb491468afb4ec069a9ce73b03201c3",
+        "4fbd28d29070a21a31c777fb3bc54f66fe4c455d9613ddb3e345cf5606e3a1cf",
+        "76b79a8d9e782f9255be61497b91355685f52d19b47dd0dcd5bb4dd5acebbe6f",
+        "415f15685e382e6597d31ec4b006b1c7ff71e110ec453e0dfebdf343383fde80",
+        "4bb4e3b717008a966468016bff8b27ac2bc8ca0f2fe9ab0e7024aae99bbd1b8b"
+      ],
+      "alphaHygiene": [
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 4375,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 3913,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 3581,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 4621,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 4165,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 4889,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 7226,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 4410,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        },
+        {
+          "mode": "both",
+          "floor": 4,
+          "solid_min": 32,
+          "attach_radius": 2,
+          "connectivity": 8,
+          "floor_px": 3664,
+          "detached_px": 0,
+          "detached_components": 0,
+          "max_removed_alpha": 4
+        }
+      ]
+    }
+  },
+  "notProven": [
+    "Numeric checks do not approve anatomy, identity or gait quality."
+  ]
+}

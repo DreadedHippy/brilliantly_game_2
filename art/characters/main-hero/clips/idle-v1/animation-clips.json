@@ -1,0 +1,647 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "source_manifest": {
+    "path": "../../runtime/idle-v1/clips.json",
+    "file_sha256": "01d92ad7cfb65cb4c7e151e3287ad610624835fc8e03781aff8987cb7685293d",
+    "copy": "source-manifest.json"
+  },
+  "frame_size": [
+    384,
+    384
+  ],
+  "anchor_px": [
+    192,
+    320
+  ],
+  "anchor_semantics": "shared canvas/root origin, often a ground reference; not per-frame visible bottom",
+  "frames": [
+    {
+      "index": 0,
+      "name": "frame-00",
+      "source": {
+        "path": "../../runtime/idle-v1/frames/frame-00.png",
+        "file_sha256": "cee738bbe1c55db79c6c9ea15f728ef83610351a28fcdad5b0629e46a0214538",
+        "bytes": 64066,
+        "size": [
+          384,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "e52b0d64a4f50374894a9560335ef893bf4daa5a1e422103145f00299e0fd916",
+      "transparent_pixel_count": 127774,
+      "visible_pixel_count": 19682,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-00.png"
+    },
+    {
+      "index": 1,
+      "name": "frame-01",
+      "source": {
+        "path": "../../runtime/idle-v1/frames/frame-01.png",
+        "file_sha256": "2cb0dfe21c2230d425a2f4317d36ea5b09d0eb8efee73b442053975828773a5c",
+        "bytes": 63565,
+        "size": [
+          384,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "85ec309b14c15c907c41948ac796dea6815c9ebd26cca51c701f61462c5a14e9",
+      "transparent_pixel_count": 127893,
+      "visible_pixel_count": 19563,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-01.png"
+    },
+    {
+      "index": 2,
+      "name": "frame-02",
+      "source": {
+        "path": "../../runtime/idle-v1/frames/frame-02.png",
+        "file_sha256": "d6b1e3248e36685c75af5fbf22dd1d8042faf6b0f7180e12bfae5ba2ae852f24",
+        "bytes": 62429,
+        "size": [
+          384,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "b42087981856830575b85389df59b0ee7abf17b42dedea911090f9f5a3310f01",
+      "transparent_pixel_count": 128245,
+      "visible_pixel_count": 19211,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-02.png"
+    },
+    {
+      "index": 3,
+      "name": "frame-03",
+      "source": {
+        "path": "../../runtime/idle-v1/frames/frame-03.png",
+        "file_sha256": "0d03989c8883c84d022682ac5056de76cb1d511b02541c5b754b5742615af18b",
+        "bytes": 63337,
+        "size": [
+          384,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "451c182ecd36c26c35608340d064195e1949e3957e609e4bcc9c0078eeecf2e9",
+      "transparent_pixel_count": 127964,
+      "visible_pixel_count": 19492,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-03.png"
+    },
+    {
+      "index": 4,
+      "name": "frame-04",
+      "source": {
+        "path": "../../runtime/idle-v1/frames/frame-04.png",
+        "file_sha256": "dbf5b876cf5ab7ae06f7d048da66885e5cbb5c1166373d9b1a47ee2d51391223",
+        "bytes": 63752,
+        "size": [
+          384,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5a17270723f0ea7a4f853ffedf86b76c234d0b684e7dadd4d761f677df975007",
+      "transparent_pixel_count": 127836,
+      "visible_pixel_count": 19620,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-04.png"
+    },
+    {
+      "index": 5,
+      "name": "frame-05",
+      "source": {
+        "path": "../../runtime/idle-v1/frames/frame-05.png",
+        "file_sha256": "703cf80f87c9713ccb250609f80bf825c7554044231c233128bcbee792eb51bc",
+        "bytes": 63691,
+        "size": [
+          384,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "e5675a7ab366075235a764c0ecfb6b3d01d58d5230edece8ca88185aa54666ee",
+      "transparent_pixel_count": 127827,
+      "visible_pixel_count": 19629,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-05.png"
+    },
+    {
+      "index": 6,
+      "name": "frame-06",
+      "source": {
+        "path": "../../runtime/idle-v1/frames/frame-06.png",
+        "file_sha256": "049d02bc152956c887ed6613810141e0279cd0d8d97c78e677f1210756d0114f",
+        "bytes": 63266,
+        "size": [
+          384,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5921fd6100a8deb2b9b59cb0d725c51c5ba2e1da4b86b890bc572de3dc7c863c",
+      "transparent_pixel_count": 127986,
+      "visible_pixel_count": 19470,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-06.png"
+    },
+    {
+      "index": 7,
+      "name": "frame-07",
+      "source": {
+        "path": "../../runtime/idle-v1/frames/frame-07.png",
+        "file_sha256": "5f99ae9794dd6b3663323fb33c2feadd3ac422cceb48c920a73e3eb6c6a3991d",
+        "bytes": 63287,
+        "size": [
+          384,
+          384
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "e1441b777146a685db33f616dde498c67b01f0f9ade72c8f288f4fc9c9bf8c07",
+      "transparent_pixel_count": 127975,
+      "visible_pixel_count": 19481,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-07.png"
+    }
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "duration_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": true,
+      "total_duration_ms": 1600,
+      "nominal_fps": 5.0,
+      "average_fps": 5.0,
+      "loop_policy": "cycle",
+      "timing_source": "ticks",
+      "ticks": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "tick_hz": 60,
+      "fps_rational": "5/1",
+      "events_ms": [],
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 96.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 8,
+        "seam": 3.72387,
+        "adjacent_median": 2.458814,
+        "adjacent_p95": 4.030343,
+        "adjacent_max": 4.455406,
+        "seam_over_median": 1.514498,
+        "seam_over_p95": 0.923958,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 2.49361,
+        "wrap_ratio": 1.493365
+      },
+      "preview": {
+        "file": "clips/clip-00.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 200,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 200,
+            "duration_ms": 200,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 400,
+            "duration_ms": 200,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 600,
+            "duration_ms": 200,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 800,
+            "duration_ms": 200,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 1000,
+            "duration_ms": 200,
+            "clip_positions": [
+              5
+            ]
+          },
+          {
+            "index": 6,
+            "start_ms": 1200,
+            "duration_ms": 200,
+            "clip_positions": [
+              6
+            ]
+          },
+          {
+            "index": 7,
+            "start_ms": 1400,
+            "duration_ms": 200,
+            "clip_positions": [
+              7
+            ]
+          }
+        ],
+        "decoded_frame_count": 8,
+        "total_duration_ms": 1600,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "3c93c91d0380fe39e1454ada0cd8cf7ad75b857121e3e8581db35f85dbf9a128"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 1.851961,
+          "alpha_mae": 0.792338,
+          "changed_visible_pixels": 19809
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 3.196466,
+          "alpha_mae": 2.564718,
+          "changed_visible_pixels": 20083
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 2.688278,
+          "alpha_mae": 1.77042,
+          "changed_visible_pixels": 19835
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 4.900299,
+          "alpha_mae": 3.120728,
+          "changed_visible_pixels": 20422
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 1.987319,
+          "alpha_mae": 0.694465,
+          "changed_visible_pixels": 19791
+        },
+        {
+          "from_position": 5,
+          "to_position": 6,
+          "premultiplied_rgb_mae": 3.135531,
+          "alpha_mae": 2.178602,
+          "changed_visible_pixels": 20153
+        },
+        {
+          "from_position": 6,
+          "to_position": 7,
+          "premultiplied_rgb_mae": 1.61607,
+          "alpha_mae": 0.572035,
+          "changed_visible_pixels": 19598
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 4.255479,
+        "alpha_mae": 2.129042,
+        "changed_visible_pixels": 20175
+      }
+    }
+  },
+  "states": {},
+  "diagnostics": {
+    "visible_pixel_duplicate_groups": [],
+    "visual_approval": false,
+    "note": "Pixel differences and duplicates do not establish animation quality or physical root stability.",
+    "near_duplicate_mae": 1.5,
+    "near_duplicate_pairs": [],
+    "tick_hz": 60,
+    "lint": []
+  },
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "native_scale": true,
+    "scale": 1,
+    "requested_scale": 1,
+    "annotated_with_shared_root": true,
+    "not_a_runtime_atlas": true,
+    "file_sha256": "0003a050524a3370f6284cfa27911b8cccbe212b31e31185b88705b29023a773"
+  },
+  "review": {
+    "scale": 1,
+    "requested_scale": 1,
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "filmstrips": {
+      "idle": {
+        "file": "review/filmstrip-00.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 8,
+        "truncated": false
+      }
+    },
+    "onion": {
+      "idle": {
+        "file": "review/onion-00.png",
+        "background": "checker",
+        "positions_shown": 8,
+        "truncated": false
+      }
+    },
+    "transitions": [],
+    "turn_test": {
+      "file": "review/turn-test.png",
+      "background": "dark",
+      "anchor_mark_rgb": [
+        255,
+        220,
+        80
+      ],
+      "cells": [
+        {
+          "clip": "idle",
+          "frame": 0,
+          "anchor_screen_x": 200,
+          "rows": [
+            [
+              32,
+              416
+            ],
+            [
+              432,
+              816
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 4.0
+        }
+      ],
+      "clips_shown": 1,
+      "truncated": false
+    }
+  },
+  "processing": {
+    "source_pngs_byte_identical": true,
+    "resized": false,
+    "cropped": false,
+    "per_frame_alignment": false,
+    "chroma_keyed": false
+  },
+  "alpha_validation": "Every input has fully transparent and visible pixels; edge quality still requires visual review.",
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "Frame PNGs are byte copies (sha256 checked); each WebP preview is decoded and its timing, alpha and visible RGB compared with the source frames; tick grid = cumulative integer-ms boundaries rounded to the nearest tick; holds = repeated indices or premultiplied union-visible MAE <= 1.5; seams = forge_core.seam_report with wrap_ratio = seam / mean adjacent step; telegraph = tell -> hit in 60 Hz ticks.",
+    "notProven": [
+      "animation quality, gait, anatomy or identity",
+      "physical root stability or foot contact (anchor_px is declared, not measured)",
+      "runtime playback on a device (previews are verified files, not a game loop)",
+      "that near-duplicate thresholds suit every art style (heuristic)"
+    ],
+    "checks": [
+      {
+        "id": "png_byte_copy",
+        "status": "pass",
+        "value": 8,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 1,
+        "threshold": null
+      },
+      {
+        "id": "tick_grid",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": null
+      },
+      {
+        "id": "telegraph",
+        "threshold": 28,
+        "status": "skipped",
+        "value": null
+      },
+      {
+        "id": "near_duplicate_holds",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 1.493365,
+        "threshold": null
+      },
+      {
+        "id": "manifest_lint",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../../runtime/idle-v1/clips.json",
+        "sha256": "01d92ad7cfb65cb4c7e151e3287ad610624835fc8e03781aff8987cb7685293d",
+        "bytes": 548
+      },
+      {
+        "path": "../../runtime/idle-v1/frames/frame-00.png",
+        "sha256": "cee738bbe1c55db79c6c9ea15f728ef83610351a28fcdad5b0629e46a0214538",
+        "bytes": 64066
+      },
+      {
+        "path": "../../runtime/idle-v1/frames/frame-01.png",
+        "sha256": "2cb0dfe21c2230d425a2f4317d36ea5b09d0eb8efee73b442053975828773a5c",
+        "bytes": 63565
+      },
+      {
+        "path": "../../runtime/idle-v1/frames/frame-02.png",
+        "sha256": "d6b1e3248e36685c75af5fbf22dd1d8042faf6b0f7180e12bfae5ba2ae852f24",
+        "bytes": 62429
+      },
+      {
+        "path": "../../runtime/idle-v1/frames/frame-03.png",
+        "sha256": "0d03989c8883c84d022682ac5056de76cb1d511b02541c5b754b5742615af18b",
+        "bytes": 63337
+      },
+      {
+        "path": "../../runtime/idle-v1/frames/frame-04.png",
+        "sha256": "dbf5b876cf5ab7ae06f7d048da66885e5cbb5c1166373d9b1a47ee2d51391223",
+        "bytes": 63752
+      },
+      {
+        "path": "../../runtime/idle-v1/frames/frame-05.png",
+        "sha256": "703cf80f87c9713ccb250609f80bf825c7554044231c233128bcbee792eb51bc",
+        "bytes": 63691
+      },
+      {
+        "path": "../../runtime/idle-v1/frames/frame-06.png",
+        "sha256": "049d02bc152956c887ed6613810141e0279cd0d8d97c78e677f1210756d0114f",
+        "bytes": 63266
+      },
+      {
+        "path": "../../runtime/idle-v1/frames/frame-07.png",
+        "sha256": "5f99ae9794dd6b3663323fb33c2feadd3ac422cceb48c920a73e3eb6c6a3991d",
+        "bytes": 63287
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/frame-00.png",
+        "sha256": "cee738bbe1c55db79c6c9ea15f728ef83610351a28fcdad5b0629e46a0214538",
+        "bytes": 64066
+      },
+      {
+        "path": "frames/frame-01.png",
+        "sha256": "2cb0dfe21c2230d425a2f4317d36ea5b09d0eb8efee73b442053975828773a5c",
+        "bytes": 63565
+      },
+      {
+        "path": "frames/frame-02.png",
+        "sha256": "d6b1e3248e36685c75af5fbf22dd1d8042faf6b0f7180e12bfae5ba2ae852f24",
+        "bytes": 62429
+      },
+      {
+        "path": "frames/frame-03.png",
+        "sha256": "0d03989c8883c84d022682ac5056de76cb1d511b02541c5b754b5742615af18b",
+        "bytes": 63337
+      },
+      {
+        "path": "frames/frame-04.png",
+        "sha256": "dbf5b876cf5ab7ae06f7d048da66885e5cbb5c1166373d9b1a47ee2d51391223",
+        "bytes": 63752
+      },
+      {
+        "path": "frames/frame-05.png",
+        "sha256": "703cf80f87c9713ccb250609f80bf825c7554044231c233128bcbee792eb51bc",
+        "bytes": 63691
+      },
+      {
+        "path": "frames/frame-06.png",
+        "sha256": "049d02bc152956c887ed6613810141e0279cd0d8d97c78e677f1210756d0114f",
+        "bytes": 63266
+      },
+      {
+        "path": "frames/frame-07.png",
+        "sha256": "5f99ae9794dd6b3663323fb33c2feadd3ac422cceb48c920a73e3eb6c6a3991d",
+        "bytes": 63287
+      },
+      {
+        "path": "clips/clip-00.webp",
+        "sha256": "3c93c91d0380fe39e1454ada0cd8cf7ad75b857121e3e8581db35f85dbf9a128",
+        "bytes": 381610
+      },
+      {
+        "path": "contact-sheet.png",
+        "sha256": "0003a050524a3370f6284cfa27911b8cccbe212b31e31185b88705b29023a773",
+        "bytes": 426919
+      },
+      {
+        "path": "review/filmstrip-00.png",
+        "sha256": "522212b57199c66255b93a4ea3743d546e44e8b0eba235fc677faa07cb19a397",
+        "bytes": 1283391
+      },
+      {
+        "path": "review/onion-00.png",
+        "sha256": "95a853766f82b90b0893f97a700eaeafaeca5019d82d78dc776d9b234bbf776a",
+        "bytes": 450057
+      },
+      {
+        "path": "review/turn-test.png",
+        "sha256": "c51193623a68c9d99a09bd793c17ba3e68e272187b027e5187d697ef2c2f98ed",
+        "bytes": 113548
+      }
+    ],
+    "tool": {
+      "name": "build_animation_clips",
+      "version": "0.4.0"
+    }
+  }
+}

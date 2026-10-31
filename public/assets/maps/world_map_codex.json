@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "world_id": "first-route",
+  "coordinate_system": {
+    "projection": "orthogonal",
+    "units": "pixels",
+    "origin": "top-left",
+    "width": 960,
+    "height": 540
+  },
+  "art_direction": {
+    "style": "Smooth painted 2D, fictional West African-inspired riverlands and highlands",
+    "prompt_prefix": "Smooth hand-painted 2D top-down adventure map; moss and sage greens, ochre earth, turquoise rivers, indigo coastal water; no baked-in text, markers, routes, or compass."
+  },
+  "assets": {
+    "world-backdrop": {
+      "path": "assets/maps/world-map-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "role": "backdrop",
+      "source": "Generated for this project with the built-in image_gen tool; converted to WebP at original dimensions with metadata retained.",
+      "generation_prompt": "Use case: stylized-concept.\nAsset type: production terrain backdrop for an African-inspired 2D browser adventure world map, widescreen 16:9 landscape, ideally 1536x864.\nPrimary request: A beautiful cohesive smooth hand-painted 2D illustrated fantasy map of a fictional West African-inspired region, viewed from above with gently raised illustrated terrain. A lush river valley transitions into rounded green highlands and warm copper-colored rocky escarpments, surrounded by deep blue-teal water and soft coastline. Elegant soft-edged shapes, fine painterly shading, sophisticated mobile adventure game art, generous landscape detail and clear readable terrain silhouettes. Scattered baobab silhouettes, riverside vegetation and small earthen courtyard settlement forms give the setting a grounded West African landscape character without borrowed sacred symbols. Rich natural moss and sage greens, warm ochre and amber land, muted red earth, turquoise river, deep indigo coastal water; softly sunlit, inviting and adventurous. Fully illustrated edge-to-edge environment with natural shapes, no rectangular island.\nComposition: Map must fit a wide 16:9 game viewport. Land occupies the central 85 percent, readable at a small size. Leave an uncluttered river crossing clearing around 23 percent from left and 69 percent from top, open green highland clearing around 49 percent left and 46 percent top, and warm rocky destination clearing around 76 percent left and 28 percent top. These are logical places for game markers we add in code; do NOT draw markers. Keep bottom-right corner around 91 percent left, 85 percent top as quiet ocean or subtle terrain for our separately drawn compass. Keep upper-left corner quietly shaded with room for our separately rendered map title.\nConstraints: Terrain art only. NO lettering, words, numbers, compass, compass rose, map pins, circles, level nodes, route lines, dotted paths, border frames, user interface, legend, watermark, flags, or characters. No parchment or distressed paper; no pixel art, no 3D render, no photorealism. Preserve a smooth finished 2D illustration aesthetic. This is a fictional adventure region, not an authoritative geographic map of Africa.",
+      "fit": "uniform-cover"
+    }
+  },
+  "tiles": [],
+  "regions": [
+    {
+      "id": "river-crossing",
+      "name": "River crossing",
+      "coordinates": {
+        "kind": "bounds",
+        "x": 110,
+        "y": 285,
+        "width": 220,
+        "height": 165
+      },
+      "map_position": { "x": 220, "y": 370 },
+      "codex_unlocked": true,
+      "art_style_prompt": "Fictional West African-inspired river floodplain, smooth painted 2D, turquoise water and warm earth, generous clearing for an overlaid level marker.",
+      "lore": {
+        "summary": "Follow the river path and meet the training sentinel.",
+        "description": "A fictional working location on the first route. Final lore has not been authored.",
+        "factions": []
+      },
+      "asset_ids": { "backdrop": "world-backdrop" },
+      "neighbors": ["highland-path"],
+      "points_of_interest": []
+    },
+    {
+      "id": "highland-path",
+      "name": "Highland path",
+      "coordinates": {
+        "kind": "bounds",
+        "x": 360,
+        "y": 175,
+        "width": 225,
+        "height": 170
+      },
+      "map_position": { "x": 470, "y": 250 },
+      "codex_unlocked": false,
+      "art_style_prompt": "Fictional green highlands with rounded ridges, baobab silhouettes, smooth hand-painted 2D, gold and sage accents, no labels.",
+      "lore": {
+        "summary": "Travel inland to the next practice encounter.",
+        "description": "A fictional working location on the first route. Final lore has not been authored.",
+        "factions": []
+      },
+      "asset_ids": { "backdrop": "world-backdrop" },
+      "neighbors": ["river-crossing", "copper-gate"],
+      "points_of_interest": []
+    },
+    {
+      "id": "copper-gate",
+      "name": "Copper gate",
+      "coordinates": {
+        "kind": "bounds",
+        "x": 620,
+        "y": 65,
+        "width": 220,
+        "height": 180
+      },
+      "map_position": { "x": 730, "y": 150 },
+      "codex_unlocked": false,
+      "art_style_prompt": "Fictional copper-colored rocky escarpments and a warm ochre plateau, smooth painted 2D terrain, open destination clearing, no labels.",
+      "lore": {
+        "summary": "Complete the final encounter on this prototype route.",
+        "description": "A fictional working location on the first route. Final lore has not been authored.",
+        "factions": []
+      },
+      "asset_ids": { "backdrop": "world-backdrop" },
+      "neighbors": ["highland-path"],
+      "points_of_interest": []
+    }
+  ]
+}

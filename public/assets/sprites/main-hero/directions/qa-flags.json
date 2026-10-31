@@ -1,0 +1,246 @@
+{
+  "diagnostics": [
+    {
+      "file": "art/characters/main-hero/directional-v1/qa/down/sheet-qc.json",
+      "checks": [
+        {
+          "id": "identity_head_ratio",
+          "status": "fail",
+          "value": {
+            "0": 1.0,
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.02,
+            "5": 1.0,
+            "6": 0.96,
+            "7": 0.94
+          },
+          "threshold": [
+            0.95,
+            1.05
+          ],
+          "frames": [
+            7
+          ],
+          "note": "head scale against the median frame (frame 0 template)"
+        }
+      ]
+    },
+    {
+      "file": "art/characters/main-hero/directional-v1/qa/up/sheet-qc.json",
+      "checks": [
+        {
+          "id": "identity_head_ratio",
+          "status": "fail",
+          "value": {
+            "0": 1.0,
+            "1": 1.0,
+            "2": 0.96,
+            "3": 1.02,
+            "4": 0.94,
+            "5": 1.0,
+            "6": 1.0,
+            "7": 1.0
+          },
+          "threshold": [
+            0.95,
+            1.05
+          ],
+          "frames": [
+            4
+          ],
+          "note": "head scale against the median frame (frame 0 template)"
+        }
+      ]
+    }
+  ],
+  "selectedHeadMeasurements": {
+    "down": {
+      "status": "pass",
+      "headBandFraction": 0.23,
+      "checks": [
+        {
+          "id": "identity_head_ratio",
+          "status": "pass",
+          "value": {
+            "0": 1.0,
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0,
+            "5": 1.0,
+            "6": 0.96,
+            "7": 1.0
+          },
+          "threshold": [
+            0.95,
+            1.05
+          ],
+          "frames": [],
+          "note": "head scale against the median frame (frame 0 template)"
+        },
+        {
+          "id": "identity_residual",
+          "status": "pass",
+          "value": {
+            "0": null,
+            "1": 0.98,
+            "2": 0.81,
+            "3": 1.34,
+            "4": 0.76,
+            "5": 1.36,
+            "6": 1.08,
+            "7": 1.0
+          },
+          "threshold": 1.5,
+          "frames": [],
+          "note": "head match residual over the median: face or costume drift"
+        },
+        {
+          "id": "near_duplicates",
+          "status": "pass",
+          "value": [],
+          "threshold": 0.95,
+          "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+        },
+        {
+          "id": "phase_coverage",
+          "status": "skipped",
+          "value": null,
+          "threshold": null,
+          "note": "needs --cycle run or walk and an even frame count of at least 4"
+        },
+        {
+          "id": "leg_alternation",
+          "status": "skipped",
+          "value": null,
+          "threshold": null,
+          "note": "needs --cycle run or walk and an even frame count of at least 4"
+        },
+        {
+          "id": "torso_drift",
+          "status": "pass",
+          "value": 0.42,
+          "threshold": 2.0,
+          "method": "trunk",
+          "median_x": 193.1,
+          "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+        },
+        {
+          "id": "row_baseline",
+          "status": "pass",
+          "value": 0.0,
+          "threshold": 0.5,
+          "baselines": {
+            "0": 320,
+            "1": 320,
+            "2": 320
+          },
+          "note": "ground line of each sheet row; scale_frames --row-baseline aligns them"
+        },
+        {
+          "id": "seam",
+          "status": "pass",
+          "value": 1.26,
+          "threshold": 1.5,
+          "transitions": [],
+          "note": "largest frame-to-frame change over the median step; review these joins first"
+        }
+      ]
+    },
+    "up": {
+      "status": "pass",
+      "headBandFraction": 0.18,
+      "checks": [
+        {
+          "id": "identity_head_ratio",
+          "status": "pass",
+          "value": {
+            "0": 1.02,
+            "1": 1.02,
+            "2": 1.02,
+            "3": 1.0,
+            "4": 1.0,
+            "5": 1.0,
+            "6": 1.0,
+            "7": 1.0
+          },
+          "threshold": [
+            0.95,
+            1.05
+          ],
+          "frames": [],
+          "note": "head scale against the median frame (frame 0 template)"
+        },
+        {
+          "id": "identity_residual",
+          "status": "pass",
+          "value": {
+            "0": null,
+            "1": 0.92,
+            "2": 1.03,
+            "3": 1.0,
+            "4": 1.01,
+            "5": 1.1,
+            "6": 0.98,
+            "7": 0.98
+          },
+          "threshold": 1.5,
+          "frames": [],
+          "note": "head match residual over the median: face or costume drift"
+        },
+        {
+          "id": "near_duplicates",
+          "status": "pass",
+          "value": [],
+          "threshold": 0.95,
+          "note": "pairs with best-shift silhouette IoU at or above the threshold and similar colours"
+        },
+        {
+          "id": "phase_coverage",
+          "status": "skipped",
+          "value": null,
+          "threshold": null,
+          "note": "needs --cycle run or walk and an even frame count of at least 4"
+        },
+        {
+          "id": "leg_alternation",
+          "status": "skipped",
+          "value": null,
+          "threshold": null,
+          "note": "needs --cycle run or walk and an even frame count of at least 4"
+        },
+        {
+          "id": "torso_drift",
+          "status": "pass",
+          "value": 0.52,
+          "threshold": 2.0,
+          "method": "trunk",
+          "median_x": 192.0,
+          "note": "range of the torso x in game px; scale_frames --root-lock torso-x removes it"
+        },
+        {
+          "id": "row_baseline",
+          "status": "pass",
+          "value": 0.37,
+          "threshold": 0.5,
+          "baselines": {
+            "0": 319,
+            "1": 320,
+            "2": 320
+          },
+          "note": "ground line of each sheet row; scale_frames --row-baseline aligns them"
+        },
+        {
+          "id": "seam",
+          "status": "pass",
+          "value": 1.2,
+          "threshold": 1.5,
+          "transitions": [],
+          "note": "largest frame-to-frame change over the median step; review these joins first"
+        }
+      ]
+    }
+  }
+}

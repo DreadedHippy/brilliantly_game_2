@@ -1,0 +1,155 @@
+{
+  "frames": [
+    {
+      "filename": "idle-00.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 200
+    },
+    {
+      "filename": "idle-01.png",
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 200
+    },
+    {
+      "filename": "idle-02.png",
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 200
+    },
+    {
+      "filename": "idle-03.png",
+      "frame": {
+        "x": 0,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 200
+    },
+    {
+      "filename": "idle-04.png",
+      "frame": {
+        "x": 384,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 200
+    },
+    {
+      "filename": "idle-05.png",
+      "frame": {
+        "x": 768,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 200
+    }
+  ],
+  "meta": {
+    "app": "Brilliantly sprite pipeline",
+    "version": "1",
+    "image": "tutorial-elder.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1152,
+      "h": 768
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "idle",
+        "from": 0,
+        "to": 5,
+        "direction": "pingpong"
+      }
+    ]
+  }
+}

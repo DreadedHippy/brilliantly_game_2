@@ -1,0 +1,80 @@
+{
+  "schema": "brilliantly.sprite.v1",
+  "name": "main-hero",
+  "artSource": "host_image",
+  "route": "host-image_gen",
+  "model": null,
+  "estimateUsd": null,
+  "generationMethod": "Image-generated frame-by-frame sheets, selected explicitly by the user",
+  "image": "main-hero.png",
+  "frameWidth": 384,
+  "frameHeight": 384,
+  "columns": 8,
+  "anchor": {
+    "x": 192,
+    "y": 320
+  },
+  "facing": "right",
+  "restBodyHeight": 256,
+  "suggestedGameBodyHeight": 96,
+  "animations": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frameRate": 5.0,
+      "ticksPerFrame": 12,
+      "tickHz": 60,
+      "durationMs": 1600.0,
+      "repeat": -1,
+      "preview": "idle.webp"
+    },
+    "walk": {
+      "frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "frameRate": 8.571428571428571,
+      "ticksPerFrame": 7,
+      "tickHz": 60,
+      "durationMs": 933.3333333333334,
+      "repeat": -1,
+      "preview": "walk.webp"
+    },
+    "run": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "frameRate": 15.0,
+      "ticksPerFrame": 4,
+      "tickHz": 60,
+      "durationMs": 533.3333333333334,
+      "repeat": -1,
+      "preview": "run.webp"
+    }
+  },
+  "limits": [
+    "Single right-facing view; no front/back directional set.",
+    "Generated anatomy and cloth details require art-direction review."
+  ]
+}

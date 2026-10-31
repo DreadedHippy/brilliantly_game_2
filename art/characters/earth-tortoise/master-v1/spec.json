@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "earth-tortoise",
+  "subject": "earth-tortoise",
+  "identity": "Create ONE approved master full-body game sprite on TRUE TRANSPARENT background. Smooth richly painted 2D African-inspired fantasy art, consistent with reference but simplified for game readability. No scenery, no ground, no detached rocks, no text, no checkerboard. Center full character with at least 16% empty transparent padding on EVERY edge; keep all extremities and effects fully inside. Three-quarter view facing RIGHT. The user attached three creature references; use ONLY the specifically identified creature below, do not combine creatures. The FIRST attached user reference: gigantic terrestrial tortoise, chunky brown basalt shell plates engraved with gold African geometric motifs, emerald crystal outcrops and moss between plates, living baobab tree growing on the shell, green eyes, gold brow crest and gold pendant necklace, four thick clawed stone legs. Preserve the baobab and green crystal silhouette.",
+  "pose": null,
+  "recap": "earth-tortoise (Create ONE approved master full-body game sprite on TRUE TRANSPARENT background. Smooth richly painted 2D African-inspired fantasy art, consistent with reference but simplified for game readability. No scenery, no ground, no detached rocks, no text, no checkerboard. Center full character with at least 16% empty transparent padding on EVERY edge; keep all extremities and effects fully inside. Three-quarter view facing RIGHT. The user attached three creature references; use ONLY the specifically identified creature below, do not combine creatures. The FIRST attached user reference: gigantic terrestrial tortoise, chunky brown basalt shell plates engraved with gold African geometric motifs, emerald crystal outcrops and moss between plates, living baobab tree growing on the shell, green eyes, gold brow crest and gold pendant necklace, four thick clawed stone legs. Preserve the baobab and green crystal silhouette)",
+  "facing": "right",
+  "facing_parts": null,
+  "view": null,
+  "class": "mob",
+  "finish": "hd",
+  "key": "#FF00FF",
+  "genre": null,
+  "pronoun": "they",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": null
+}

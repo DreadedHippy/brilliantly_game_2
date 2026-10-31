@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Main character · Animation preview</title>
+    <style>
+      :root { color-scheme: dark; font: 16px/1.5 'Trebuchet MS', sans-serif; color: #f5edda; background: #202b47; }
+      * { box-sizing: border-box; }
+      body { margin: 0; padding: 32px 20px; }
+      main { max-width: 960px; margin: auto; }
+      a { color: #edc779; }
+      h1 { font: 40px/1.1 'Palatino Linotype', Georgia, serif; margin: 20px 0 12px; }
+      p { color: #bac6cf; }
+      .eyebrow { color: #edc779; font-size: 12px; letter-spacing: .15em; text-transform: uppercase; }
+      .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 24px 0; }
+      button { cursor: pointer; background: #2b3855; color: #f5edda; border: 1px solid #526078; border-radius: 5px; padding: 11px 18px; font: inherit; min-height: 44px; }
+      button:hover { border-color: #edc779; }
+      button[aria-pressed="true"] { background: #edc779; color: #202b47; }
+      :focus-visible { outline: 3px solid #74b7b5; outline-offset: 4px; }
+      .previews { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+      figure { margin: 0; padding: 20px; border: 1px solid #526078; border-radius: 8px; }
+      figcaption { color: #bac6cf; margin-bottom: 15px; font-size: 14px; }
+      .stage { display: grid; place-items: center; min-height: 390px; border-radius: 5px; background: #172035; }
+      .stage.light { background: #f5edda; }
+      .stage.checker { background: repeating-conic-gradient(#546174 0% 25%, #344157 0% 50%) 0 0 / 24px 24px; }
+      canvas { display: block; max-width: 100%; height: auto; }
+      .small-stage { min-height: 160px; }
+      #stats { display: block; margin: 16px 0; color: #bac6cf; font-size: 14px; }
+      .downloads { display: flex; flex-wrap: wrap; gap: 20px; margin: 28px 0; }
+      .note { max-width: 70ch; font-size: 13px; }
+      @media (max-width: 650px) { .previews { grid-template-columns: 1fr; } h1 { font-size: 32px; } .stage { min-height: 320px; } .small-stage { min-height: 160px; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="../../../">← Back to the game</a>
+      <p class="eyebrow">Brilliantly · Character art</p>
+      <h1>Main character</h1>
+      <p>Afro, gold, beadwork, and woven cloth. Three motion loops from one character reference.</p>
+      <div class="toolbar" role="group" aria-label="Animation">
+        <button type="button" data-action="idle" aria-pressed="true">Idle</button>
+        <button type="button" data-action="walk" aria-pressed="false">Walk</button>
+        <button type="button" data-action="run" aria-pressed="false">Run</button>
+        <button type="button" id="play">Pause</button>
+        <button type="button" id="background">Background: dark</button>
+      </div>
+      <output id="stats" aria-live="polite">Loading sprite assets…</output>
+      <div class="previews">
+        <figure><figcaption>256px body · Source detail</figcaption><div class="stage"><canvas id="detail" width="384" height="384" role="img" aria-label="Animated main character in detail"></canvas></div></figure>
+        <figure><figcaption>96px body · Suggested game size</figcaption><div class="stage small-stage"><canvas id="game-size" width="144" height="144" role="img" aria-label="Animated main character at game size"></canvas></div><p class="note">The canvas and foot position stay fixed across all three actions.</p></figure>
+      </div>
+      <div class="downloads"><a href="main-hero.png" download>PNG atlas</a><a href="main-hero.json" download>Animation metadata</a><a href="main-hero.aseprite.json" download>Aseprite metadata</a><a href="master.png" download>Transparent master</a><a href="QA.md">QA notes</a></div>
+      <p class="note">Right-facing, smooth 2D sprite art. Frames were generated with the image tool, then keyed and registered. These are frame-by-frame sprite animations; no video-generation route was used.</p>
+      <p class="note">Draft for review: head-size variation and leg-alternation checks remain unresolved. <a href="QA.md">Read the exact QA findings</a> before production acceptance.</p>
+    </main>
+    <script type="module">
+      const stats = document.querySelector('#stats');
+      try {
+        const response = await fetch('./main-hero.json');
+        if (!response.ok) throw new Error('Animation metadata could not load.');
+        const data = await response.json();
+        const atlas = new Image();
+        atlas.src = data.image;
+        await atlas.decode();
+        const canvases = [document.querySelector('#detail'), document.querySelector('#game-size')];
+        let action = 'idle';
+        let playing = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+        let elapsed = 0;
+        let previousTime = performance.now();
+        const play = document.querySelector('#play');
+        const refresh = () => {
+          const clip = data.animations[action];
+          stats.textContent = `${action[0].toUpperCase() + action.slice(1)} · ${clip.frames.length} frames · ${clip.frameRate.toFixed(2)} fps · ${(clip.durationMs / 1000).toFixed(2)}s loop`;
+          play.textContent = playing ? 'Pause' : 'Play';
+          for (const button of document.querySelectorAll('[data-action]')) button.setAttribute('aria-pressed', String(button.dataset.action === action));
+        };
+        for (const button of document.querySelectorAll('[data-action]')) button.addEventListener('click', () => { action = button.dataset.action; elapsed = 0; refresh(); });
+        play.addEventListener('click', () => { playing = !playing; refresh(); });
+        let background = 0;
+        document.querySelector('#background').addEventListener('click', (event) => {
+          background = (background + 1) % 3;
+          const name = ['dark', 'light', 'checker'][background];
+          for (const stage of document.querySelectorAll('.stage')) { stage.classList.toggle('light', name === 'light'); stage.classList.toggle('checker', name === 'checker'); }
+          event.currentTarget.textContent = `Background: ${name}`;
+        });
+        const animate = (time) => {
+          if (playing && !document.hidden) elapsed += Math.min(time - previousTime, 100);
+          previousTime = time;
+          const clip = data.animations[action];
+          const position = Math.floor(elapsed * clip.frameRate / 1000) % clip.frames.length;
+          const frame = clip.frames[position];
+          for (const canvas of canvases) {
+            const context = canvas.getContext('2d');
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(atlas, (frame % data.columns) * data.frameWidth, Math.floor(frame / data.columns) * data.frameHeight, data.frameWidth, data.frameHeight, 0, 0, canvas.width, canvas.height);
+            canvas.dataset.frame = String(frame);
+          }
+          requestAnimationFrame(animate);
+        };
+        refresh();
+        requestAnimationFrame(animate);
+      } catch (error) { stats.textContent = `${error.message} Reload to try again.`; stats.setAttribute('role', 'alert'); }
+    </script>
+  </body>
+</html>

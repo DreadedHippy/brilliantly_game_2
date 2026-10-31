@@ -1,0 +1,35 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    "frames/frame-00.png",
+    "frames/frame-01.png",
+    "frames/frame-02.png",
+    "frames/frame-03.png",
+    "frames/frame-04.png",
+    "frames/frame-05.png"
+  ],
+  "anchor_px": [
+    192,
+    320
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ticks": 12,
+      "tick_hz": 60,
+      "loop_policy": "pingpong",
+      "role": "npc"
+    }
+  },
+  "art_source": "host_image",
+  "pixel_art": false,
+  "sampling": "linear",
+  "body_height_px": 256
+}

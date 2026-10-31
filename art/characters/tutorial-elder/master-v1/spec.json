@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "tutorial-elder",
+  "subject": "the elderly seated African-inspired tutorial mentor from the user reference",
+  "identity": "Elderly dark-brown-skinned Black man, short tightly curled silver-grey hair, full grey-white beard, kind lined face, cream woven robes with ochre and charcoal geometric bands, rust-red fringed shawl, layered amber black and ivory beads with round carved pendant, bare feet, carved wooden stool, a carved brown staff held on the image right, a welcoming palm-up hand on the image left",
+  "pose": "Seated rest pose matching the reference; staff and both feet planted, palm extended gently",
+  "recap": "silver-curled, white-bearded seated elder in cream and rust-red woven robes, layered beads, barefoot on a carved stool, holding a planted wooden staff and offering a welcoming palm",
+  "facing": "front",
+  "facing_parts": null,
+  "view": "Fixed front three-quarter, slight elevation",
+  "class": "mob",
+  "finish": "hd",
+  "key": "#FF00FF",
+  "genre": "African-inspired illustrated adventure",
+  "pronoun": "he",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": null
+}

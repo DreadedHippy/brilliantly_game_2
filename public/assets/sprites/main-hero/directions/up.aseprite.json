@@ -1,0 +1,226 @@
+{
+  "frames": [
+    {
+      "filename": "frame-00.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 117
+    },
+    {
+      "filename": "frame-01.png",
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 117
+    },
+    {
+      "filename": "frame-02.png",
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 117
+    },
+    {
+      "filename": "frame-03.png",
+      "frame": {
+        "x": 0,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 117
+    },
+    {
+      "filename": "frame-04.png",
+      "frame": {
+        "x": 384,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 117
+    },
+    {
+      "filename": "frame-05.png",
+      "frame": {
+        "x": 768,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 117
+    },
+    {
+      "filename": "frame-06.png",
+      "frame": {
+        "x": 0,
+        "y": 768,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 117
+    },
+    {
+      "filename": "frame-07.png",
+      "frame": {
+        "x": 384,
+        "y": 768,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 117
+    },
+    {
+      "filename": "frame-08.png",
+      "frame": {
+        "x": 768,
+        "y": 768,
+        "w": 384,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 384
+      },
+      "duration": 200
+    }
+  ],
+  "meta": {
+    "app": "Brilliantly sprite pipeline",
+    "image": "up.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1152,
+      "h": 1152
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "walk-up",
+        "from": 0,
+        "to": 7,
+        "direction": "forward"
+      },
+      {
+        "name": "idle-up",
+        "from": 8,
+        "to": 8,
+        "direction": "forward"
+      }
+    ]
+  }
+}

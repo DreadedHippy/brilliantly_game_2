@@ -1,0 +1,271 @@
+{
+  "schema": "generate2dmap.scene_preview_qa.v1",
+  "status": "pass",
+  "method": "build_scene_preview: bundle files resolved relative to the bundle and checked against their sha256 when given; collision read through forge_nav (the D2 blocking set; tile collision converted into world solids, material classes into BLOCK and one_way pixel planes); tiles layers pre-rendered from tileset manifests; art found in the D6 order and embedded as data URIs; map-runtime.mjs inlined verbatim; the page scanned for anything that loads from outside it; size gate; optional headless-Chromium run (--verify).",
+  "notProven": [
+    "Collision is forge_nav's D2 blocking set and the page walks it with map-runtime.mjs, which mirrors forge_nav rule for rule; their agreement is tested on synthetic fixtures (tests/test_map_runtime_js.py), not on this map. Rotated shapes can differ by one ulp of sin and cos between a browser and Python.",
+    "Without --verify, or when it prints SKIPPED, the page was assembled and scanned but never run in a browser.",
+    "The actor is a debug marker sized from collision.actorRadius, not character art; animation, lights, atmosphere, stage data, camera bounds and occluder masks are not drawn.",
+    "Draw order is whole-object Y-sort by (sortY, x, id); per-pixel occlusion, fades and cut-aways are not simulated.",
+    "Route checks walk the forge_nav grid with the runtime walker at --speed; an engine controller (acceleration, physics colliders, other speeds) may behave differently. one_way material blocks moving down onto it on every map (N11); a top-down map should not use it.",
+    "Footprint samples lie half a nav cell apart (N10): a solid thinner than that can fall between the samples of the footprint's rim; the actor's centre path is tested exactly (thin-gap rule).",
+    "Only headless Chromium is exercised (with --verify); other browsers, devices and touch input are not tested."
+  ],
+  "checks": [
+    {
+      "id": "html-size",
+      "status": "pass",
+      "value": 6042883,
+      "threshold": 16000000
+    },
+    {
+      "id": "external-references",
+      "status": "pass",
+      "value": [],
+      "threshold": []
+    },
+    {
+      "id": "ascii-only",
+      "status": "pass",
+      "value": true,
+      "threshold": true
+    },
+    {
+      "id": "single-inline-script",
+      "status": "pass",
+      "value": true,
+      "threshold": true
+    },
+    {
+      "id": "runtime-inlined",
+      "status": "pass",
+      "value": "map-runtime.mjs",
+      "threshold": null
+    },
+    {
+      "id": "object-art",
+      "status": "pass",
+      "value": [],
+      "threshold": []
+    },
+    {
+      "id": "build-warnings",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0
+    }
+  ],
+  "inputs": [
+    {
+      "path": "../../../../public/assets/maps/stage-1-1/map-bundle.json",
+      "sha256": "b0e39e8b8423aff9fdfa28bb24ce2a5bb77ace2ae6ab58364fb4d5a21739346a",
+      "bytes": 44410
+    },
+    {
+      "path": "../../../../public/assets/maps/stage-1-1/props/grass/prop.png",
+      "sha256": "3d092de273e14a4324f2c8ea7c07fe40ebaf2d25c4c0d8d1f5e5cb771e983f0c",
+      "bytes": 264056
+    },
+    {
+      "path": "../../../../public/assets/maps/stage-1-1/props/acacia/prop.png",
+      "sha256": "888fc64d1cad8986d03e926f976a37e9a23bf820bc045a318bf44ab76b736ba0",
+      "bytes": 305770
+    },
+    {
+      "path": "../../../../public/assets/maps/stage-1-1/props/rocks/prop.png",
+      "sha256": "c1642a778bbe137a32116d83593f5be9e30dffb8cf6ec668825be5a7ca15ca5d",
+      "bytes": 281478
+    },
+    {
+      "path": "../../../../public/assets/maps/stage-1-1/props/baobab/prop.png",
+      "sha256": "5e49a9b11a171bfe2ee1c1c0d1f30ee1e104086a5e4a7a811d392a8e7207f7e7",
+      "bytes": 513706
+    },
+    {
+      "path": "../../../../public/assets/maps/stage-1-1/props/jars/prop.png",
+      "sha256": "55bbdc01995e7a4aeca6f505cb476999c511686a92c9f307c92c6531832d33c5",
+      "bytes": 253011
+    },
+    {
+      "path": "../../../../public/assets/maps/stage-1-1/props/sign/prop.png",
+      "sha256": "5915359357b7505d4206c1681f8330a2484702819cee523528562df0807773d2",
+      "bytes": 124552
+    },
+    {
+      "path": "../../../../public/assets/sprites/tutorial-elder/master.png",
+      "sha256": "85bd7066386300d7d5b80dd9759f64be48e26cc5e4c601b5a42ebf0f7c58ab86",
+      "bytes": 417259
+    },
+    {
+      "path": "../../../../public/assets/maps/stage-1-1/ground.webp",
+      "sha256": "653dfd1975b681fe1ce5dc68f263717c865de432f48a3447d53a49e98eef7b94",
+      "bytes": 2270470
+    }
+  ],
+  "outputs": [
+    {
+      "path": "preview.html",
+      "sha256": "461a0ce0722efb302208255e3cc5334be0287bdec0397c73dce5b4c4f4677fbb",
+      "bytes": 6042883
+    }
+  ],
+  "tool": {
+    "name": "build_scene_preview",
+    "version": "0.4.0"
+  },
+  "preview": {
+    "file": "preview.html",
+    "bytes": 6042883,
+    "sha256": "461a0ce0722efb302208255e3cc5334be0287bdec0397c73dce5b4c4f4677fbb",
+    "runtime": {
+      "file": "map-runtime.mjs",
+      "version": "1.1.2",
+      "sha256": "c1fc3d9bf15cfa53fdfeb050ce4252f7ace4c923066ca4e135dea576e7445273"
+    },
+    "world": [
+      3600,
+      1440
+    ],
+    "zoom": 1,
+    "speed": 168.0,
+    "actorHeight": 96.0,
+    "actorRadius": 14,
+    "ySquash": 1,
+    "start": "arrival",
+    "layers": [
+      {
+        "name": "ground",
+        "source": "image",
+        "size": [
+          3600,
+          1440
+        ]
+      },
+      {
+        "name": "scenery",
+        "source": "objects"
+      }
+    ],
+    "drawOrder": [
+      "acacia-061",
+      "grass-063",
+      "grass-066",
+      "grass-068",
+      "sign-083",
+      "grass-059",
+      "sign-082",
+      "rocks-081",
+      "grass-057",
+      "acacia-054",
+      "grass-052",
+      "acacia-011",
+      "grass-009",
+      "baobab-070",
+      "acacia-071",
+      "grass-013",
+      "grass-007",
+      "acacia-018",
+      "grass-000",
+      "acacia-002",
+      "jars-072",
+      "grass-004",
+      "grass-016",
+      "sign-076",
+      "grass-050",
+      "grass-067",
+      "grass-069",
+      "grass-073",
+      "rocks-075",
+      "grass-020",
+      "grass-064",
+      "grass-060",
+      "arojinle",
+      "rocks-062",
+      "grass-058",
+      "acacia-048",
+      "grass-022",
+      "grass-046",
+      "rocks-055",
+      "grass-053",
+      "acacia-024",
+      "grass-010",
+      "sign-074",
+      "grass-026",
+      "rocks-012",
+      "grass-014",
+      "grass-008",
+      "baobab-065",
+      "grass-017",
+      "grass-043",
+      "grass-005",
+      "rocks-019",
+      "sign-078",
+      "grass-051",
+      "rocks-003",
+      "grass-021",
+      "grass-001",
+      "rocks-077",
+      "grass-029",
+      "sign-080",
+      "acacia-039",
+      "baobab-056",
+      "rocks-079",
+      "grass-041",
+      "grass-037",
+      "acacia-033",
+      "grass-023",
+      "grass-031",
+      "grass-035",
+      "rocks-049",
+      "baobab-006",
+      "grass-047",
+      "baobab-015",
+      "rocks-025",
+      "grass-027",
+      "grass-044",
+      "grass-030",
+      "grass-042",
+      "rocks-034",
+      "rocks-040",
+      "grass-032",
+      "grass-038",
+      "grass-036",
+      "baobab-045",
+      "baobab-028"
+    ],
+    "objectArt": {
+      "object.image": 85,
+      "props": 0,
+      "prop-pack": 0,
+      "occluder.source": 0,
+      "missing": []
+    },
+    "counts": {
+      "objects": 85,
+      "portals": 0,
+      "spawns": 1,
+      "interactions": 0,
+      "anchors": 8
+    },
+    "images": {
+      "count": 8,
+      "bytes": 4430302
+    },
+    "materialMap": null,
+    "collision": {
+      "collisionSolids": 38,
+      "rects": 0,
+      "footprints": 0,
+      "tileSolids": 0,
+      "blockingMaterialClasses": []
+    },
+    "hashes": {
+      "checked": 0,
+      "unchecked": 86
+    }
+  },
+  "warnings": [],
+  "verify": {
+    "status": "not-requested"
+  }
+}

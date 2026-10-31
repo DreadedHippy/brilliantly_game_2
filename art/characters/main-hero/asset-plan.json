@@ -1,0 +1,74 @@
+{
+  "name": "main-hero",
+  "art_source": "host_image",
+  "identity_reference": "User-provided full-body character image in this conversation",
+  "camera": "three-quarter, right-facing, slightly elevated orthographic-style 2D",
+  "finish": "hd",
+  "runtime_body_height": 96,
+  "source_master_canvas": [
+    1024,
+    1024
+  ],
+  "registered_master_body_height": 788,
+  "shared_root": "Master rest-pose foot plane; fixed registration across every action",
+  "actions": [
+    {
+      "id": "idle",
+      "loop": true,
+      "motion": "Gentle chest breathing, small settling of hair and beads, feet remain planted; no whole-body bouncing or camera motion."
+    },
+    {
+      "id": "walk",
+      "loop": true,
+      "motion": "In-place relaxed alternating near/far steps with heel strike, passing poses and opposite arm swings; preserve ground contact and a complete two-step cycle."
+    },
+    {
+      "id": "run",
+      "loop": true,
+      "motion": "In-place athletic alternating stride, forward lean, clear push-off and flight, bent opposing arms, restrained cloth and hair follow-through; sword stays sheathed."
+    }
+  ],
+  "animation_route": "host-image_gen frame-by-frame sheets, explicitly selected by the user instead of the unavailable video route",
+  "sheet_layout": {
+    "rows": 2,
+    "columns": 4,
+    "frames_per_action": 8,
+    "aspect_ratio": "3:2"
+  },
+  "output": "Transparent PNG sprite assets, animation metadata, review preview, original prompts, provenance and QA",
+  "export": {
+    "canvas": [
+      384,
+      384
+    ],
+    "root": [
+      192,
+      320
+    ],
+    "uniquePoses": 20,
+    "actions": {
+      "idle": {
+        "uniquePoses": 4,
+        "sequence": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "fps": 5
+      },
+      "walk": {
+        "uniquePoses": 8,
+        "fps": 8.571428571428571
+      },
+      "run": {
+        "uniquePoses": 8,
+        "fps": 15
+      }
+    },
+    "reviewStatus": "draft-with-motion-QA-flags",
+    "qa": "public/assets/sprites/main-hero/QA.md"
+  }
+}

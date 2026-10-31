@@ -1,0 +1,47 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    "frames/up/frame-00.png",
+    "frames/up/frame-01.png",
+    "frames/up/frame-02.png",
+    "frames/up/frame-03.png",
+    "frames/up/frame-04.png",
+    "frames/up/frame-05.png",
+    "frames/up/frame-06.png",
+    "frames/up/frame-07.png",
+    "frames/up/frame-08.png"
+  ],
+  "anchor_px": [
+    192,
+    320
+  ],
+  "art_source": "host_image",
+  "pixel_art": false,
+  "sampling": "linear",
+  "body_height_px": 256,
+  "clips": {
+    "walk": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ticks": 7,
+      "loop_policy": "cycle",
+      "role": "player"
+    },
+    "idle": {
+      "frames": [
+        8
+      ],
+      "ticks": 12,
+      "loop_policy": "cycle",
+      "role": "player"
+    }
+  }
+}
